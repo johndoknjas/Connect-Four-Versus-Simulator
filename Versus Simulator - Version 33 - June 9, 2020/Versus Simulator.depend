@@ -1,0 +1,7504 @@
+# depslib dependency file v1.0
+1531996278 source:c:\users\john\documents\00 - sfu 2017-2018\aa - spring 2018\fun coding projects\connect four\versus simulator\main.cpp
+	"EngineOne.h"
+	"EngineTwo.h"
+	"CommonNonClassData.h"
+	<iostream>
+	<vector>
+	<time.h>
+	<cstdlib>
+
+1538909914 c:\users\john\documents\00 - sfu 2017-2018\aa - spring 2018\fun coding projects\connect four\versus simulator\engineone.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<time.h>
+	<algorithm>
+	<random>
+	<climits>
+	"CommonNonClassData.h"
+
+1538909914 c:\users\john\documents\00 - sfu 2017-2018\aa - spring 2018\fun coding projects\connect four\versus simulator\enginetwo.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<time.h>
+	<algorithm>
+	<random>
+	<climits>
+	"CommonNonClassData.h"
+
+1531239464 c:\users\john\documents\00 - sfu 2017-2018\aa - spring 2018\fun coding projects\connect four\versus simulator\commonnonclassdata.h
+	<iostream>
+
+1538909713 source:c:\users\john\documents\00 - sfu 2017-2018\aa - spring 2018\fun coding projects\connect four\versus simulator\notes.cpp
+
+1539074135 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator\main.cpp
+	"EngineOne.h"
+	"EngineTwo.h"
+	"CommonNonClassData.h"
+	<iostream>
+	<vector>
+	<time.h>
+	<cstdlib>
+
+1539073881 c:\users\johnd\documents\fun coding projects\connect four\versus simulator\engineone.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<time.h>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+
+1531239464 c:\users\johnd\documents\fun coding projects\connect four\versus simulator\commonnonclassdata.h
+	<iostream>
+
+1539078333 c:\users\johnd\documents\fun coding projects\connect four\versus simulator\enginetwo.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<time.h>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+
+1538909713 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator\notes.cpp
+
+1538909713 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 2 - oct 9, 2018\notes.cpp
+
+1539165020 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 2 - oct 9, 2018\main.cpp
+	"EngineOne.h"
+	"EngineTwo.h"
+	"CommonNonClassData.h"
+	<iostream>
+	<vector>
+	<time.h>
+	<cstdlib>
+	<fstream>
+
+1539073881 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 2 - oct 9, 2018\engineone.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<time.h>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+
+1531239464 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 2 - oct 9, 2018\commonnonclassdata.h
+	<iostream>
+
+1539156704 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 2 - oct 9, 2018\enginetwo.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<time.h>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+
+1538909713 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 3 - oct 10, 2018\notes.cpp
+
+1539236503 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 3 - oct 10, 2018\main.cpp
+	"EngineOne.h"
+	"EngineTwo.h"
+	"CommonNonClassData.h"
+	<iostream>
+	<vector>
+	<time.h>
+	<cstdlib>
+	<fstream>
+
+1539474682 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 3 - oct 10, 2018\engineone.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<time.h>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+
+1531239464 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 3 - oct 10, 2018\commonnonclassdata.h
+	<iostream>
+
+1539474682 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 3 - oct 10, 2018\enginetwo.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<time.h>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+
+1539236503 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 4 - oct 13, 2018\main.cpp
+	"EngineOne.h"
+	"EngineTwo.h"
+	"CommonNonClassData.h"
+	<iostream>
+	<vector>
+	<time.h>
+	<cstdlib>
+	<fstream>
+
+1539512166 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 4 - oct 13, 2018\engineone.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<time.h>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+
+1539480876 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 4 - oct 13, 2018\commonnonclassdata.h
+	<iostream>
+	<vector>
+
+1539512166 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 4 - oct 13, 2018\enginetwo.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<time.h>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+
+1539480876 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 4 - oct 13, 2018\notes.cpp
+
+1539512723 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 5 - oct 14, 2018\notes.cpp
+
+1539738515 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 5 - oct 14, 2018\main.cpp
+	"EngineOne.h"
+	"EngineTwo.h"
+	"CommonNonClassData.h"
+	<iostream>
+	<vector>
+	<time.h>
+	<cstdlib>
+	<fstream>
+
+1539735156 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 5 - oct 14, 2018\engineone.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<time.h>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+
+1539594613 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 5 - oct 14, 2018\commonnonclassdata.h
+	<iostream>
+	<vector>
+
+1539738567 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 5 - oct 14, 2018\enginetwo.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<time.h>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+
+1542520800 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 6 - nov 11, 2018\main.cpp
+	"EngineOne.h"
+	"EngineTwo.h"
+	"CommonNonClassData.h"
+	<iostream>
+	<vector>
+	<time.h>
+	<cstdlib>
+	<fstream>
+	<ctime>
+	<ratio>
+	<chrono>
+
+1545085395 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 6 - nov 11, 2018\engineone.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+
+1545040735 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 6 - nov 11, 2018\commonnonclassdata.h
+	<iostream>
+	<vector>
+
+1545085395 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 6 - nov 11, 2018\enginetwo.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+
+1542700351 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 6 - nov 11, 2018\notes.cpp
+
+1542520800 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 7 - dec 19, 2018\main.cpp
+	"EngineOne.h"
+	"EngineTwo.h"
+	"CommonNonClassData.h"
+	<iostream>
+	<vector>
+	<time.h>
+	<cstdlib>
+	<fstream>
+	<ctime>
+	<ratio>
+	<chrono>
+
+1545288911 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 7 - dec 19, 2018\engineone.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+
+1545288772 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 7 - dec 19, 2018\commonnonclassdata.h
+	<iostream>
+	<vector>
+
+1545340865 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 7 - dec 19, 2018\enginetwo.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+
+1545340966 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 7 - dec 19, 2018\notes.cpp
+
+1545340966 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 8 - dec 22, 2018\notes.cpp
+
+1545505209 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 8 - dec 22, 2018\main.cpp
+	"EngineOne.h"
+	"EngineTwo.h"
+	"CommonNonClassData.h"
+	<iostream>
+	<vector>
+	<time.h>
+	<cstdlib>
+	<fstream>
+	<ctime>
+	<ratio>
+	<chrono>
+
+1545505208 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 8 - dec 22, 2018\engineone.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+
+1545532612 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 8 - dec 22, 2018\commonnonclassdata.h
+	<iostream>
+	<vector>
+
+1545505209 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 8 - dec 22, 2018\enginetwo.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+
+1545855945 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 9 - dec 22, 2018\main.cpp
+	"EngineOne.h"
+	"EngineTwo.h"
+	"CommonNonClassData.h"
+	<iostream>
+	<vector>
+	<time.h>
+	<cstdlib>
+	<fstream>
+	<ctime>
+	<ratio>
+	<chrono>
+	<random>
+	<stdexcept>
+	<algorithm>
+
+1545900685 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 9 - dec 22, 2018\engineone.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+
+1545591560 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 9 - dec 22, 2018\commonnonclassdata.h
+	<iostream>
+	<vector>
+
+1545900539 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 9 - dec 22, 2018\enginetwo.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+
+1545900469 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 9 - dec 22, 2018\notes.cpp
+
+1546028351 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 10 - dec 28, 2018\main.cpp
+	"EngineOne.h"
+	"EngineTwo.h"
+	"tool.h"
+	"CommonNonClassData.h"
+	<iostream>
+	<vector>
+	<time.h>
+	<cstdlib>
+	<fstream>
+	<ctime>
+	<ratio>
+	<chrono>
+	<random>
+	<stdexcept>
+	<algorithm>
+
+1546029176 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 10 - dec 28, 2018\engineone.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546029176 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 10 - dec 28, 2018\commonnonclassdata.h
+	<iostream>
+	<vector>
+
+1546030972 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 10 - dec 28, 2018\tool.h
+	"CommonNonClassData.h"
+	<vector>
+
+1546029176 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 10 - dec 28, 2018\enginetwo.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1545901094 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 10 - dec 28, 2018\notes.cpp
+
+1545901094 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 11 - dec 28, 2018\notes.cpp
+
+1546033776 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 11 - dec 28, 2018\main.cpp
+	"EngineOne.h"
+	"EngineTwo.h"
+	"tool.h"
+	"CommonNonClassData.h"
+	<iostream>
+	<vector>
+	<time.h>
+	<cstdlib>
+	<fstream>
+	<ctime>
+	<ratio>
+	<chrono>
+	<random>
+	<stdexcept>
+	<algorithm>
+
+1546036992 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 11 - dec 28, 2018\engineone.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546029176 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 11 - dec 28, 2018\commonnonclassdata.h
+	<iostream>
+	<vector>
+
+1546037013 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 11 - dec 28, 2018\tool.h
+	"CommonNonClassData.h"
+	<vector>
+
+1546036992 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 11 - dec 28, 2018\enginetwo.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546249007 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 12 - dec 28, 2018\notes.cpp
+
+1546304124 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 12 - dec 28, 2018\main.cpp
+	"EngineVersion17.h"
+	"EngineVersion18.h"
+	"EngineVersion19.h"
+	"EngineVersion20.h"
+	"EngineVersion21.h"
+	"EngineVersion22.h"
+	"EngineVersion23.h"
+	"EngineVersion24.h"
+	"tool.h"
+	"CommonNonClassData.h"
+	<iostream>
+	<vector>
+	<time.h>
+	<cstdlib>
+	<fstream>
+	<ctime>
+	<ratio>
+	<chrono>
+	<random>
+	<stdexcept>
+	<algorithm>
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 12 - dec 28, 2018\engineversion17.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546389632 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 12 - dec 28, 2018\commonnonclassdata.h
+	<iostream>
+	<vector>
+
+1546206568 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 12 - dec 28, 2018\tool.h
+	"CommonNonClassData.h"
+	<vector>
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 12 - dec 28, 2018\engineversion18.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 12 - dec 28, 2018\engineversion19.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546244225 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 12 - dec 28, 2018\engineversion20.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546389632 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 12 - dec 28, 2018\engineversion21.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546299060 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 12 - dec 28, 2018\engineversion22.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546047401 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 12 - dec 28, 2018\engineversion23.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546047400 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 12 - dec 28, 2018\engineversion24.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546616338 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 13 - jan 1, 2019\notes.cpp
+
+1546648614 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 13 - jan 1, 2019\main.cpp
+	"EngineVersion17.h"
+	"EngineVersion18.h"
+	"EngineVersion19.h"
+	"EngineVersion20.h"
+	"EngineVersion21.h"
+	"EngineVersion22.h"
+	"EngineVersion23.h"
+	"EngineVersion24.h"
+	"tool.h"
+	"CommonNonClassData.h"
+	<iostream>
+	<vector>
+	<time.h>
+	<cstdlib>
+	<fstream>
+	<ctime>
+	<ratio>
+	<chrono>
+	<random>
+	<stdexcept>
+	<algorithm>
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 13 - jan 1, 2019\engineversion17.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546389632 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 13 - jan 1, 2019\commonnonclassdata.h
+	<iostream>
+	<vector>
+
+1546206568 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 13 - jan 1, 2019\tool.h
+	"CommonNonClassData.h"
+	<vector>
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 13 - jan 1, 2019\engineversion18.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 13 - jan 1, 2019\engineversion19.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546648925 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 13 - jan 1, 2019\engineversion20.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546648925 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 13 - jan 1, 2019\engineversion21.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546648925 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 13 - jan 1, 2019\engineversion22.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546648925 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 13 - jan 1, 2019\engineversion23.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546047400 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 13 - jan 1, 2019\engineversion24.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546616338 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 14 - jan 4, 2019\notes.cpp
+
+1546760285 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 14 - jan 4, 2019\main.cpp
+	"EngineVersion17.h"
+	"EngineVersion18.h"
+	"EngineVersion19.h"
+	"EngineVersion20.h"
+	"EngineVersion21.h"
+	"EngineVersion22.h"
+	"EngineVersion23.h"
+	"EngineVersion24.h"
+	"tool.h"
+	"CommonNonClassData.h"
+	<iostream>
+	<vector>
+	<time.h>
+	<cstdlib>
+	<fstream>
+	<ctime>
+	<ratio>
+	<chrono>
+	<random>
+	<stdexcept>
+	<algorithm>
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 14 - jan 4, 2019\engineversion17.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546389632 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 14 - jan 4, 2019\commonnonclassdata.h
+	<iostream>
+	<vector>
+
+1546206568 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 14 - jan 4, 2019\tool.h
+	"CommonNonClassData.h"
+	<vector>
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 14 - jan 4, 2019\engineversion18.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 14 - jan 4, 2019\engineversion19.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760285 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 14 - jan 4, 2019\engineversion20.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760495 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 14 - jan 4, 2019\engineversion21.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760495 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 14 - jan 4, 2019\engineversion22.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760285 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 14 - jan 4, 2019\engineversion23.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+	<fstream>
+
+1546047400 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 14 - jan 4, 2019\engineversion24.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546616338 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 15 - jan 12, 2019\notes.cpp
+
+1547449889 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 15 - jan 12, 2019\main.cpp
+	"EngineVersion17.h"
+	"EngineVersion18.h"
+	"EngineVersion19.h"
+	"EngineVersion20.h"
+	"EngineVersion21.h"
+	"EngineVersion22.h"
+	"EngineVersion23.h"
+	"EngineVersion24.h"
+	"EngineVersion25.h"
+	"EngineVersion26.h"
+	"EngineVersion27.h"
+	"EngineVersion28.h"
+	"EngineVersion29.h"
+	"EngineVersion30.h"
+	"tool.h"
+	"CommonNonClassData.h"
+	<iostream>
+	<vector>
+	<time.h>
+	<cstdlib>
+	<fstream>
+	<ctime>
+	<ratio>
+	<chrono>
+	<random>
+	<stdexcept>
+	<algorithm>
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 15 - jan 12, 2019\engineversion17.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1547358602 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 15 - jan 12, 2019\commonnonclassdata.h
+	<iostream>
+	<vector>
+
+1546206568 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 15 - jan 12, 2019\tool.h
+	"CommonNonClassData.h"
+	<vector>
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 15 - jan 12, 2019\engineversion18.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 15 - jan 12, 2019\engineversion19.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760285 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 15 - jan 12, 2019\engineversion20.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760495 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 15 - jan 12, 2019\engineversion21.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760495 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 15 - jan 12, 2019\engineversion22.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760285 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 15 - jan 12, 2019\engineversion23.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+	<fstream>
+
+1547450689 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 15 - jan 12, 2019\engineversion24.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1547450690 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 15 - jan 12, 2019\engineversion25.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1547358517 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 15 - jan 12, 2019\engineversion26.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1547358518 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 15 - jan 12, 2019\engineversion27.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1547358518 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 15 - jan 12, 2019\engineversion28.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1547358518 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 15 - jan 12, 2019\engineversion29.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1547358518 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 15 - jan 12, 2019\engineversion30.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546616338 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 16 - jan 13, 2019\notes.cpp
+
+1547856857 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 16 - jan 13, 2019\main.cpp
+	"EngineVersion17.h"
+	"EngineVersion18.h"
+	"EngineVersion19.h"
+	"EngineVersion20.h"
+	"EngineVersion21.h"
+	"EngineVersion22.h"
+	"EngineVersion23.h"
+	"EngineVersion24.h"
+	"EngineVersion25.h"
+	"EngineVersion26.h"
+	"EngineVersion27.h"
+	"EngineVersion28.h"
+	"EngineVersion29.h"
+	"EngineVersion30.h"
+	"tool.h"
+	"CommonNonClassData.h"
+	<iostream>
+	<vector>
+	<time.h>
+	<cstdlib>
+	<fstream>
+	<ctime>
+	<ratio>
+	<chrono>
+	<random>
+	<stdexcept>
+	<algorithm>
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 16 - jan 13, 2019\engineversion17.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1547767964 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 16 - jan 13, 2019\commonnonclassdata.h
+	<iostream>
+	<vector>
+
+1546206568 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 16 - jan 13, 2019\tool.h
+	"CommonNonClassData.h"
+	<vector>
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 16 - jan 13, 2019\engineversion18.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 16 - jan 13, 2019\engineversion19.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760285 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 16 - jan 13, 2019\engineversion20.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760495 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 16 - jan 13, 2019\engineversion21.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760495 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 16 - jan 13, 2019\engineversion22.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760285 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 16 - jan 13, 2019\engineversion23.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+	<fstream>
+
+1547856831 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 16 - jan 13, 2019\engineversion24.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1547856831 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 16 - jan 13, 2019\engineversion25.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1547856457 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 16 - jan 13, 2019\engineversion26.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1547856457 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 16 - jan 13, 2019\engineversion27.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1547856458 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 16 - jan 13, 2019\engineversion28.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1547856458 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 16 - jan 13, 2019\engineversion29.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1547358518 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 16 - jan 13, 2019\engineversion30.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1547928196 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 17 - jan 19, 2019\main.cpp
+	"EngineVersion17.h"
+	"EngineVersion18.h"
+	"EngineVersion19.h"
+	"EngineVersion20.h"
+	"EngineVersion21.h"
+	"EngineVersion22.h"
+	"EngineVersion23.h"
+	"EngineVersion24.h"
+	"EngineVersion25.h"
+	"EngineVersion26.h"
+	"EngineVersion27.h"
+	"EngineVersion28.h"
+	"EngineVersion29.h"
+	"EngineVersion30.h"
+	"tool.h"
+	"CommonNonClassData.h"
+	<iostream>
+	<vector>
+	<time.h>
+	<cstdlib>
+	<fstream>
+	<ctime>
+	<ratio>
+	<chrono>
+	<random>
+	<stdexcept>
+	<algorithm>
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 17 - jan 19, 2019\engineversion17.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1547767964 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 17 - jan 19, 2019\commonnonclassdata.h
+	<iostream>
+	<vector>
+
+1546206568 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 17 - jan 19, 2019\tool.h
+	"CommonNonClassData.h"
+	<vector>
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 17 - jan 19, 2019\engineversion18.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 17 - jan 19, 2019\engineversion19.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760285 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 17 - jan 19, 2019\engineversion20.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760495 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 17 - jan 19, 2019\engineversion21.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760495 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 17 - jan 19, 2019\engineversion22.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760285 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 17 - jan 19, 2019\engineversion23.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+	<fstream>
+
+1547856831 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 17 - jan 19, 2019\engineversion24.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1547928047 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 17 - jan 19, 2019\engineversion25.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1547928196 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 17 - jan 19, 2019\engineversion26.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1547928196 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 17 - jan 19, 2019\engineversion27.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1547856458 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 17 - jan 19, 2019\engineversion28.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1547856458 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 17 - jan 19, 2019\engineversion29.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1547358518 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 17 - jan 19, 2019\engineversion30.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546616338 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 17 - jan 19, 2019\notes.cpp
+
+1546616338 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 18 - jan 24, 2019\notes.cpp
+
+1548568618 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 18 - jan 24, 2019\main.cpp
+	"EngineVersion17.h"
+	"EngineVersion18.h"
+	"EngineVersion19.h"
+	"EngineVersion20.h"
+	"EngineVersion21.h"
+	"EngineVersion22.h"
+	"EngineVersion23.h"
+	"EngineVersion24.h"
+	"EngineVersion25.h"
+	"EngineVersion26.h"
+	"EngineVersion27.h"
+	"EngineVersion28.h"
+	"EngineVersion29.h"
+	"EngineVersion30.h"
+	"EngineVersion31.h"
+	"EngineVersion32.h"
+	"EngineVersion33.h"
+	"EngineVersion34.h"
+	"tool.h"
+	"CommonNonClassData.h"
+	<iostream>
+	<vector>
+	<time.h>
+	<cstdlib>
+	<fstream>
+	<ctime>
+	<ratio>
+	<chrono>
+	<random>
+	<stdexcept>
+	<algorithm>
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 18 - jan 24, 2019\engineversion17.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1547767964 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 18 - jan 24, 2019\commonnonclassdata.h
+	<iostream>
+	<vector>
+
+1546206568 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 18 - jan 24, 2019\tool.h
+	"CommonNonClassData.h"
+	<vector>
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 18 - jan 24, 2019\engineversion18.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 18 - jan 24, 2019\engineversion19.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760285 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 18 - jan 24, 2019\engineversion20.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760495 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 18 - jan 24, 2019\engineversion21.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760495 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 18 - jan 24, 2019\engineversion22.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760285 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 18 - jan 24, 2019\engineversion23.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+	<fstream>
+
+1547856831 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 18 - jan 24, 2019\engineversion24.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 18 - jan 24, 2019\engineversion25.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 18 - jan 24, 2019\engineversion26.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 18 - jan 24, 2019\engineversion27.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 18 - jan 24, 2019\engineversion28.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 18 - jan 24, 2019\engineversion29.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 18 - jan 24, 2019\engineversion30.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 18 - jan 24, 2019\engineversion31.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548568596 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 18 - jan 24, 2019\engineversion32.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548568596 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 18 - jan 24, 2019\engineversion33.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548568596 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 18 - jan 24, 2019\engineversion34.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548655904 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 19 - jan 27, 2019\main.cpp
+	"EngineVersion17.h"
+	"EngineVersion18.h"
+	"EngineVersion19.h"
+	"EngineVersion20.h"
+	"EngineVersion21.h"
+	"EngineVersion22.h"
+	"EngineVersion23.h"
+	"EngineVersion24.h"
+	"EngineVersion25.h"
+	"EngineVersion26.h"
+	"EngineVersion27.h"
+	"EngineVersion28.h"
+	"EngineVersion29.h"
+	"EngineVersion30.h"
+	"EngineVersion31.h"
+	"EngineVersion32.h"
+	"EngineVersion33.h"
+	"EngineVersion34.h"
+	"EngineVersion35.h"
+	"tool.h"
+	"CommonNonClassData.h"
+	<iostream>
+	<vector>
+	<time.h>
+	<cstdlib>
+	<fstream>
+	<ctime>
+	<ratio>
+	<chrono>
+	<random>
+	<stdexcept>
+	<algorithm>
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 19 - jan 27, 2019\engineversion17.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1547767964 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 19 - jan 27, 2019\commonnonclassdata.h
+	<iostream>
+	<vector>
+
+1546206568 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 19 - jan 27, 2019\tool.h
+	"CommonNonClassData.h"
+	<vector>
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 19 - jan 27, 2019\engineversion18.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 19 - jan 27, 2019\engineversion19.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760285 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 19 - jan 27, 2019\engineversion20.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760495 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 19 - jan 27, 2019\engineversion21.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760495 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 19 - jan 27, 2019\engineversion22.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760285 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 19 - jan 27, 2019\engineversion23.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+	<fstream>
+
+1547856831 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 19 - jan 27, 2019\engineversion24.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 19 - jan 27, 2019\engineversion25.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 19 - jan 27, 2019\engineversion26.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 19 - jan 27, 2019\engineversion27.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 19 - jan 27, 2019\engineversion28.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 19 - jan 27, 2019\engineversion29.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548704039 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 19 - jan 27, 2019\engineversion30.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548651193 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 19 - jan 27, 2019\engineversion31.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548655890 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 19 - jan 27, 2019\engineversion32.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548655890 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 19 - jan 27, 2019\engineversion33.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548655890 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 19 - jan 27, 2019\engineversion34.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546616338 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 19 - jan 27, 2019\notes.cpp
+
+1548655890 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 19 - jan 27, 2019\engineversion35.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546619938 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 20 - jan 28, 2019\notes.cpp
+
+1548732382 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 20 - jan 28, 2019\main.cpp
+	"EngineVersion17.h"
+	"EngineVersion18.h"
+	"EngineVersion19.h"
+	"EngineVersion20.h"
+	"EngineVersion21.h"
+	"EngineVersion22.h"
+	"EngineVersion23.h"
+	"EngineVersion24.h"
+	"EngineVersion25.h"
+	"EngineVersion26.h"
+	"EngineVersion27.h"
+	"EngineVersion28.h"
+	"EngineVersion29.h"
+	"EngineVersion30.h"
+	"EngineVersion31.h"
+	"EngineVersion32.h"
+	"EngineVersion33.h"
+	"EngineVersion34.h"
+	"EngineVersion35.h"
+	"tool.h"
+	"CommonNonClassData.h"
+	<iostream>
+	<vector>
+	<time.h>
+	<cstdlib>
+	<fstream>
+	<ctime>
+	<ratio>
+	<chrono>
+	<random>
+	<stdexcept>
+	<algorithm>
+
+1546119783 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 20 - jan 28, 2019\engineversion17.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1547771564 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 20 - jan 28, 2019\commonnonclassdata.h
+	<iostream>
+	<vector>
+
+1546210168 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 20 - jan 28, 2019\tool.h
+	"CommonNonClassData.h"
+	<vector>
+
+1546119783 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 20 - jan 28, 2019\engineversion18.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546119783 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 20 - jan 28, 2019\engineversion19.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546763885 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 20 - jan 28, 2019\engineversion20.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546764095 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 20 - jan 28, 2019\engineversion21.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546764095 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 20 - jan 28, 2019\engineversion22.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546763885 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 20 - jan 28, 2019\engineversion23.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+	<fstream>
+
+1547860431 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 20 - jan 28, 2019\engineversion24.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548403720 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 20 - jan 28, 2019\engineversion25.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548403720 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 20 - jan 28, 2019\engineversion26.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548403720 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 20 - jan 28, 2019\engineversion27.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548403720 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 20 - jan 28, 2019\engineversion28.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548403720 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 20 - jan 28, 2019\engineversion29.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548707639 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 20 - jan 28, 2019\engineversion30.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548654793 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 20 - jan 28, 2019\engineversion31.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548659490 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 20 - jan 28, 2019\engineversion32.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548659490 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 20 - jan 28, 2019\engineversion33.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548659490 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 20 - jan 28, 2019\engineversion34.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548659490 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 20 - jan 28, 2019\engineversion35.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546619938 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 21 - june 27, 2019\notes.cpp
+
+1561684427 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 21 - june 27, 2019\main.cpp
+	"EngineVersion17.h"
+	"EngineVersion18.h"
+	"EngineVersion19.h"
+	"EngineVersion20.h"
+	"EngineVersion21.h"
+	"EngineVersion22.h"
+	"EngineVersion23.h"
+	"EngineVersion24.h"
+	"EngineVersion25.h"
+	"EngineVersion26.h"
+	"EngineVersion27.h"
+	"EngineVersion28.h"
+	"EngineVersion29.h"
+	"EngineVersion30.h"
+	"EngineVersion31.h"
+	"EngineVersion32.h"
+	"tool.h"
+	"CommonNonClassData.h"
+	<iostream>
+	<vector>
+	<time.h>
+	<cstdlib>
+	<fstream>
+	<ctime>
+	<ratio>
+	<chrono>
+	<random>
+	<stdexcept>
+	<algorithm>
+
+1546119783 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 21 - june 27, 2019\engineversion17.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1547771564 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 21 - june 27, 2019\commonnonclassdata.h
+	<iostream>
+	<vector>
+
+1546210168 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 21 - june 27, 2019\tool.h
+	"CommonNonClassData.h"
+	<vector>
+
+1546119783 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 21 - june 27, 2019\engineversion18.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546119783 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 21 - june 27, 2019\engineversion19.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546763885 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 21 - june 27, 2019\engineversion20.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546764095 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 21 - june 27, 2019\engineversion21.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546764095 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 21 - june 27, 2019\engineversion22.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546763885 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 21 - june 27, 2019\engineversion23.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+	<fstream>
+
+1547860431 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 21 - june 27, 2019\engineversion24.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548403720 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 21 - june 27, 2019\engineversion25.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548403720 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 21 - june 27, 2019\engineversion26.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548403720 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 21 - june 27, 2019\engineversion27.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548403720 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 21 - june 27, 2019\engineversion28.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548403720 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 21 - june 27, 2019\engineversion29.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548707639 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 21 - june 27, 2019\engineversion30.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1562207828 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 21 - june 27, 2019\engineversion31.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1562212868 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 21 - june 27, 2019\engineversion32.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546619938 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 22 - july 3, 2019\notes.cpp
+
+1562289168 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 22 - july 3, 2019\main.cpp
+	"EngineVersion17.h"
+	"EngineVersion18.h"
+	"EngineVersion19.h"
+	"EngineVersion20.h"
+	"EngineVersion21.h"
+	"EngineVersion22.h"
+	"EngineVersion23.h"
+	"EngineVersion24.h"
+	"EngineVersion25.h"
+	"EngineVersion26.h"
+	"EngineVersion27.h"
+	"EngineVersion28.h"
+	"EngineVersion29.h"
+	"EngineVersion30.h"
+	"EngineVersion31.h"
+	"EngineVersion32.h"
+	"EngineVersion33.h"
+	"tool.h"
+	"CommonNonClassData.h"
+	<iostream>
+	<vector>
+	<time.h>
+	<cstdlib>
+	<fstream>
+	<ctime>
+	<ratio>
+	<chrono>
+	<random>
+	<stdexcept>
+	<algorithm>
+
+1546119783 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 22 - july 3, 2019\engineversion17.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1562312352 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 22 - july 3, 2019\commonnonclassdata.h
+	<iostream>
+	<vector>
+
+1546210168 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 22 - july 3, 2019\tool.h
+	"CommonNonClassData.h"
+	<vector>
+
+1546119783 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 22 - july 3, 2019\engineversion18.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546119783 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 22 - july 3, 2019\engineversion19.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546763885 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 22 - july 3, 2019\engineversion20.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546764095 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 22 - july 3, 2019\engineversion21.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546764095 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 22 - july 3, 2019\engineversion22.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546763885 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 22 - july 3, 2019\engineversion23.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+	<fstream>
+
+1547860431 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 22 - july 3, 2019\engineversion24.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548403720 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 22 - july 3, 2019\engineversion25.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548403720 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 22 - july 3, 2019\engineversion26.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548403720 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 22 - july 3, 2019\engineversion27.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548403720 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 22 - july 3, 2019\engineversion28.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548403720 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 22 - july 3, 2019\engineversion29.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548707639 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 22 - july 3, 2019\engineversion30.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1562207828 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 22 - july 3, 2019\engineversion31.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1562212868 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 22 - july 3, 2019\engineversion32.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548659490 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 22 - july 3, 2019\engineversion33.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1562440969 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 23 - july 6, 2019\main.cpp
+	"EngineVersion17.h"
+	"EngineVersion18.h"
+	"EngineVersion19.h"
+	"EngineVersion20.h"
+	"EngineVersion21.h"
+	"EngineVersion22.h"
+	"EngineVersion23.h"
+	"EngineVersion24.h"
+	"EngineVersion25.h"
+	"EngineVersion26.h"
+	"EngineVersion27.h"
+	"EngineVersion28.h"
+	"EngineVersion29.h"
+	"EngineVersion30.h"
+	"EngineVersion31.h"
+	"EngineVersion32.h"
+	"EngineVersion33.h"
+	"tool.h"
+	"CommonNonClassData.h"
+	<iostream>
+	<vector>
+	<time.h>
+	<cstdlib>
+	<fstream>
+	<ctime>
+	<ratio>
+	<chrono>
+	<random>
+	<stdexcept>
+	<algorithm>
+
+1546119783 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 23 - july 6, 2019\engineversion17.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1562312352 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 23 - july 6, 2019\commonnonclassdata.h
+	<iostream>
+	<vector>
+
+1546210168 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 23 - july 6, 2019\tool.h
+	"CommonNonClassData.h"
+	<vector>
+
+1546119783 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 23 - july 6, 2019\engineversion18.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546119783 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 23 - july 6, 2019\engineversion19.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546763885 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 23 - july 6, 2019\engineversion20.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546764095 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 23 - july 6, 2019\engineversion21.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546764095 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 23 - july 6, 2019\engineversion22.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546763885 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 23 - july 6, 2019\engineversion23.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+	<fstream>
+
+1547860431 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 23 - july 6, 2019\engineversion24.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548403720 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 23 - july 6, 2019\engineversion25.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548403720 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 23 - july 6, 2019\engineversion26.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548403720 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 23 - july 6, 2019\engineversion27.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548403720 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 23 - july 6, 2019\engineversion28.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548403720 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 23 - july 6, 2019\engineversion29.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548707639 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 23 - july 6, 2019\engineversion30.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1562207828 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 23 - july 6, 2019\engineversion31.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1562489729 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 23 - july 6, 2019\engineversion32.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1562489729 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 23 - july 6, 2019\engineversion33.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546619938 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 23 - july 6, 2019\notes.cpp
+
+1562659013 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 24 - july 7, 2019\main.cpp
+	"EngineVersion17.h"
+	"EngineVersion18.h"
+	"EngineVersion19.h"
+	"EngineVersion20.h"
+	"EngineVersion21.h"
+	"EngineVersion22.h"
+	"EngineVersion23.h"
+	"EngineVersion24.h"
+	"EngineVersion25.h"
+	"EngineVersion26.h"
+	"EngineVersion27.h"
+	"EngineVersion28.h"
+	"EngineVersion29.h"
+	"EngineVersion30.h"
+	"EngineVersion31.h"
+	"EngineVersion32.h"
+	"EngineVersion33.h"
+	"EngineVersion34.h"
+	"EngineVersion35.h"
+	"tool.h"
+	"CommonNonClassData.h"
+	<iostream>
+	<vector>
+	<time.h>
+	<cstdlib>
+	<fstream>
+	<ctime>
+	<ratio>
+	<chrono>
+	<random>
+	<stdexcept>
+	<algorithm>
+
+1546119783 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 24 - july 7, 2019\engineversion17.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1562572468 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 24 - july 7, 2019\commonnonclassdata.h
+	<iostream>
+	<vector>
+
+1546210168 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 24 - july 7, 2019\tool.h
+	"CommonNonClassData.h"
+	<vector>
+
+1546119783 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 24 - july 7, 2019\engineversion18.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546119783 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 24 - july 7, 2019\engineversion19.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546763885 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 24 - july 7, 2019\engineversion20.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546764095 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 24 - july 7, 2019\engineversion21.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546764095 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 24 - july 7, 2019\engineversion22.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546763885 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 24 - july 7, 2019\engineversion23.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+	<fstream>
+
+1547860431 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 24 - july 7, 2019\engineversion24.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548403720 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 24 - july 7, 2019\engineversion25.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548403720 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 24 - july 7, 2019\engineversion26.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548403720 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 24 - july 7, 2019\engineversion27.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548403720 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 24 - july 7, 2019\engineversion28.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548403720 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 24 - july 7, 2019\engineversion29.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548707639 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 24 - july 7, 2019\engineversion30.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1562207828 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 24 - july 7, 2019\engineversion31.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1562489729 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 24 - july 7, 2019\engineversion32.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1562528688 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 24 - july 7, 2019\engineversion33.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1562659000 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 24 - july 7, 2019\engineversion34.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1562572468 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 24 - july 7, 2019\engineversion35.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546619938 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 24 - july 7, 2019\notes.cpp
+
+1562572468 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 24 - july 7, 2019\engineversion36.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1574596580 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 25 - nov 23, 2019\main.cpp
+	"EngineVersion17.h"
+	"EngineVersion18.h"
+	"EngineVersion19.h"
+	"EngineVersion20.h"
+	"EngineVersion21.h"
+	"EngineVersion22.h"
+	"EngineVersion23.h"
+	"EngineVersion24.h"
+	"EngineVersion25.h"
+	"EngineVersion26.h"
+	"EngineVersion27.h"
+	"EngineVersion28.h"
+	"EngineVersion29.h"
+	"EngineVersion30.h"
+	"EngineVersion31.h"
+	"EngineVersion32.h"
+	"EngineVersion33.h"
+	"EngineVersion34.h"
+	"EngineVersion35.h"
+	"EngineVersion36.h"
+	"EngineVersion37.h"
+	"EngineVersion38.h"
+	"tool.h"
+	"CommonNonClassData.h"
+	<iostream>
+	<vector>
+	<time.h>
+	<cstdlib>
+	<fstream>
+	<ctime>
+	<ratio>
+	<chrono>
+	<random>
+	<stdexcept>
+	<algorithm>
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 25 - nov 23, 2019\engineversion17.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1562568868 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 25 - nov 23, 2019\commonnonclassdata.h
+	<iostream>
+	<vector>
+
+1546206568 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 25 - nov 23, 2019\tool.h
+	"CommonNonClassData.h"
+	<vector>
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 25 - nov 23, 2019\engineversion18.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 25 - nov 23, 2019\engineversion19.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760285 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 25 - nov 23, 2019\engineversion20.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760495 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 25 - nov 23, 2019\engineversion21.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760495 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 25 - nov 23, 2019\engineversion22.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760285 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 25 - nov 23, 2019\engineversion23.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+	<fstream>
+
+1547856831 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 25 - nov 23, 2019\engineversion24.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 25 - nov 23, 2019\engineversion25.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 25 - nov 23, 2019\engineversion26.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 25 - nov 23, 2019\engineversion27.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 25 - nov 23, 2019\engineversion28.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 25 - nov 23, 2019\engineversion29.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548704039 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 25 - nov 23, 2019\engineversion30.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1574735276 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 25 - nov 23, 2019\engineversion31.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1562486129 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 25 - nov 23, 2019\engineversion32.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1574735276 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 25 - nov 23, 2019\engineversion33.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1574735276 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 25 - nov 23, 2019\engineversion34.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1574631198 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 25 - nov 23, 2019\engineversion35.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546616338 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 25 - nov 23, 2019\notes.cpp
+
+1574631198 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 25 - nov 23, 2019\engineversion36.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1574597832 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 25 - nov 23, 2019\engineversion37.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1574629707 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 25 - nov 23, 2019\engineversion38.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1574974400 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 26 - nov 27, 2019\notes.cpp
+
+1574934289 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 26 - nov 27, 2019\main.cpp
+	"EngineVersion17.h"
+	"EngineVersion18.h"
+	"EngineVersion19.h"
+	"EngineVersion20.h"
+	"EngineVersion21.h"
+	"EngineVersion22.h"
+	"EngineVersion23.h"
+	"EngineVersion24.h"
+	"EngineVersion25.h"
+	"EngineVersion26.h"
+	"EngineVersion27.h"
+	"EngineVersion28.h"
+	"EngineVersion29.h"
+	"EngineVersion30.h"
+	"EngineVersion31.h"
+	"EngineVersion32.h"
+	"EngineVersion33.h"
+	"EngineVersion34.h"
+	"EngineVersion35.h"
+	"EngineVersion36.h"
+	"EngineVersion37.h"
+	"EngineVersion38.h"
+	"tool.h"
+	"CommonNonClassData.h"
+	<iostream>
+	<vector>
+	<time.h>
+	<cstdlib>
+	<fstream>
+	<ctime>
+	<ratio>
+	<chrono>
+	<random>
+	<stdexcept>
+	<algorithm>
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 26 - nov 27, 2019\engineversion17.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1562568868 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 26 - nov 27, 2019\commonnonclassdata.h
+	<iostream>
+	<vector>
+
+1546206568 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 26 - nov 27, 2019\tool.h
+	"CommonNonClassData.h"
+	<vector>
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 26 - nov 27, 2019\engineversion18.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 26 - nov 27, 2019\engineversion19.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760285 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 26 - nov 27, 2019\engineversion20.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760495 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 26 - nov 27, 2019\engineversion21.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760495 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 26 - nov 27, 2019\engineversion22.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760285 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 26 - nov 27, 2019\engineversion23.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+	<fstream>
+
+1547856831 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 26 - nov 27, 2019\engineversion24.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 26 - nov 27, 2019\engineversion25.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 26 - nov 27, 2019\engineversion26.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 26 - nov 27, 2019\engineversion27.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 26 - nov 27, 2019\engineversion28.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 26 - nov 27, 2019\engineversion29.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548704039 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 26 - nov 27, 2019\engineversion30.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1574735276 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 26 - nov 27, 2019\engineversion31.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1562486129 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 26 - nov 27, 2019\engineversion32.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1574735276 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 26 - nov 27, 2019\engineversion33.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1575108077 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 26 - nov 27, 2019\engineversion34.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1575108077 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 26 - nov 27, 2019\engineversion35.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1574975555 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 26 - nov 27, 2019\engineversion36.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1574975555 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 26 - nov 27, 2019\engineversion37.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1574894132 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 26 - nov 27, 2019\engineversion38.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1574974400 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 27 - dec 8, 2019\notes.cpp
+
+1575864104 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 27 - dec 8, 2019\main.cpp
+	"EngineVersion17.h"
+	"EngineVersion18.h"
+	"EngineVersion19.h"
+	"EngineVersion20.h"
+	"EngineVersion21.h"
+	"EngineVersion22.h"
+	"EngineVersion23.h"
+	"EngineVersion24.h"
+	"EngineVersion25.h"
+	"EngineVersion26.h"
+	"EngineVersion27.h"
+	"EngineVersion28.h"
+	"EngineVersion29.h"
+	"EngineVersion30.h"
+	"EngineVersion31.h"
+	"EngineVersion32.h"
+	"EngineVersion33.h"
+	"EngineVersion34.h"
+	"EngineVersion35.h"
+	"EngineVersion36.h"
+	"EngineVersion37.h"
+	"EngineVersion38.h"
+	"tool.h"
+	"CommonNonClassData.h"
+	<iostream>
+	<vector>
+	<time.h>
+	<cstdlib>
+	<fstream>
+	<ctime>
+	<ratio>
+	<chrono>
+	<random>
+	<stdexcept>
+	<algorithm>
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 27 - dec 8, 2019\engineversion17.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1562568868 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 27 - dec 8, 2019\commonnonclassdata.h
+	<iostream>
+	<vector>
+
+1546206568 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 27 - dec 8, 2019\tool.h
+	"CommonNonClassData.h"
+	<vector>
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 27 - dec 8, 2019\engineversion18.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 27 - dec 8, 2019\engineversion19.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760285 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 27 - dec 8, 2019\engineversion20.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760495 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 27 - dec 8, 2019\engineversion21.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760495 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 27 - dec 8, 2019\engineversion22.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760285 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 27 - dec 8, 2019\engineversion23.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+	<fstream>
+
+1547856831 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 27 - dec 8, 2019\engineversion24.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 27 - dec 8, 2019\engineversion25.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 27 - dec 8, 2019\engineversion26.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 27 - dec 8, 2019\engineversion27.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 27 - dec 8, 2019\engineversion28.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 27 - dec 8, 2019\engineversion29.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548704039 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 27 - dec 8, 2019\engineversion30.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1574735276 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 27 - dec 8, 2019\engineversion31.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1562486129 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 27 - dec 8, 2019\engineversion32.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1574735276 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 27 - dec 8, 2019\engineversion33.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1575108077 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 27 - dec 8, 2019\engineversion34.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1575108077 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 27 - dec 8, 2019\engineversion35.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1574975555 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 27 - dec 8, 2019\engineversion36.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1575977537 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 27 - dec 8, 2019\engineversion37.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1575977561 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 27 - dec 8, 2019\engineversion38.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1574974400 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 28 - dec 11, 2019\notes.cpp
+
+1576052413 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 28 - dec 11, 2019\main.cpp
+	"EngineVersion17.h"
+	"EngineVersion18.h"
+	"EngineVersion19.h"
+	"EngineVersion20.h"
+	"EngineVersion21.h"
+	"EngineVersion22.h"
+	"EngineVersion23.h"
+	"EngineVersion24.h"
+	"EngineVersion25.h"
+	"EngineVersion26.h"
+	"EngineVersion27.h"
+	"EngineVersion28.h"
+	"EngineVersion29.h"
+	"EngineVersion30.h"
+	"EngineVersion31.h"
+	"EngineVersion32.h"
+	"EngineVersion33.h"
+	"EngineVersion34.h"
+	"EngineVersion35.h"
+	"EngineVersion36.h"
+	"EngineVersion37.h"
+	"EngineVersion38.h"
+	"tool.h"
+	"CommonNonClassData.h"
+	<iostream>
+	<vector>
+	<time.h>
+	<cstdlib>
+	<fstream>
+	<ctime>
+	<ratio>
+	<chrono>
+	<random>
+	<stdexcept>
+	<algorithm>
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 28 - dec 11, 2019\engineversion17.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1562568868 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 28 - dec 11, 2019\commonnonclassdata.h
+	<iostream>
+	<vector>
+
+1546206568 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 28 - dec 11, 2019\tool.h
+	"CommonNonClassData.h"
+	<vector>
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 28 - dec 11, 2019\engineversion18.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 28 - dec 11, 2019\engineversion19.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760285 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 28 - dec 11, 2019\engineversion20.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760495 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 28 - dec 11, 2019\engineversion21.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760495 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 28 - dec 11, 2019\engineversion22.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760285 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 28 - dec 11, 2019\engineversion23.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+	<fstream>
+
+1547856831 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 28 - dec 11, 2019\engineversion24.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 28 - dec 11, 2019\engineversion25.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 28 - dec 11, 2019\engineversion26.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 28 - dec 11, 2019\engineversion27.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 28 - dec 11, 2019\engineversion28.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 28 - dec 11, 2019\engineversion29.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548704039 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 28 - dec 11, 2019\engineversion30.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1574735276 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 28 - dec 11, 2019\engineversion31.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1562486129 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 28 - dec 11, 2019\engineversion32.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1574735276 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 28 - dec 11, 2019\engineversion33.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1575108077 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 28 - dec 11, 2019\engineversion34.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1576052759 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 28 - dec 11, 2019\engineversion35.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1574975555 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 28 - dec 11, 2019\engineversion36.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1576054823 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 28 - dec 11, 2019\engineversion37.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1576052413 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 28 - dec 11, 2019\engineversion38.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1574974400 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 29 - dec 17, 2019\notes.cpp
+
+1576843338 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 29 - dec 17, 2019\main.cpp
+	"EngineVersion17.h"
+	"EngineVersion18.h"
+	"EngineVersion19.h"
+	"EngineVersion20.h"
+	"EngineVersion21.h"
+	"EngineVersion22.h"
+	"EngineVersion23.h"
+	"EngineVersion24.h"
+	"EngineVersion25.h"
+	"EngineVersion26.h"
+	"EngineVersion27.h"
+	"EngineVersion28.h"
+	"EngineVersion29.h"
+	"EngineVersion30.h"
+	"EngineVersion31.h"
+	"EngineVersion32.h"
+	"EngineVersion33.h"
+	"EngineVersion34.h"
+	"EngineVersion35.h"
+	"EngineVersion36.h"
+	"EngineVersion37.h"
+	"EngineVersion38.h"
+	"EngineVersion39.h"
+	"EngineVersion40.h"
+	"EngineVersion41.h"
+	"EngineVersion42.h"
+	"tool.h"
+	"CommonNonClassData.h"
+	<iostream>
+	<vector>
+	<time.h>
+	<cstdlib>
+	<fstream>
+	<ctime>
+	<ratio>
+	<chrono>
+	<random>
+	<stdexcept>
+	<algorithm>
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 29 - dec 17, 2019\engineversion17.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1562568868 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 29 - dec 17, 2019\commonnonclassdata.h
+	<iostream>
+	<vector>
+
+1546206568 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 29 - dec 17, 2019\tool.h
+	"CommonNonClassData.h"
+	<vector>
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 29 - dec 17, 2019\engineversion18.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 29 - dec 17, 2019\engineversion19.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760285 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 29 - dec 17, 2019\engineversion20.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760495 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 29 - dec 17, 2019\engineversion21.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760495 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 29 - dec 17, 2019\engineversion22.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760285 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 29 - dec 17, 2019\engineversion23.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+	<fstream>
+
+1547856831 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 29 - dec 17, 2019\engineversion24.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 29 - dec 17, 2019\engineversion25.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 29 - dec 17, 2019\engineversion26.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 29 - dec 17, 2019\engineversion27.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 29 - dec 17, 2019\engineversion28.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 29 - dec 17, 2019\engineversion29.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548704039 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 29 - dec 17, 2019\engineversion30.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1574735276 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 29 - dec 17, 2019\engineversion31.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1562486129 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 29 - dec 17, 2019\engineversion32.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1574735276 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 29 - dec 17, 2019\engineversion33.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1575108077 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 29 - dec 17, 2019\engineversion34.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1576052759 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 29 - dec 17, 2019\engineversion35.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1576580086 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 29 - dec 17, 2019\engineversion36.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1576054823 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 29 - dec 17, 2019\engineversion37.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1576052413 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 29 - dec 17, 2019\engineversion38.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1576882656 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 29 - dec 17, 2019\engineversion39.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1576912316 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 29 - dec 17, 2019\engineversion40.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1576912316 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 29 - dec 17, 2019\engineversion41.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1576843084 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 29 - dec 17, 2019\engineversion42.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1574974400 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 30 - dec 21, 2019\notes.cpp
+
+1581989221 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 31 - feb 16, 2020\main.cpp
+	"EngineVersion17.h"
+	"EngineVersion18.h"
+	"EngineVersion19.h"
+	"EngineVersion20.h"
+	"EngineVersion21.h"
+	"EngineVersion22.h"
+	"EngineVersion23.h"
+	"EngineVersion24.h"
+	"EngineVersion25.h"
+	"EngineVersion26.h"
+	"EngineVersion27.h"
+	"EngineVersion28.h"
+	"EngineVersion29.h"
+	"EngineVersion30.h"
+	"EngineVersion31.h"
+	"EngineVersion32.h"
+	"EngineVersion33.h"
+	"EngineVersion34.h"
+	"EngineVersion35.h"
+	"EngineVersion36.h"
+	"EngineVersion37.h"
+	"EngineVersion38.h"
+	"EngineVersion39.h"
+	"EngineVersion40.h"
+	"EngineVersion41.h"
+	"EngineVersion42.h"
+	"EngineVersion43.h"
+	"tool.h"
+	"CommonNonClassData.h"
+	<iostream>
+	<vector>
+	<time.h>
+	<cstdlib>
+	<fstream>
+	<ctime>
+	<ratio>
+	<chrono>
+	<random>
+	<stdexcept>
+	<algorithm>
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 31 - feb 16, 2020\engineversion17.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1581918038 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 31 - feb 16, 2020\commonnonclassdata.h
+	<iostream>
+	<vector>
+
+1546206568 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 31 - feb 16, 2020\tool.h
+	"CommonNonClassData.h"
+	<vector>
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 31 - feb 16, 2020\engineversion18.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546116183 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 31 - feb 16, 2020\engineversion19.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760285 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 31 - feb 16, 2020\engineversion20.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760495 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 31 - feb 16, 2020\engineversion21.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760495 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 31 - feb 16, 2020\engineversion22.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546760285 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 31 - feb 16, 2020\engineversion23.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+	<fstream>
+
+1547856831 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 31 - feb 16, 2020\engineversion24.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 31 - feb 16, 2020\engineversion25.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 31 - feb 16, 2020\engineversion26.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 31 - feb 16, 2020\engineversion27.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 31 - feb 16, 2020\engineversion28.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548400120 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 31 - feb 16, 2020\engineversion29.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548704039 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 31 - feb 16, 2020\engineversion30.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1574735276 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 31 - feb 16, 2020\engineversion31.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1562486129 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 31 - feb 16, 2020\engineversion32.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1574735276 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 31 - feb 16, 2020\engineversion33.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1575108077 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 31 - feb 16, 2020\engineversion34.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1576052759 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 31 - feb 16, 2020\engineversion35.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1576580086 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 31 - feb 16, 2020\engineversion36.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1576054823 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 31 - feb 16, 2020\engineversion37.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1576052413 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 31 - feb 16, 2020\engineversion38.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1576882656 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 31 - feb 16, 2020\engineversion39.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1581937334 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 31 - feb 16, 2020\engineversion40.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1581937334 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 31 - feb 16, 2020\engineversion41.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1581990440 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 31 - feb 16, 2020\engineversion42.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1574978000 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 31 - feb 16, 2020\notes.cpp
+
+1581988692 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 31 - feb 16, 2020\engineversion43.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1591538018 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 32 - june 1, 2020\main.cpp
+	"EngineVersion17.h"
+	"EngineVersion18.h"
+	"EngineVersion19.h"
+	"EngineVersion20.h"
+	"EngineVersion21.h"
+	"EngineVersion22.h"
+	"EngineVersion23.h"
+	"EngineVersion24.h"
+	"EngineVersion25.h"
+	"EngineVersion26.h"
+	"EngineVersion27.h"
+	"EngineVersion28.h"
+	"EngineVersion29.h"
+	"EngineVersion30.h"
+	"EngineVersion31.h"
+	"EngineVersion32.h"
+	"EngineVersion33.h"
+	"EngineVersion34.h"
+	"EngineVersion35.h"
+	"EngineVersion36.h"
+	"EngineVersion37.h"
+	"EngineVersion38.h"
+	"EngineVersion39.h"
+	"EngineVersion40.h"
+	"EngineVersion41.h"
+	"EngineVersion42.h"
+	"EngineVersion43.h"
+	"EngineVersion44.h"
+	"EngineVersion45.h"
+	"tool.h"
+	"CommonNonClassData.h"
+	<iostream>
+	<vector>
+	<time.h>
+	<cstdlib>
+	<fstream>
+	<ctime>
+	<ratio>
+	<chrono>
+	<random>
+	<stdexcept>
+	<algorithm>
+
+1546119783 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 32 - june 1, 2020\engineversion17.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1581921638 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 32 - june 1, 2020\commonnonclassdata.h
+	<iostream>
+	<vector>
+
+1546210168 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 32 - june 1, 2020\tool.h
+	"CommonNonClassData.h"
+	<vector>
+
+1546119783 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 32 - june 1, 2020\engineversion18.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546119783 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 32 - june 1, 2020\engineversion19.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546763885 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 32 - june 1, 2020\engineversion20.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546764095 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 32 - june 1, 2020\engineversion21.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546764095 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 32 - june 1, 2020\engineversion22.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546763885 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 32 - june 1, 2020\engineversion23.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+	<fstream>
+
+1547860431 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 32 - june 1, 2020\engineversion24.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548403720 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 32 - june 1, 2020\engineversion25.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548403720 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 32 - june 1, 2020\engineversion26.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548403720 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 32 - june 1, 2020\engineversion27.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548403720 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 32 - june 1, 2020\engineversion28.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548403720 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 32 - june 1, 2020\engineversion29.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548707639 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 32 - june 1, 2020\engineversion30.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1574738876 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 32 - june 1, 2020\engineversion31.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1562489729 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 32 - june 1, 2020\engineversion32.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1574738876 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 32 - june 1, 2020\engineversion33.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1575111677 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 32 - june 1, 2020\engineversion34.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1576056359 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 32 - june 1, 2020\engineversion35.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1576583686 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 32 - june 1, 2020\engineversion36.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1576058423 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 32 - june 1, 2020\engineversion37.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1576056013 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 32 - june 1, 2020\engineversion38.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1576886256 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 32 - june 1, 2020\engineversion39.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1581940934 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 32 - june 1, 2020\engineversion40.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1591538001 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 32 - june 1, 2020\engineversion41.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1591190471 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 32 - june 1, 2020\engineversion42.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+	"sqlite3.h"
+
+1591020895 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 32 - june 1, 2020\database_communicator.h
+	"sqlite3.h"
+	<stdexcept>
+	<cstdlib>
+	<string>
+	<vector>
+
+1591020895 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 32 - june 1, 2020\sqlite3.h
+	<stdarg.h>
+
+1591190000 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 32 - june 1, 2020\engineversion43.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+	"database_communicator.h"
+
+1591021753 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 32 - june 1, 2020\notes.cpp
+
+1591020895 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 32 - june 1, 2020\sqlite3.c
+	"config.h"
+	<vxWorks.h>
+	<pthread.h>
+	"mingw.h"
+	"_mingw.h"
+	<stdarg.h>
+	<stdint.h>
+	<inttypes.h>
+	<intrin.h>
+	<cmnintrin.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<stddef.h>
+	<TargetConditionals.h>
+	<ctype.h>
+	<time.h>
+	<sys/sysctl.h>
+	<malloc/malloc.h>
+	<libkern/OSAtomic.h>
+	<malloc.h>
+	<pthread.h>
+	"windows.h"
+	<sys/cygwin.h>
+	<errno.h>
+	<process.h>
+	<math.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<unistd.h>
+	<sys/time.h>
+	<errno.h>
+	<sys/mman.h>
+	<sys/file.h>
+	<sys/param.h>
+	<semaphore.h>
+	<limits.h>
+	<sys/mount.h>
+	<utime.h>
+	<sys/dcmd_blk.h>
+	<sys/statvfs.h>
+	<dlfcn.h>
+	"sqlite_tcl.h"
+	"tcl.h"
+	<ctype.h>
+	"sqlite3rtree.h"
+	<ctype.h>
+	<unicode/utypes.h>
+	<unicode/uregex.h>
+	<unicode/ustring.h>
+	<unicode/ucol.h>
+	<unicode/ubrk.h>
+	<unicode/utf16.h>
+	<math.h>
+
+1591190000 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 32 - june 1, 2020\engineversion44.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+	"database_communicator.h"
+
+1591614140 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 32 - june 1, 2020\engineversion45.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+	"database_communicator.h"
+
+1592558044 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 33 - june 9, 2020\notes.cpp
+
+1591020895 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 33 - june 9, 2020\sqlite3.c
+	"config.h"
+	<vxWorks.h>
+	<pthread.h>
+	"mingw.h"
+	"_mingw.h"
+	<stdarg.h>
+	<stdint.h>
+	<inttypes.h>
+	<intrin.h>
+	<cmnintrin.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<stddef.h>
+	<TargetConditionals.h>
+	<ctype.h>
+	<time.h>
+	<sys/sysctl.h>
+	<malloc/malloc.h>
+	<libkern/OSAtomic.h>
+	<malloc.h>
+	<pthread.h>
+	"windows.h"
+	<sys/cygwin.h>
+	<errno.h>
+	<process.h>
+	<math.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<unistd.h>
+	<sys/time.h>
+	<errno.h>
+	<sys/mman.h>
+	<sys/file.h>
+	<sys/param.h>
+	<semaphore.h>
+	<limits.h>
+	<sys/mount.h>
+	<utime.h>
+	<sys/dcmd_blk.h>
+	<sys/statvfs.h>
+	<dlfcn.h>
+	"sqlite_tcl.h"
+	"tcl.h"
+	<ctype.h>
+	"sqlite3rtree.h"
+	<ctype.h>
+	<unicode/utypes.h>
+	<unicode/uregex.h>
+	<unicode/ustring.h>
+	<unicode/ucol.h>
+	<unicode/ubrk.h>
+	<unicode/utf16.h>
+	<math.h>
+
+1592646355 source:c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 33 - june 9, 2020\main.cpp
+	"EngineVersion17.h"
+	"EngineVersion18.h"
+	"EngineVersion19.h"
+	"EngineVersion20.h"
+	"EngineVersion21.h"
+	"EngineVersion22.h"
+	"EngineVersion23.h"
+	"EngineVersion24.h"
+	"EngineVersion25.h"
+	"EngineVersion26.h"
+	"EngineVersion27.h"
+	"EngineVersion28.h"
+	"EngineVersion29.h"
+	"EngineVersion30.h"
+	"EngineVersion31.h"
+	"EngineVersion32.h"
+	"EngineVersion33.h"
+	"EngineVersion34.h"
+	"EngineVersion35.h"
+	"EngineVersion36.h"
+	"EngineVersion37.h"
+	"EngineVersion38.h"
+	"EngineVersion39.h"
+	"EngineVersion40.h"
+	"EngineVersion41.h"
+	"EngineVersion42.h"
+	"EngineVersion43.h"
+	"EngineVersion44.h"
+	"EngineVersion45.h"
+	"EngineVersion49.h"
+	"tool.h"
+	"CommonNonClassData.h"
+	<iostream>
+	<vector>
+	<time.h>
+	<cstdlib>
+	<fstream>
+	<ctime>
+	<ratio>
+	<chrono>
+	<random>
+	<stdexcept>
+	<algorithm>
+
+1546119783 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 33 - june 9, 2020\engineversion17.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1581921638 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 33 - june 9, 2020\commonnonclassdata.h
+	<iostream>
+	<vector>
+
+1546210168 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 33 - june 9, 2020\tool.h
+	"CommonNonClassData.h"
+	<vector>
+
+1546119783 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 33 - june 9, 2020\engineversion18.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546119783 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 33 - june 9, 2020\engineversion19.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546763885 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 33 - june 9, 2020\engineversion20.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546764095 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 33 - june 9, 2020\engineversion21.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546764095 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 33 - june 9, 2020\engineversion22.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1546763885 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 33 - june 9, 2020\engineversion23.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+	<fstream>
+
+1547860431 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 33 - june 9, 2020\engineversion24.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548403720 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 33 - june 9, 2020\engineversion25.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548403720 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 33 - june 9, 2020\engineversion26.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548403720 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 33 - june 9, 2020\engineversion27.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548403720 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 33 - june 9, 2020\engineversion28.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548403720 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 33 - june 9, 2020\engineversion29.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1548707639 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 33 - june 9, 2020\engineversion30.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1574738876 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 33 - june 9, 2020\engineversion31.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1562489729 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 33 - june 9, 2020\engineversion32.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1574738876 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 33 - june 9, 2020\engineversion33.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1575111677 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 33 - june 9, 2020\engineversion34.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1576056359 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 33 - june 9, 2020\engineversion35.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1576583686 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 33 - june 9, 2020\engineversion36.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1576058423 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 33 - june 9, 2020\engineversion37.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1576056013 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 33 - june 9, 2020\engineversion38.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1576886256 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 33 - june 9, 2020\engineversion39.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1581940934 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 33 - june 9, 2020\engineversion40.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1591793264 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 33 - june 9, 2020\engineversion41.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+
+1591794034 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 33 - june 9, 2020\engineversion42.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+	"sqlite3.h"
+	"database_communicator.h"
+
+1591020895 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 33 - june 9, 2020\sqlite3.h
+	<stdarg.h>
+
+1592652743 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 33 - june 9, 2020\engineversion43.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+	"database_communicator.h"
+
+1592558044 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 33 - june 9, 2020\database_communicator.h
+	"sqlite3.h"
+	<stdexcept>
+	<cstdlib>
+	<string>
+	<vector>
+	<fstream>
+
+1592652743 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 33 - june 9, 2020\engineversion44.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+	"database_communicator.h"
+
+1592645762 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 33 - june 9, 2020\engineversion45.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+	"database_communicator.h"
+
+1592649521 c:\users\johnd\documents\fun coding projects\connect four\versus simulator - version 33 - june 9, 2020\engineversion49.h
+	<vector>
+	<stdexcept>
+	<memory>
+	<cstdlib>
+	<ctime>
+	<ratio>
+	<chrono>
+	<algorithm>
+	<random>
+	<climits>
+	<cmath>
+	"CommonNonClassData.h"
+	"tool.h"
+	"database_communicator.h"
+
