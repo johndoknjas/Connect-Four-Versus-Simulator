@@ -14,14 +14,16 @@ Steps for using the Versus Simulator to test a proposed new version of the engin
 
 Repeat step 4 for the new source code of position.h with your changes. Use "EngineVersion45.h".
 
-5) Compile all the files and run main.cpp.  5a) Enter 500 for the number of trials.
+5) Compile all the files and run main.cpp.  
+
+    5a) Enter 500 for the number of trials.
   
-  5b) For the thinking time, just enter 1.0. The engines will use a depth limit so they won't actually be aiming for 1 second to think.
+    5b) For the thinking time, just enter 1.0. The engines will use a depth limit so they won't actually be aiming for 1 second to think.
   
-  5c) For the number of trials to check uneven trials, enter 0.
+    5c) For the number of trials to check uneven trials, enter 0.
   
-  5d) For the first engine's version, choose 44. Choose 45 for the second one.
+    5d) For the first engine's version, choose 44. Choose 45 for the second one.
   
-  5e) Enter -1 for the line asking for engines in a second match.
+    5e) Enter -1 for the line asking for engines in a second match.
  
 6) At this point the engine will finish after a number of hours. The results will be available in Simulation_Data.txt.
