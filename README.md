@@ -1,6 +1,6 @@
 Steps for using the Versus Simulator to test a proposed new version of the engine:
 
-1) Have Database_C downloaded somewhere on your computer. Update the directory.txt file with the absolute path to it.
+1) Have Database_C downloaded somewhere on your computer: https://drive.google.com/file/d/1f0q-X5edDGx_Rh-TuJIHSRoRlc2R1WED/view?usp=sharing. Update the directory.txt file with the absolute path to it.
 
 2) It's fine to delete bin/Debug and obj/Debug.
 
