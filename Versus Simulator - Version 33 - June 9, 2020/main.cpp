@@ -1,3 +1,4 @@
+/*
 #include "EngineVersion17.h"
 #include "EngineVersion18.h"
 #include "EngineVersion19.h"
@@ -25,9 +26,10 @@
 #include "EngineVersion41.h"
 #include "EngineVersion42.h"
 #include "EngineVersion43.h"
+*/
 #include "EngineVersion44.h"
 #include "EngineVersion45.h"
-#include "EngineVersion49.h"
+//#include "EngineVersion49.h"
 
 #include "tool.h"
 #include "CommonNonClassData.h"
@@ -406,8 +408,8 @@ void point_to_correct_derived_class(unique_ptr<tool>& pt, int version_number_of_
 {
     double old_thinking_time = thinking_time; // just to be safe, this variable doesn't need to even be given a value yet.
 
-    coordinate placeholder = {EngineVersion39::position::UNDEFINED, EngineVersion39::position::UNDEFINED};
-
+    coordinate placeholder = {EngineVersion44::position::UNDEFINED, EngineVersion44::position::UNDEFINED};
+/*
     if (version_number_of_Engine == 17)
     {
         old_thinking_time = EngineVersion17::position::thinking_time;
@@ -597,14 +599,14 @@ void point_to_correct_derived_class(unique_ptr<tool>& pt, int version_number_of_
         pt = EngineVersion37::position::think_on_game_position(true, true);
     }
 
- /*   else if (version_number_of_Engine == 38)
+    else if (version_number_of_Engine == 38)
     {
         old_thinking_time = EngineVersion38::position::thinking_time;
 
         EngineVersion38::position::thinking_time = 0;
 
         pt = EngineVersion38::position::think_on_game_position(true, true);
-    } */
+    }
 
     else if (version_number_of_Engine == 39)
     {
@@ -650,8 +652,9 @@ void point_to_correct_derived_class(unique_ptr<tool>& pt, int version_number_of_
 
         pt = EngineVersion43::position::think_on_game_position(true, true, placeholder, false);
     }
+*/
 
-    else if (version_number_of_Engine == 44)
+    if (version_number_of_Engine == 44)
     {
         old_thinking_time = EngineVersion44::position::thinking_time;
 
@@ -668,7 +671,7 @@ void point_to_correct_derived_class(unique_ptr<tool>& pt, int version_number_of_
 
         pt = EngineVersion45::position::think_on_game_position(true, true, placeholder, false);
     }
-
+/*
     else if (version_number_of_Engine == 49)
     {
         old_thinking_time = EngineVersion49::position::thinking_time;
@@ -677,7 +680,7 @@ void point_to_correct_derived_class(unique_ptr<tool>& pt, int version_number_of_
 
         pt = EngineVersion49::position::think_on_game_position(true, true, placeholder, false);
     }
-
+*/
     // Continue writing else if statements here for future Versions added.......
 
     else
@@ -914,6 +917,10 @@ void playout_game(RunningData& simulation_stats, const vector<coordinate>& start
 
             simulation_stats.num_instances_EngineOne_used_find_best_move ++;
 
+            if (chosen_move.row < 0 || chosen_move.row > 6 || chosen_move.col < 0 || chosen_move.col > 7) {
+                throw runtime_error("EngineOne trying to play a move that's out of bouds.\n");
+            }
+
             if (assisting_board[chosen_move.row][chosen_move.col] != ' ')
             {
                 throw runtime_error("EngineOne trying to play in a filled up square.\n");
@@ -994,6 +1001,10 @@ void playout_game(RunningData& simulation_stats, const vector<coordinate>& start
             }
 
             simulation_stats.num_instances_EngineTwo_used_find_best_move ++;
+
+            if (chosen_move.row < 0 || chosen_move.row > 6 || chosen_move.col < 0 || chosen_move.col > 7) {
+                throw runtime_error("EngineTwo trying to play a move that's out of bouds.\n");
+            }
 
             if (assisting_board[chosen_move.row][chosen_move.col] != ' ')
             {

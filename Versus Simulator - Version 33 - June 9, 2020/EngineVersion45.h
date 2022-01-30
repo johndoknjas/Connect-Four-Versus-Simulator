@@ -1,4 +1,4 @@
-// V.45, with depth_limit = 9
+// V.51 (zobrist hashing) with depth limit = 9
 
 #pragma once
 #include <vector>
@@ -42,7 +42,7 @@ public:
              int alphaP, int betaP,
              shared_ptr<vector<treasure_spot>> squares_amplifying_comp_2P, shared_ptr<vector<treasure_spot>> squares_amplifying_comp_3P,
              shared_ptr<vector<treasure_spot>> squares_amplifying_user_2P, shared_ptr<vector<treasure_spot>> squares_amplifying_user_3P,
-             double pre_hash_value_of_positionP, shared_ptr<vector<int>> num_pieces_per_columnP,
+             int hash_value_of_positionP, shared_ptr<vector<int>> num_pieces_per_columnP,
              bool did_comp_go_first_in_the_gameP);
     // No param for evaluation is sent to constructor, as this is figured out by the computer via minimax.
     // No param for future_positions is sent to constructor, as this is figured out by the computer via minimax.
@@ -79,8 +79,6 @@ public:
     void rearrange_possible_moves(const vector<coordinate>& front_moves); // puts the moves in front_moves at the front of
                                                                           // the possible_moves vector of the calling object.
                                                                           // All these moves should already be in possible_moves.
-    void initialize_hash_value_of_position(); // multiplies the pre_hash_value_of_position to >= 1,000,000, rounds to an int, and
-                                              // sets hash_value_of_position to the result.
 
     void add_position_to_transposition_table(bool is_evaluation_indisputable);
     // Adds this position's board (the key) and evaluation to the appropriate index in
@@ -169,18 +167,19 @@ public:
     static const int max_col_index; // the max col index of board (i.e., 6, since there are 7 columns).
     static int depth_limit; // the depth of the computer's calculation abilities.
     static bool stop_signal; // used for multithreading (thinking while waiting for the user to move).
-    static const double PI; // PI to 11 decimal places.
 
-    static const vector<vector<double>> hash_values_of_squares_with_C; // stores the double hash value of each square in the board, if it stores 'C'.
-    static const vector<vector<double>> hash_values_of_squares_with_U; // stores the double hash value of each square in the board, if it stores 'U'.
-    static const vector<vector<double>> hash_values_of_squares_empty; // stores the double hash value of each square in the board, if it stores ' '.
+    static const int max_hash_value;
 
     static vector<vector<position_info_for_TT>> transposition_table; // A position's key & evaluation get stored here, at the appropriate
-                                                                     // index (i.e., it's hash value). The inner vector is to deal with possible
+                                                                     // index (i.e., its hash value). The inner vector is to deal with possible
                                                                      // collisions. Multiple positions can be stored at the same
                                                                      // index in the outer vector via the inner vector.
 
     static vector<int> indices_of_elements_in_TT; // Stores the indices of which inner vectors in the TT actually store data.
+
+    static vector<vector<int>> random_values_for_squares_with_C;
+    static vector<vector<int>> random_values_for_squares_with_U;
+    // These vectors each contain 42 random numbers, to be used for zobrist hashing.
 
     static bool surpassed_DB;
 
@@ -197,10 +196,8 @@ public:
 
     // Public static methods:
 
-    static vector<vector<double>> find_hash_values_for_all_squares_in_board(char piece);
-    // Returns a 7x6 2-D vector of doubles, storing the hash value for each square (assuming char piece is in the square).
-
-    static double cotangent_with_degrees(double angle_in_degrees); // Returns the cotangent of the angle in degrees.
+    static vector<vector<int>> get_board_of_random_ints();
+    // Returns a 7x6 2-D vector of ints, storing a random value for each square.
 
     static void reset_transposition_table(); // Resets the transposition table to only store empty inner vectors.
                                              // Uses the indices_of_elements_in_TT vector to do this resetting task efficiently.
@@ -264,11 +261,7 @@ private:
                               // NOTE: This member is only initialized in smart_evaluation(), aka when depth limit is reached,
                               // since it has no use before then.
 
-    double pre_hash_value_of_position; // stores the double value the position's hash value has, before being multiplied to >= 1,000,000 and
-                                       // rounded to an int. Pass this variable on to child nodes! Since then they only have to deal with
-                                       // the 'C' or 'U' replacing the ' ' at last_move's coordinates in board.
-
-    int hash_value_of_position; // equal to the result of the above variable being multiplied to >= 1,000,000 and rounded to an int.
+    int hash_value_of_position;
 
     bool is_a_pruned_branch; // Initialized to false - stores true if this node (and all its children) gets pruned via alpha-beta pruning.
 
@@ -320,7 +313,6 @@ private:
     // and element is a board (not necessarily the private board attribute of the calling object though!).
     coordinate find_starting_horizontal_point() const; // finds left-most connected square from last_move.
     coordinate find_ending_horizontal_point() const; // finds right_most connected square from last_move.
-    coordinate find_starting_vertical_point() const; // finds the top-most connected square from last_move.
     coordinate find_ending_vertical_point() const; // finds the bottom-most connected square from last_move.
     coordinate find_starting_positive_slope_diagonal_point() const; // finds the bottom-left-most connected square from last_move.
     coordinate find_ending_positive_slope_diagonal_point() const; // finds the top_right-most connected sqaure from last_move.
@@ -337,14 +329,17 @@ const int position::max_row_index = 5;
 const int position::max_col_index = 6;
 int position::depth_limit = 1; // starts off at 1 every time the Engine thinks (iterative deepening).
 bool position::stop_signal = false;
-const double position::PI = 3.14159265359;
 
-const vector<vector<double>> position::hash_values_of_squares_with_C = find_hash_values_for_all_squares_in_board('C');
-const vector<vector<double>> position::hash_values_of_squares_with_U = find_hash_values_for_all_squares_in_board('U');
-const vector<vector<double>> position::hash_values_of_squares_empty = find_hash_values_for_all_squares_in_board(' ');
+const int position::max_hash_value = pow(2, 20) - 1; // If you want to increase the range of the random numbers and the hash
+// table size, just increase 20 to some integer a bit greater. The 20 represents the number of bits in the range of the random
+// numbers / TT size.
+// E.g., change the 20 above to 24, for a TT size of over 16 million.
 
-vector<vector<position_info_for_TT>> position::transposition_table(1000005);
+vector<vector<position_info_for_TT>> position::transposition_table(max_hash_value + 1);
 vector<int> position::indices_of_elements_in_TT;
+
+vector<vector<int>> position::random_values_for_squares_with_C = get_board_of_random_ints();
+vector<vector<int>> position::random_values_for_squares_with_U = get_board_of_random_ints();
 
 bool position::surpassed_DB = false;
 
@@ -422,8 +417,8 @@ position::position(bool is_comp_turnP)
         temp.row = max_row_index;
         possible_moves.push_back(temp);
     }
- //   randomize_order_of_possible_moves();   FINALLY TAKING OUT RANDOMNESS
- // Besides, in most cases possible_moves will just be set to a possible moves vector from an earlier duplicate in the hash table.
+    //   randomize_order_of_possible_moves(); No longer using randomness here.
+    // Besides, in most cases possible_moves will just be set to a possible moves vector from an earlier duplicate in the TT.
 
     alpha = UNDEFINED;
 
@@ -433,20 +428,7 @@ position::position(bool is_comp_turnP)
 
     future_positions_size = 0;
 
-    // Now figure out the pre-hash value of the position. All the squares store ' ', so it's easy: just sum all the entries in
-    // the hash_values_of_squares_empty static vector:
-
-    pre_hash_value_of_position = 0.0;
-
-    for (int row = 0; row <= max_row_index; row++)
-    {
-        for (int col = 0; col <= max_col_index; col++)
-        {
-            pre_hash_value_of_position += hash_values_of_squares_empty[row][col]; // since this vector has same dimensions as board... 7x6.
-        }
-    }
-
-    initialize_hash_value_of_position(); // uses pre_hash_value_of_position above to get an int >= 1,000,000 to set hash_value_of_position to.
+    hash_value_of_position = 0;
 
     // Now, I don't need to check if someone won, since this constructor starts the entire game.
     // I also don't need to call the analyze_last_move() function, since there is no last_move yet!
@@ -583,32 +565,20 @@ position::position(const vector <vector<char>>& boardP, bool is_comp_turnP, coor
                                    // called thousands of times by the computer during minimax, so I will not do
                                    // clean-up there (not efficient!).
 
-    // Now figure out the pre-hash value of the position:
+    // Figure out the hash value by initializing it to 0, and then XORing it with all the non-empty squares
+    // in the position.
 
-    pre_hash_value_of_position = 0.0;
+    hash_value_of_position = 0;
 
-    for (int row = 0; row <= max_row_index; row++)
-    {
-        for (int col = 0; col <= max_col_index; col++)
-        {
-            if ((*board)[row][col] == ' ')
-            {
-                pre_hash_value_of_position += hash_values_of_squares_empty[row][col];
-            }
-
-            else if ((*board)[row][col] == 'C')
-            {
-                pre_hash_value_of_position += hash_values_of_squares_with_C[row][col];
-            }
-
-            else // stores 'U':
-            {
-                pre_hash_value_of_position += hash_values_of_squares_with_U[row][col];
+    for (int row = 0; row < 6; ++row) {
+        for (int col = 0; col < 7; ++col) {
+            if ((*board)[row][col] == 'C') {
+                hash_value_of_position ^= random_values_for_squares_with_C[row][col];
+            } else if ((*board)[row][col] == 'U') {
+                hash_value_of_position ^= random_values_for_squares_with_U[row][col];
             }
         }
     }
-
-    initialize_hash_value_of_position(); // uses pre_hash_value_of_position above to get an int >= 1,000,000 to set hash_value_of_position to.
 
     is_a_pruned_branch = false;
     got_value_from_pruned_child = false;
@@ -637,7 +607,7 @@ position::position(shared_ptr<vector<vector<char>>> boardP, bool is_comp_turnP,
                    int alphaP, int betaP,
                    shared_ptr<vector<treasure_spot>> squares_amplifying_comp_2P, shared_ptr<vector<treasure_spot>> squares_amplifying_comp_3P,
                    shared_ptr<vector<treasure_spot>> squares_amplifying_user_2P, shared_ptr<vector<treasure_spot>> squares_amplifying_user_3P,
-                   double pre_hash_value_of_positionP, shared_ptr<vector<int>> num_pieces_per_columnP,
+                   int hash_value_of_positionP, shared_ptr<vector<int>> num_pieces_per_columnP,
                    bool did_comp_go_first_in_the_gameP)
 {
     best_move_from_DB = {UNDEFINED, UNDEFINED};
@@ -703,23 +673,13 @@ position::position(shared_ptr<vector<vector<char>>> boardP, bool is_comp_turnP,
 
     squares_amplifying_user_3 = squares_amplifying_user_3P;
 
-    pre_hash_value_of_position = pre_hash_value_of_positionP;
+    hash_value_of_position = hash_value_of_positionP;
 
-    // But now, pre_hash_value_of_position must be adjusted to account for a 'C' or 'U' being at last_move's coordinates in board, instead of ' ':
-
-    pre_hash_value_of_position -= hash_values_of_squares_empty[last_move.row][last_move.col];
-
-    if ((*board)[last_move.row][last_move.col] == 'C')
-    {
-        pre_hash_value_of_position += hash_values_of_squares_with_C[last_move.row][last_move.col];
+    if ((*board)[last_move.row][last_move.col] == 'C') {
+        hash_value_of_position ^= random_values_for_squares_with_C[last_move.row][last_move.col];
+    } else {
+        hash_value_of_position ^= random_values_for_squares_with_U[last_move.row][last_move.col];
     }
-
-    else // 'U' at last_move's coordinates:
-    {
-        pre_hash_value_of_position += hash_values_of_squares_with_U[last_move.row][last_move.col];
-    }
-
-    initialize_hash_value_of_position(); // uses pre_hash_value_of_position above to get an int >= 1,000,000 to set hash_value_of_position to.
 
     is_a_pruned_branch = false;
     got_value_from_pruned_child = false;
@@ -900,8 +860,8 @@ coordinate position::find_best_move_for_comp()
 
     // Shuffle indices vector:
 
-   /* auto rng = default_random_engine {};
-    shuffle(begin(indices), end(indices), rng); */
+    //auto rng = default_random_engine {};
+    //shuffle(begin(indices), end(indices), rng);
 
     for (int index: indices) // index is the current ELEMENT in indices, and acts as an INDEX for the future_positions vector.
     {
@@ -1095,18 +1055,6 @@ void position::rearrange_possible_moves(const vector<coordinate>& front_moves)
     {
         throw runtime_error("possible_moves.size changes.\n");
     }
-}
-
-void position::initialize_hash_value_of_position()
-{
-    double val = pre_hash_value_of_position;
-
-    while (val < 100000.0)
-    {
-        val *= 10.0;
-    }
-
-    hash_value_of_position = static_cast<int>(round(val));
 }
 
 void position::add_position_to_transposition_table(bool is_evaluation_indisputable)
@@ -1823,64 +1771,22 @@ coordinate position::return_a_move_that_wins_immediately() const
 
 // PUBLIC STATIC METHODS:
 
-vector<vector<double>> position::find_hash_values_for_all_squares_in_board(char piece)
+vector<vector<int>> position::get_board_of_random_ints()
 {
-    vector<vector<double>> vec; // will be returned.
+    https://stackoverflow.com/questions/13445688/how-to-generate-a-random-number-in-c
+    // Using the method described in the top answer for generating random numbers, as opposed to something like rand().
 
-    vector<double> single_row;
+    random_device dev;
+    mt19937 rng(dev());
+    uniform_int_distribution<mt19937::result_type> dist(1, max_hash_value);
 
-    for (int col = 0; col <= max_col_index; col++)
-    {
-        single_row.push_back(0.0);
-    }
-
-    for (int row = 0; row <= max_row_index; row++)
-    {
-        vec.push_back(single_row);
-    }
-
-    // Now run through vec, giving each element/square a double value:
-
-    for (int row = 0; row <= max_row_index; row++)
-    {
-        for (int col = 0; col <= max_col_index; col++)
-        {
-            double x = static_cast<double>(row+1) * static_cast<double>(col+1) + static_cast<double>(col+1) / 7.0;
-
-            // Now to use x as an input to a mathematical function to find the square's hash value. Which mathematical function
-            // is chosen depends on the piece square stores:
-
-            if (piece == 'C')
-            {
-                // cot(x+5) / 5:
-
-                vec[row][col] = cotangent_with_degrees(x + 5.0) / 5.0;
-            }
-
-            else if (piece == 'U')
-            {
-                vec[row][col] = log10(x + 1.0);
-            }
-
-            else // piece = ' ':
-            {
-                vec[row][col] = sqrt(x + 1.0) - 1.3;
-            }
+    vector<vector<int>> vec(6, vector<int>(7));
+    for (int r = 0; r < 6; ++r) {
+        for (int c = 0; c < 7; ++c) {
+            vec[r][c] = dist(rng);
         }
     }
-
     return vec;
-}
-
-double position::cotangent_with_degrees(double angle_in_degrees)
-{
-    // First, convert to radians:
-
-    double angle_in_rad = angle_in_degrees * (PI / 180.0);
-
-    // Now return the cotangent:
-
-    return 1.0 / (tan(angle_in_rad));
 }
 
 void position::reset_transposition_table()
@@ -1926,7 +1832,28 @@ position_info_for_TT position::find_duplicate_in_TT(const unique_ptr<position>& 
         }
     }
 
-    throw runtime_error("Did not find a duplicate in find_duplicate_in_TT()\n");
+    // At this point, a runtime error could be thrown (this was done in versions
+    // prior to V.48). However, this might not be the best course of action.
+    // I'm not sure why there isn't a duplicate in the TT, but just because
+    // there isn't doesn't mean the engine is broken by any means.
+
+    // This function is only called in the while loop in think, where it
+    // checks if a previous duplicate (from iterative deepening) says that
+    // this position's evaluation is indisputable, and thus there is
+    // no point in continuing to think.
+
+    // Since a duplicate doesn't exist, I'll make it so that it's "false"
+    // that the evaluation is indisputable.
+
+    // To do this, I'll create a dummy object with just this attribute set.
+
+    position_info_for_TT temp;
+
+    temp.is_evaluation_indisputable = false;
+
+    return temp;
+
+    // throw runtime_error("Did not find a duplicate in find_duplicate_in_TT()\n");
 }
 
 coordinate position::find_legal_square(const vector<vector<char>>& boardP, int col)
@@ -1964,7 +1891,8 @@ unique_ptr<position> position::think_on_game_position(const vector <vector<char>
     if (starting_new_game)
     {
         reset_transposition_table();
-
+        random_values_for_squares_with_C = get_board_of_random_ints();
+        random_values_for_squares_with_U = get_board_of_random_ints();
         surpassed_DB = false;
     }
 
@@ -2151,7 +2079,19 @@ unique_ptr<position> position::think_on_game_position(const vector <vector<char>
         Database_Functions::get_info_for_position(boardP, is_comp_turnP,
                                                   db_evaluation, col_of_best_move);
 
-        pt->set_best_move_from_DB(find_legal_square(boardP, col_of_best_move));
+        if (col_of_best_move != UNDEFINED)
+        {
+            pt->set_best_move_from_DB(find_legal_square(boardP, col_of_best_move));
+        }
+
+        else if (!pt->did_someone_win())
+        {
+            // There is no best move for this position in the DB, which
+            // would be fine if someone just won (then best_move_from_DB
+            // just remains UNDEFINED). But here it appears someone didn't win.
+
+            throw runtime_error("Undefined best_move, in an ongoing position\n");
+        }
 
         pt->set_evaluation(db_evaluation);
 
@@ -2533,7 +2473,8 @@ void position::analyze_horizontal_perspective_of_last_move()
 
 void position::analyze_vertical_perspective_of_last_move()
 {
-    coordinate start_point = find_starting_vertical_point();
+    //coordinate start_point = find_starting_vertical_point();
+    coordinate start_point = last_move;
     coordinate end_point = find_ending_vertical_point();
     int num_pieces_in_a_row = end_point.row - start_point.row + 1;
 
@@ -2938,12 +2879,12 @@ void position::minimax()
                                                         possible_moves, i, alpha, beta,
                                                         squares_amplifying_comp_2, squares_amplifying_comp_3,
                                                         squares_amplifying_user_2, squares_amplifying_user_3,
-                                                        pre_hash_value_of_position, num_pieces_per_column, did_comp_go_first_in_the_game);
+                                                        hash_value_of_position, num_pieces_per_column, did_comp_go_first_in_the_game);
                                                         // Note that this position's 4 amplifying vectors are being sent.
                                                         // Any necessary additions to be made to the amplifying vectors
                                                         // due to last_move (represented by current_move here) will be
                                                         // handled in the constructor.
-                                                        // Also, this position's pre_hash_value_of_position variable is being sent.
+                                                        // Also, this position's hash_value_of_position variable is being sent.
                                                         // It will be updated appropriately in the constructor of the child position node.
                                                         // Finally, num_pieces_per_column for this position is being sent,
                                                         // and then necessary change due to last_move will be taken care of in constructor.
@@ -3519,7 +3460,7 @@ bool position::negative_slope_diagonal_four_combo() const
 
 bool position::is_acceptable_letter(char c) const
 {
-    return ((c >= 'A' && c <= 'G') || (c >= 'a' && c <= 'g'));
+    return (c >= 'A' && c <= 'G') || (c >= 'a' && c <= 'g');
 }
 
 bool position::is_element_in_vector(const vector<vector<vector<char>>>& vec, const vector<vector<char>>& element) const
@@ -3567,11 +3508,6 @@ coordinate position::find_ending_horizontal_point() const
 
         right_most_point.col ++;
     }
-}
-
-coordinate position::find_starting_vertical_point() const
-{
-    return last_move;
 }
 
 coordinate position::find_ending_vertical_point() const

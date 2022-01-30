@@ -1,4 +1,4 @@
-// V.49 with thinking_time = 1.0
+// V.50 with depth limit = 9
 
 #pragma once
 #include <vector>
@@ -899,8 +899,8 @@ coordinate position::find_best_move_for_comp()
 
     // Shuffle indices vector:
 
-   /* auto rng = default_random_engine {};
-    shuffle(begin(indices), end(indices), rng); */
+    //auto rng = default_random_engine {};
+    //shuffle(begin(indices), end(indices), rng);
 
     for (int index: indices) // index is the current ELEMENT in indices, and acts as an INDEX for the future_positions vector.
     {
@@ -1969,7 +1969,7 @@ unique_ptr<position> position::think_on_game_position(const vector <vector<char>
                                     const vector<treasure_spot>& squares_amplifying_user_2P, const vector<treasure_spot>& squares_amplifying_user_3P,
                                     bool starting_new_game, coordinate& best_move, bool generate_best_move)
 {
-    const int max_depth_limit = UNDEFINED;
+    const int max_depth_limit = 9;
     // If this engine is doing a time_limited think, set the value of
     // this variable to UNDEFINED.
 

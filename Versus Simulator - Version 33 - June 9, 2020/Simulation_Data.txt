@@ -2,41 +2,20 @@
 
 
 
-Results of the match between Version 45 and Version 49:
+Results of the match between Version 44 and Version 45:
 
-Version 45 won 253 games.
-Version 49 won 253 games.
-There were 94 draws.
-There were 0 trials where Version 45 scored 2-0 or 1.5-0.5
-There were 0 trials where Version 49 scored 2-0 or 1.5-0.5
-There were 300 trials where the score was equal (1-1)
-Version 45 spent 2925.73 seconds thinking overall, and spent 0.284937 seconds per instance, on average.
-Version 45 had 10268 such instances.
-Version 49 spent 2914.61 seconds thinking overall, and spent 0.283853 seconds per instance, on average.
-Version 49 had 10268 such instances.
-The average number of moves played (by both sides) in games where Version 45 won was 33.6838
-The average number of moves played (by both sides) in games where Version 49 won was 33.6838
-The average number of moves played (by both sides) in games drawn was 37.1489
-The max amount of time Version 45 spent in ONE call to find_best_move() was 0.325125 seconds.
-The max amount of time Version 49 spent in ONE call to find_best_move() was 0.326123 seconds.
-
-
-
-
-Results of the match between Version 43 and Version 44:
-
-Version 43 won 269 games.
-Version 44 won 265 games.
-There were 66 draws.
-There were 3 trials where Version 43 scored 2-0 or 1.5-0.5
+Version 44 won 427 games.
+Version 45 won 427 games.
+There were 146 draws.
 There were 0 trials where Version 44 scored 2-0 or 1.5-0.5
-There were 297 trials where the score was equal (1-1)
-Version 43 spent 6751.89 seconds thinking overall, and spent 0.671763 seconds per instance, on average.
-Version 43 had 10051 such instances.
-Version 44 spent 6763.43 seconds thinking overall, and spent 0.672845 seconds per instance, on average.
-Version 44 had 10052 such instances.
-The average number of moves played (by both sides) in games where Version 43 won was 32.9405
-The average number of moves played (by both sides) in games where Version 44 won was 32.9774
-The average number of moves played (by both sides) in games drawn was 37.9242
-The max amount of time Version 43 spent in ONE call to find_best_move() was 0.363031 seconds.
-The max amount of time Version 44 spent in ONE call to find_best_move() was 0.362033 seconds.
+There were 0 trials where Version 45 scored 2-0 or 1.5-0.5
+There were 500 trials where the score was equal (1-1)
+Version 44 spent 555.225 seconds thinking overall, and spent 0.0328788 seconds per instance, on average.
+Version 44 had 16887 such instances.
+Version 45 spent 528.585 seconds thinking overall, and spent 0.0313013 seconds per instance, on average.
+Version 45 had 16887 such instances.
+The average number of moves played (by both sides) in games where Version 44 won was 33.1639
+The average number of moves played (by both sides) in games where Version 45 won was 33.1639
+The average number of moves played (by both sides) in games drawn was 37.3425
+The max amount of time Version 44 spent in ONE call to find_best_move() was 0.0128826 seconds.
+The max amount of time Version 45 spent in ONE call to find_best_move() was 0.0126034 seconds.
