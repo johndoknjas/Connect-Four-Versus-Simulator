@@ -36,6 +36,17 @@ struct position_info_for_TT // The key info of a position that will be stored in
     bool is_comp_turn; // stores true if it's the computer's turn in the position.
 };
 
+struct position_info_for_TT_v2 // "v1" of this struct had the board as a 2D vector.
+{
+    string board;
+    int evaluation;
+    int calculation_depth_from_this_position; // stores how far ahead the computer calculated for getting the position's evaluation.
+    vector<coordinate> possible_moves_sorted; // stores the position's possible moves, sorted from probable best to probable worst.
+    bool is_evaluation_indisputable; // stores true if there this position's evaluation will not change by calculating deeper...
+                                     // someone has a forced win/forced draw. Someone could have just won/drawn in this position too.
+    bool is_comp_turn; // stores true if it's the computer's turn in the position.
+};
+
 struct coordinate_and_value // Object for storing amplifying squares along with their respective values.
 {
     coordinate square; // stores the coordinates of the amplifying square.
