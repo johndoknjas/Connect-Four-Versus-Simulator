@@ -26,4 +26,4 @@ Repeat step 4 for the new source code of position.h with your changes. Use "Engi
   
     5e) Enter -1 for the line asking for engines in a second match.
  
-6) At this point the engine will finish after a number of hours. The results will be available in Simulation_Data.txt.
+6) At this point the engine should finish in under an hour, and the results will be available in Simulation_Data.txt.
