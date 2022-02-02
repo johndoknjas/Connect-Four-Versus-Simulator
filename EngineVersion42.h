@@ -14,7 +14,6 @@
 #include <cmath>
 #include "CommonNonClassData.h" // structs and functions not part of position class, but used by the class.
 #include "tool.h"
-#include "sqlite3.h"
 #include "database_communicator.h"
 
 using namespace std;
