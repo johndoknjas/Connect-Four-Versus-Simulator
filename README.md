@@ -8,9 +8,9 @@ Steps for using the Versus Simulator to test a proposed new version of the engin
 
 4) In EngineVersion44.h, select everything from "class position : public tool" to the very end, excluding the ending bracket for the namespace, and delete it. Replace it with the class in the old position.h of the engine you were working on.
 
-    4a) Comment out the line with random_shuffle (or the two lines with auto rng... and shuffle, for version 52 and earlier).
-  
-    4b) Go to the implementation of the "think_on_game_position" function (pick the one with more parameters). Set max_depth_limit to 9             instead of UNDEFINED. This will ensure the engine thinks according to a deterministic depth_limit, instead of a time limit.
+    4a) Comment out the three lines involving shuffle (or the two lines with auto rng... and shuffle, for version 52 and earlier).
+
+    4b) Go to the implementation of the "think_on_game_position" function (pick the one with more parameters). Set max_depth_limit to 9 instead of UNDEFINED. This will ensure the engine thinks according to a deterministic depth_limit, instead of a time limit.
 
 Repeat step 4 for the new source code of position.h with your changes. Use "EngineVersion45.h".
 

@@ -280,17 +280,24 @@ vector<vector<coordinate>> record_all_sets_of_possible_starting_moves(int max_nu
         moves.push_back(temp);
     }
 
+    random_device rd;
+    mt19937 g(rd());
+
     for (int i = 1; i <= 1000000; i++)
     {
         vector<coordinate> copy_moves = moves;
 
         vector<coordinate> current_set; // Will be added to raw_sets.
 
-        int num_pieces = rand() % max_num_moves_to_make + 1;
+        uniform_int_distribution<int> uid_max_num_moves(1, max_num_moves_to_make);
+
+        int num_pieces = uid_max_num_moves(g);
 
         for (int x = 1; x <= num_pieces; x++)
         {
-            int rand_index = rand() % copy_moves.size();
+            uniform_int_distribution<int> uid_copy_moves_size(1, copy_moves.size());
+
+            int rand_index = uid_copy_moves_size(g) - 1;
 
             current_set.push_back(copy_moves[rand_index]);
 
@@ -312,7 +319,7 @@ vector<vector<coordinate>> record_all_sets_of_possible_starting_moves(int max_nu
 
     remove_duplicate_sets(raw_sets);
 
-    random_shuffle(raw_sets.begin(), raw_sets.end());
+    shuffle(raw_sets.begin(), raw_sets.end(), g);
 
     vector<vector<coordinate>> return_vec;
 
@@ -347,7 +354,9 @@ void make_it_fair_for_smaller_sets(vector<vector<coordinate>>& sets, int largest
 
     for (vector<vector<coordinate>>& current_group: sets_separated_by_their_sizes)
     {
-        random_shuffle(current_group.begin(), current_group.end());
+        random_device rd;
+        mt19937 g(rd());
+        shuffle(current_group.begin(), current_group.end(), g);
     }
 
     vector<vector<coordinate>> replacement; // sets parameter will be set equal to it.
@@ -1284,7 +1293,7 @@ int main()
 {
     // Ready to use tool pointers, with all methods in position classes ready for accessing static methods too!
 
-    srand(time(NULL));
+    srand(time(NULL)); // Should do nothing now, since rand() isn't used in the program anymore.
 
     ofstream fout("Simulation_Data.txt");
 
