@@ -351,11 +351,10 @@ void make_it_fair_for_smaller_sets(vector<vector<coordinate>>& sets, int largest
     }
 
     // Randomize the order of each group of sets in sets_separated_by_their_sizes:
-
+    random_device rd;
+    mt19937 g(rd());
     for (vector<vector<coordinate>>& current_group: sets_separated_by_their_sizes)
     {
-        random_device rd;
-        mt19937 g(rd());
         shuffle(current_group.begin(), current_group.end(), g);
     }
 
