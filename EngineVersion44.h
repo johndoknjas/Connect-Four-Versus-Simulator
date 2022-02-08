@@ -1,4 +1,4 @@
-// Commit right before V.53
+// V.53 depth 9 with d3 idea
 
 #pragma once
 #include <vector>
@@ -116,9 +116,10 @@ public:
     void remove_duplicates(vector<coordinate>& vec); // Removes duplicate elements from the vector.
 
     void initialize_row_barriers(int& lowest_comp_square_D, int& lowest_good_comp_square_D,
-                                 int& lowest_user_square_D, int& lowest_good_user_square_D);
-                                    // Initializes row_barriers (private member vector) with 7 elements.
-                                    // 1st element is row index of highest row (visually) allowed in column 0.
+                                 int& lowest_user_square_D, int& lowest_good_user_square_D,
+                                 vector<int>& row_barriers);
+                                    // ith element of row_barriers will store the
+                                    // row index of highest row (visually) allowed in column i.
                                     // Also stores any squares in the 4 bool params as appropriate.
 
     void find_winning_squares(vector<coordinate>& vec, const shared_ptr<vector<treasure_spot>> squares_amplifying_3,
@@ -271,13 +272,6 @@ private:
     shared_ptr<vector<treasure_spot>> squares_amplifying_user_2; // squares that, if filled, turn the user's 2-in-a-row into a 3-in-a-row.
     shared_ptr<vector<treasure_spot>> squares_amplifying_user_3; // squares that, if filled, turn the user's 3-in-a-row into a 4-in-a-row.
 
-    vector<int> row_barriers; // stores the highest (visually) rows allowed for play in each column of the board,
-                              // due to a square allowing both comp AND user to win (this is "finished column" algorithm).
-                              // row_barriers[0] stores highest row (visually) allowed for play in column 0.
-                              // row_barriers[6] stores highest row (visually) allowed for play in column 6.
-                              // NOTE: This member is only initialized in smart_evaluation(), aka when depth limit is reached,
-                              // since it has no use before then.
-
     int hash_value_of_position;
 
     bool is_a_pruned_branch; // Initialized to false - stores true if this node (and all its children) gets pruned via alpha-beta pruning.
@@ -313,7 +307,9 @@ private:
     void smart_evaluation(); // evaluates the position at depth_limit, if no one has won. Gives the evaluation attribute a value.
     void find_individual_player_evaluation(const shared_ptr<vector<treasure_spot>> squares_amplifying_3,
                                            const shared_ptr<vector<treasure_spot>> squares_amplifying_2, char piece,
-                                           vector<vector<bool>>& board_of_squares_winning_for_player, vector<coordinate_and_double>& recorder) const;
+                                           vector<vector<bool>>& board_of_squares_winning_for_player, 
+                                           vector<coordinate_and_double>& recorder,
+                                           const vector<int>& row_barriers) const;
                                            // Goes through the amplifying vectors, and evaluates each unique square.
                                            // The coordinates and value for each unique amplifying square are stored in recorder,
                                            // which is passed by reference.
@@ -1259,7 +1255,8 @@ void position::remove_duplicates(vector<coordinate>& vec)
 }
 
 void position::initialize_row_barriers(int& lowest_comp_square_D, int& lowest_good_comp_square_D,
-                                       int& lowest_user_square_D, int& lowest_good_user_square_D)
+                                       int& lowest_user_square_D, int& lowest_good_user_square_D,
+                                       vector<int>& row_barriers)
 {
     // Find all squares that give both comp AND user a 4-in-a-row. Could be in 2-in-a-row vectors too.
 
@@ -1285,12 +1282,7 @@ void position::initialize_row_barriers(int& lowest_comp_square_D, int& lowest_go
     }
 
     // Now, get the lowest barricade_squares (visually) for each column in barricade_squares vector,
-    // extract their row index, and store these indices in the row_barriers private member (the whole point of this function).
-
-    for (int i = 0; i <= max_col_index; i++) // since row_barries isn't even initialized yet. Give it 7 UNDEFINED ints.
-    {
-        row_barriers.push_back(UNDEFINED);
-    }
+    // extract their row index, and store these indices in the row_barriers private member (the main point of this function).
 
     for (const coordinate& temp: barricade_squares)
     {
@@ -1375,6 +1367,7 @@ bool position::can_create_threat_with_D(char piece, int highest_row) const
     char opponent_piece = piece == 'U' ? 'C' : 'U';
 
 /*    int row = 0;
+
     if (row_barriers[3] != UNDEFINED)
     {
         row = row_barriers[3] + 1;
@@ -2969,10 +2962,16 @@ double position::find_revised_player_evaluation(const vector<coordinate_and_doub
     {
         if ((current.square.row % 2 != 0) == did_player_move_first_in_the_game)
         {
-            // I used to only increase the square's value if it was a winning square.
-            // But now in V.35, I'm doing it for squares amplifiying a 2-in-a-row too.
+            // Increase a square's value if its odd and the player favours odd squares (or if its
+            // even and the player favours evens).
 
             current.value *= 1.75;
+
+            if (current.square.row == 3 && current.square.col == 3 
+                && squares_winning_for_player[3][3] && !squares_winning_for_opponent[4][3]) {
+                current.value *= 1.3;
+                // D3 tends to be a very powerful square that is sometimes underestimated by the engine.
+            }
         }
 
         if (current.square.row + 1 <= max_row_index && squares_winning_for_opponent[current.square.row + 1][current.square.col])
@@ -2998,12 +2997,15 @@ void position::smart_evaluation()
     int lowest_user_square_D = UNDEFINED;
     int lowest_good_user_square_D = UNDEFINED;
 
+    vector<int> row_barriers(7, UNDEFINED);
+
     initialize_row_barriers(lowest_comp_square_D, lowest_good_comp_square_D,
-                            lowest_user_square_D, lowest_good_user_square_D);
+                            lowest_user_square_D, lowest_good_user_square_D,
+                            row_barriers);
                                // implements finished column algorithm, by finding the squares in each
                                // column that is as far as play can possibly go (due to a square allowing comp AND user to win).
-                               // These squares will be stored in the private member, "row_barriers", and
-                               // row_barriers has 7 elements. row_barriers[0] is the row value of the
+                               // These squares will be stored in row_barriers, which has
+                               // 7 elements. row_barriers[0] is the row value of the
                                // highest square allowed for play in column 0,.... row_barriers[6] is the row value of the
                                // highest square allowed for play in column 6.
 
@@ -3045,9 +3047,11 @@ void position::smart_evaluation()
     // respective value (determined in find_individual_player_evaluation()).
 
     find_individual_player_evaluation(squares_amplifying_comp_3, squares_amplifying_comp_2, 'C',
-                                      board_of_squares_winning_for_comp, info_for_comp_valid_amplifying_squares);
+                                      board_of_squares_winning_for_comp, info_for_comp_valid_amplifying_squares,
+                                      row_barriers);
     find_individual_player_evaluation(squares_amplifying_user_3, squares_amplifying_user_2, 'U',
-                                      board_of_squares_winning_for_user, info_for_user_valid_amplifying_squares);
+                                      board_of_squares_winning_for_user, info_for_user_valid_amplifying_squares,
+                                      row_barriers);
 
     evaluation = round(find_revised_player_evaluation(info_for_comp_valid_amplifying_squares,
                                                       board_of_squares_winning_for_comp, board_of_squares_winning_for_user, true) -
@@ -3065,12 +3069,13 @@ void position::smart_evaluation()
 void position::find_individual_player_evaluation(const shared_ptr<vector<treasure_spot>> squares_amplifying_3,
                                                  const shared_ptr<vector<treasure_spot>> squares_amplifying_2, char piece,
                                                  vector<vector<bool>>& board_of_squares_winning_for_player,
-                                                 vector<coordinate_and_double>& recorder) const
+                                                 vector<coordinate_and_double>& recorder, 
+                                                 const vector<int>& row_barriers) const
 {
     // board_of_squares_winning_for_player should be worked on, storing true for the squares creating a 4-in-a-row.
     // recorder is used to store the coordinates and derived values of all unique amplifying squares (both for 2-in-a-row and 3-in-a-row).
 
-    // Use row_barriers private member vector when seeing if an amplifying square should be counted.
+    // Use row_barriers when seeing if an amplifying square should be counted.
 
     const double big_amount = 10.0; // how many points to add if there is an amplifying square completes a 3-in-a-row.
     const double small_amount = 3.0; // NOTE: if you change this to a double, recorder (and its parent in prev. function) should store coordinate and DOUBLE.
