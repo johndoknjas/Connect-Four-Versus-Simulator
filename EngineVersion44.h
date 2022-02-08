@@ -1,4 +1,4 @@
-// V.52 with depth limit = 9
+// Commit right before V.53
 
 #pragma once
 #include <vector>
@@ -72,7 +72,6 @@ public:
     void set_evaluation (int evalP);
     void set_is_comp_turn (bool turnP);
     void set_depth(int depthP);
-    void randomize_order_of_possible_moves(); // randomizes the order of elements in the possible_moves vector.
     void clean_up_amplifying_vectors(); // removes all elements in the 4 amplifying vectors that are no longer ' ' chars.
     void rearrange_possible_moves(const vector<coordinate>& front_moves); // puts the moves in front_moves at the front of
                                                                           // the possible_moves vector of the calling object.
@@ -421,8 +420,6 @@ position::position(bool is_comp_turnP)
         temp.row = max_row_index;
         possible_moves.push_back(temp);
     }
-    //   randomize_order_of_possible_moves(); No longer using randomness here.
-    // Besides, in most cases possible_moves will just be set to a possible moves vector from an earlier duplicate in the TT.
 
     alpha = UNDEFINED;
 
@@ -493,7 +490,6 @@ position::position(const string& boardP, bool is_comp_turnP, coordinate last_mov
             }
         }
     }
- //   randomize_order_of_possible_moves();
 
     alpha = UNDEFINED; // just some random value to signify that there is no alpha value yet.
 
@@ -598,7 +594,6 @@ position::position(shared_ptr<string> boardP, bool is_comp_turnP,
     {
         possible_moves.erase(possible_moves.begin() + possible_moves_index);
     }
- //   randomize_order_of_possible_moves();
 
     alpha = alphaP;
     beta = betaP;
@@ -808,10 +803,9 @@ coordinate position::find_best_move_for_comp()
         indices.push_back(i);
     }
 
-    // Shuffle indices vector:
-
-    //auto rng = default_random_engine {};
-    //shuffle(begin(indices), end(indices), rng);
+    /*random_device rd;
+    mt19937 g(rd());
+    shuffle(indices.begin(), indices.end(), g); */
 
     for (int index: indices) // index is the current ELEMENT in indices, and acts as an INDEX for the future_positions vector.
     {
@@ -956,22 +950,6 @@ void position::set_is_comp_turn (bool turnP)
 void position::set_depth(int depthP)
 {
     depth = depthP;
-}
-
-void position::randomize_order_of_possible_moves()
-{
-    // I want to run through the first FOUR elements and swap them with a random element in the vector.
-
-    for (int i = 0; i < possible_moves.size() && i < 4; i++)
-    {
-        int random_index = rand() % possible_moves.size();
-
-        coordinate temp = possible_moves[random_index];
-
-        possible_moves[random_index] = possible_moves[i];
-
-        possible_moves[i] = temp;
-    }
 }
 
 void position::clean_up_amplifying_vectors()
@@ -1397,7 +1375,6 @@ bool position::can_create_threat_with_D(char piece, int highest_row) const
     char opponent_piece = piece == 'U' ? 'C' : 'U';
 
 /*    int row = 0;
-
     if (row_barriers[3] != UNDEFINED)
     {
         row = row_barriers[3] + 1;

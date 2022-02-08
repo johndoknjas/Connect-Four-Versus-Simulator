@@ -1,0 +1,21 @@
+
+
+
+
+Results of the match between Version 44 and Version 45:
+
+Version 44 won 441 games.
+Version 45 won 441 games.
+There were 118 draws.
+There were 0 trials where Version 44 scored 2-0 or 1.5-0.5
+There were 0 trials where Version 45 scored 2-0 or 1.5-0.5
+There were 500 trials where the score was equal (1-1)
+Version 44 spent 446.097 seconds thinking overall, and spent 0.0265565 seconds per instance, on average.
+Version 44 had 16798 such instances.
+Version 45 spent 431.062 seconds thinking overall, and spent 0.0256615 seconds per instance, on average.
+Version 45 had 16798 such instances.
+The average number of moves played (by both sides) in games where Version 44 won was 33.1066
+The average number of moves played (by both sides) in games where Version 45 won was 33.1066
+The average number of moves played (by both sides) in games drawn was 37.2542
+The max amount of time Version 44 spent in ONE call to find_best_move() was 0.0061035 seconds.
+The max amount of time Version 45 spent in ONE call to find_best_move() was 0.0058601 seconds.
