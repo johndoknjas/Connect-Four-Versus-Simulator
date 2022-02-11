@@ -1,4 +1,4 @@
-// V.54 depth 9
+// V.56 depth 9
 
 #pragma once
 #include <vector>
@@ -397,7 +397,7 @@ position::position(bool is_comp_turnP)
 
     depth = 0;
 
-    calculation_depth_from_this_position = depth_limit - depth;
+    calculation_depth_from_this_position = depth_limit >= depth ? depth_limit - depth : 0;
 
     number_of_pieces = 0;
 
@@ -450,7 +450,7 @@ position::position(const string& boardP, bool is_comp_turnP, coordinate last_mov
 
     depth = 0;
 
-    calculation_depth_from_this_position = depth_limit - depth;
+    calculation_depth_from_this_position = depth_limit >= depth ? depth_limit - depth : 0;
 
     number_of_pieces = 42 - count((*board).begin(), (*board).end(), ' ');
 
@@ -579,7 +579,7 @@ position::position(shared_ptr<string> boardP, bool is_comp_turnP,
     is_comp_turn = is_comp_turnP;
 
     depth = depthP;
-    calculation_depth_from_this_position = depth_limit - depth;
+    calculation_depth_from_this_position = depth_limit >= depth ? depth_limit - depth : 0;
     number_of_pieces = number_of_piecesP;
     last_move = last_moveP;
 
@@ -801,9 +801,9 @@ coordinate position::find_best_move_for_comp()
         indices.push_back(i);
     }
 
-    /*random_device rd;
-    mt19937 g(rd());
-    shuffle(indices.begin(), indices.end(), g); */
+    //random_device rd;
+    //mt19937 g(rd());
+    //shuffle(indices.begin(), indices.end(), g);
 
     for (int index: indices) // index is the current ELEMENT in indices, and acts as an INDEX for the future_positions vector.
     {
@@ -987,65 +987,44 @@ void position::add_position_to_transposition_table(bool is_evaluation_indisputab
         return;
     }
 
-    position_info_for_TT_v2 temp;
-    temp.board = *board;
-    temp.evaluation = evaluation;
-    temp.calculation_depth_from_this_position = calculation_depth_from_this_position;
-    temp.is_evaluation_indisputable = is_evaluation_indisputable;
-    temp.is_comp_turn = is_comp_turn;
+   vector<coordinate> possible_moves_sorted;
 
     // If the evaluation is indisputable, no position that uses this position in the TT needs to look at its possible moves.
     // That position should automatically just accept this position's evaluation, "no questions asked".
-
     // If the evaluation isn't indisputable, then any position that uses this position in the TT should get access to
     // possible moves ordered, allowing that position to efficiently conduct its own deeper search.
 
-    if (!is_evaluation_indisputable)
-    {
+    if (!is_evaluation_indisputable) {
         sort(future_positions.begin(), future_positions.end(), compare_future_positions_by_evaluation);
-
-        for (const unique_ptr<position>& pos: future_positions)
-        {
-            temp.possible_moves_sorted.push_back(pos->get_last_move());
+        for (const unique_ptr<position>& pos: future_positions) {
+            possible_moves_sorted.push_back(pos->get_last_move());
         }
     }
-
     // else, temp's possible_moves_sorted vector is simply left empty.
 
     // Now to run through the appropriate index in the TT, and replace an earlier duplicate position of temp, if one exists.
-
-    bool does_a_duplicate_exist = false;
-
-    for (position_info_for_TT_v2& current: transposition_table[hash_value_of_position]) // by reference is deliberate.
-    {
-        if (current.board == temp.board && current.is_comp_turn == temp.is_comp_turn)
-        {
-            does_a_duplicate_exist = true;
-
-            if (temp.calculation_depth_from_this_position > current.calculation_depth_from_this_position)
-            {
-                current = temp;
+    for (position_info_for_TT_v2& current: transposition_table[hash_value_of_position]) {
+        if (current.board == *board && current.is_comp_turn == is_comp_turn) {
+            if (calculation_depth_from_this_position > current.calculation_depth_from_this_position) {
+                current.evaluation = evaluation;
+                current.calculation_depth_from_this_position = calculation_depth_from_this_position;
+                current.possible_moves_sorted = possible_moves_sorted;
+                current.is_evaluation_indisputable = is_evaluation_indisputable;
             }
-
-            break;
+            return;
         }
     }
 
-    if (!does_a_duplicate_exist)
-    {
-        // Since if a duplicate did exist, it would have either been replaced by temp, or temp would have had a lower calculation_depth
-        // and wouldn't be "worthy" enough to replace it. Either way, temp should not be push_backed in that scenario.
-
-        // On the other hand, if a duplicate doesn't exist, obviously temp should obviously be added to the TT.
-
-        transposition_table[hash_value_of_position].push_back(temp);
-
-        if (transposition_table[hash_value_of_position].size() == 1)
-        {
-            // So temp is the only element in the vector. Therefore, it was the first element to have been put there:
-
-            indices_of_elements_in_TT.push_back(hash_value_of_position);
-        }
+    // If a duplicate existed, it either would have been replaced above, or it wouldn't have been "worthy"
+    // enough to replace (due to having a lower calculation_depth). In either case, control wouldn't reach
+    // here since the function would have returned.
+    // So if control did reach here, this means a duplicate did not exist. So now just push_back temp
+    // into the bucket.
+    transposition_table[hash_value_of_position].push_back({*board, evaluation,
+        calculation_depth_from_this_position, possible_moves_sorted, is_evaluation_indisputable,
+        is_comp_turn});
+    if (transposition_table[hash_value_of_position].size() == 1) {
+        indices_of_elements_in_TT.push_back(hash_value_of_position); // For cleaning up the TT down the road.
     }
 }
 

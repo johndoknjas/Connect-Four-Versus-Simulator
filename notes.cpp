@@ -6,9 +6,9 @@ To do:
   - For the first trial, pick the first 1 ply position retrieved from the DB. If both engines agree, they
     play this position for the first trial. If they don't like the position though, then go to the first
     2 ply position in the DB, and see if they like it. Etc.
-  - Purpose of this is to minimize the chance of bugs. And also, using the DB gives a bigger set of
-    playable positions that the engines would agree on, as opposed to looping 1 million times and creating
-    sets of random legal moves (which is currently done in the versus sim).
+  - Purpose of this is to minimize the chance of bugs. And also, using the DB gives immediate access
+    to all the positions between -10 and 10 (from the engine at the time of making the DB), as opposed to
+    just 1 million random positions (which is what the versus sim is currently doing right now).
 
 
 
