@@ -1,4 +1,4 @@
-// V.53 with depth = 9
+// V.55 with depth = 9
 
 #pragma once
 #include <vector>
@@ -12,6 +12,8 @@
 #include <random>
 #include <climits>
 #include <cmath>
+#include <iostream>
+#include <string>
 #include "CommonNonClassData.h" // structs and functions not part of position class, but used by the class.
 #include "tool.h"
 #include "database_communicator.h"
@@ -395,7 +397,7 @@ position::position(bool is_comp_turnP)
 
     depth = 0;
 
-    calculation_depth_from_this_position = depth_limit - depth;
+    calculation_depth_from_this_position = depth_limit >= depth ? depth_limit - depth : 0;
 
     number_of_pieces = 0;
 
@@ -448,7 +450,7 @@ position::position(const string& boardP, bool is_comp_turnP, coordinate last_mov
 
     depth = 0;
 
-    calculation_depth_from_this_position = depth_limit - depth;
+    calculation_depth_from_this_position = depth_limit >= depth ? depth_limit - depth : 0;
 
     number_of_pieces = 42 - count((*board).begin(), (*board).end(), ' ');
 
@@ -577,7 +579,7 @@ position::position(shared_ptr<string> boardP, bool is_comp_turnP,
     is_comp_turn = is_comp_turnP;
 
     depth = depthP;
-    calculation_depth_from_this_position = depth_limit - depth;
+    calculation_depth_from_this_position = depth_limit >= depth ? depth_limit - depth : 0;
     number_of_pieces = number_of_piecesP;
     last_move = last_moveP;
 
@@ -799,7 +801,7 @@ coordinate position::find_best_move_for_comp()
         indices.push_back(i);
     }
 
-    /*random_device rd;
+    /* random_device rd;
     mt19937 g(rd());
     shuffle(indices.begin(), indices.end(), g); */
 
@@ -2962,10 +2964,16 @@ double position::find_revised_player_evaluation(const vector<coordinate_and_doub
     {
         if ((current.square.row % 2 != 0) == did_player_move_first_in_the_game)
         {
-            // I used to only increase the square's value if it was a winning square.
-            // But now in V.35, I'm doing it for squares amplifiying a 2-in-a-row too.
+            // Increase a square's value if its odd and the player favours odd squares (or if its
+            // even and the player favours evens).
 
             current.value *= 1.75;
+
+            if (current.square.row == 3 && current.square.col == 3 
+                && squares_winning_for_player[3][3] && !squares_winning_for_opponent[4][3]) {
+                current.value *= 1.3;
+                // D3 tends to be a very powerful square that is sometimes underestimated by the engine.
+            }
         }
 
         if (current.square.row + 1 <= max_row_index && squares_winning_for_opponent[current.square.row + 1][current.square.col])

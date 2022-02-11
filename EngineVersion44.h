@@ -12,6 +12,8 @@
 #include <random>
 #include <climits>
 #include <cmath>
+#include <iostream>
+#include <string>
 #include "CommonNonClassData.h" // structs and functions not part of position class, but used by the class.
 #include "tool.h"
 #include "database_communicator.h"

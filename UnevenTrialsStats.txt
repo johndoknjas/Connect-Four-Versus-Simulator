@@ -1,1104 +1,9 @@
-Version 44 scored 2 points in the trial.
-Version 45 scored 0 points in the trial.
+Version 44 scored 0 points in the trial.
+Version 45 scored 2 points in the trial.
 
-Average rate Version 44 thought in the actual trial: 0.0209192 seconds/move.
+Average rate Version 44 thought in the actual trial: 0.0143869 seconds/move.
 
-Average rate Version 45 thought in the actual trial: 0.019409 seconds/move.
-Starting board:
-
-
-    A   B   C   D   E   F   G
-
-6 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-5 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-4 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-3 |   |   |   |   |   |   | U | 
-  |---|---|---|---|---|---|---|
-2 |   | U |   |   | C |   | C | 
-  |---|---|---|---|---|---|---|
-1 |   | C | U |   | U |   | C | 
-  |---|---|---|---|---|---|---|
-
-
-Ending board #1:
-
-    A   B   C   D   E   F   G
-
-6 | U | C | U | U | U | U | U | 
-  |---|---|---|---|---|---|---|
-5 | C | C | U | U | C | C | C | 
-  |---|---|---|---|---|---|---|
-4 | U | U | U | C | U | U | U | 
-  |---|---|---|---|---|---|---|
-3 | C | C | C | U | C | C | U | 
-  |---|---|---|---|---|---|---|
-2 | U | U | C | C | C | U | C | 
-  |---|---|---|---|---|---|---|
-1 | C | C | U | C | U | C | C | 
-  |---|---|---|---|---|---|---|
-
-Ending board #2:
-
-    A   B   C   D   E   F   G
-
-6 | U | U | C | U | C |   | U | 
-  |---|---|---|---|---|---|---|
-5 | C | C | C | U | U |   | C | 
-  |---|---|---|---|---|---|---|
-4 | C | U | C | C | C |   | C | 
-  |---|---|---|---|---|---|---|
-3 | U | C | U | U | U | U | C | 
-  |---|---|---|---|---|---|---|
-2 | U | C | U | C | U | C | U | 
-  |---|---|---|---|---|---|---|
-1 | C | U | C | U | C | U | U | 
-  |---|---|---|---|---|---|---|
-
-
-
-After running 0 checking trials:
-Version 44 won 0 games.
-Version 45 won 0 games.
-There were 0 draws.
-Version 44 thought at a rate of nan seconds/move in these checking trials.
-Version 45 thought at a rate of nan seconds/move in these checking trials.
-
-6 Ending boards from these checking trials:
-
-
-*-------------------------*
-
-Version 44 scored 2 points in the trial.
-Version 45 scored 0 points in the trial.
-
-Average rate Version 44 thought in the actual trial: 0.0443735 seconds/move.
-
-Average rate Version 45 thought in the actual trial: 0.0454118 seconds/move.
-Starting board:
-
-
-    A   B   C   D   E   F   G
-
-6 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-5 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-4 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-3 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-2 |   |   |   |   | C |   |   | 
-  |---|---|---|---|---|---|---|
-1 |   | U |   |   | C |   |   | 
-  |---|---|---|---|---|---|---|
-
-
-Ending board #1:
-
-    A   B   C   D   E   F   G
-
-6 | U | C | U |   | C | U | C | 
-  |---|---|---|---|---|---|---|
-5 | U | U | C |   | C | C | U | 
-  |---|---|---|---|---|---|---|
-4 | C | U | U |   | C | U | U | 
-  |---|---|---|---|---|---|---|
-3 | U | C | C |   | U | C | C | 
-  |---|---|---|---|---|---|---|
-2 | C | U | U | U | C | U | C | 
-  |---|---|---|---|---|---|---|
-1 | C | U | U | C | C | U | C | 
-  |---|---|---|---|---|---|---|
-
-Ending board #2:
-
-    A   B   C   D   E   F   G
-
-6 |   | C | C |   | C | U |   | 
-  |---|---|---|---|---|---|---|
-5 |   | C | U |   | C | C |   | 
-  |---|---|---|---|---|---|---|
-4 |   | U | U |   | U | C |   | 
-  |---|---|---|---|---|---|---|
-3 | U | U | U | U | C | U | C | 
-  |---|---|---|---|---|---|---|
-2 | C | U | C | C | U | C | U | 
-  |---|---|---|---|---|---|---|
-1 | U | C | U | U | U | C | C | 
-  |---|---|---|---|---|---|---|
-
-
-
-After running 0 checking trials:
-Version 44 won 0 games.
-Version 45 won 0 games.
-There were 0 draws.
-Version 44 thought at a rate of nan seconds/move in these checking trials.
-Version 45 thought at a rate of nan seconds/move in these checking trials.
-
-6 Ending boards from these checking trials:
-
-
-*-------------------------*
-
-Version 44 scored 0.5 points in the trial.
-Version 45 scored 1.5 points in the trial.
-
-Average rate Version 44 thought in the actual trial: 0.0379226 seconds/move.
-
-Average rate Version 45 thought in the actual trial: 0.0416035 seconds/move.
-Starting board:
-
-
-    A   B   C   D   E   F   G
-
-6 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-5 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-4 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-3 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-2 |   |   |   |   | U | C |   | 
-  |---|---|---|---|---|---|---|
-1 | C |   | C | U | C | U | U | 
-  |---|---|---|---|---|---|---|
-
-
-Ending board #1:
-
-    A   B   C   D   E   F   G
-
-6 | U | C | C |   | U | U | U | 
-  |---|---|---|---|---|---|---|
-5 | C | U | C | U | U | C | C | 
-  |---|---|---|---|---|---|---|
-4 | U | C | U | C | C | C | U | 
-  |---|---|---|---|---|---|---|
-3 | C | U | C | C | U | U | C | 
-  |---|---|---|---|---|---|---|
-2 | U | C | U | U | C | U | C | 
-  |---|---|---|---|---|---|---|
-1 | U | U | U | C | U | C | C | 
-  |---|---|---|---|---|---|---|
-
-Ending board #2:
-
-    A   B   C   D   E   F   G
-
-6 | U | U | C | C | U | C | U | 
-  |---|---|---|---|---|---|---|
-5 | C | C | C | U | C | U | C | 
-  |---|---|---|---|---|---|---|
-4 | U | U | C | C | C | U | U | 
-  |---|---|---|---|---|---|---|
-3 | U | C | U | C | U | C | U | 
-  |---|---|---|---|---|---|---|
-2 | U | C | C | U | U | C | C | 
-  |---|---|---|---|---|---|---|
-1 | C | U | C | U | C | U | U | 
-  |---|---|---|---|---|---|---|
-
-
-
-After running 0 checking trials:
-Version 44 won 0 games.
-Version 45 won 0 games.
-There were 0 draws.
-Version 44 thought at a rate of nan seconds/move in these checking trials.
-Version 45 thought at a rate of nan seconds/move in these checking trials.
-
-6 Ending boards from these checking trials:
-
-
-*-------------------------*
-
-Version 44 scored 2 points in the trial.
-Version 45 scored 0 points in the trial.
-
-Average rate Version 44 thought in the actual trial: 0.0332155 seconds/move.
-
-Average rate Version 45 thought in the actual trial: 0.0357083 seconds/move.
-Starting board:
-
-
-    A   B   C   D   E   F   G
-
-6 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-5 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-4 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-3 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-2 |   |   |   |   |   | C | U | 
-  |---|---|---|---|---|---|---|
-1 | U | C |   |   | C | C | U | 
-  |---|---|---|---|---|---|---|
-
-
-Ending board #1:
-
-    A   B   C   D   E   F   G
-
-6 | U | C | U |   | C | U | C | 
-  |---|---|---|---|---|---|---|
-5 | C | U | C |   | U | C | U | 
-  |---|---|---|---|---|---|---|
-4 | U | U | U | U | U | C | U | 
-  |---|---|---|---|---|---|---|
-3 | C | C | U | C | C | U | C | 
-  |---|---|---|---|---|---|---|
-2 | C | U | C | U | C | C | U | 
-  |---|---|---|---|---|---|---|
-1 | U | C | U | C | C | C | U | 
-  |---|---|---|---|---|---|---|
-
-Ending board #2:
-
-    A   B   C   D   E   F   G
-
-6 | C | U |   | C | U | C | U | 
-  |---|---|---|---|---|---|---|
-5 | C | C | U | U | U | U | C | 
-  |---|---|---|---|---|---|---|
-4 | C | U | C | C | C | U | U | 
-  |---|---|---|---|---|---|---|
-3 | U | C | U | U | U | C | C | 
-  |---|---|---|---|---|---|---|
-2 | C | U | U | C | C | U | C | 
-  |---|---|---|---|---|---|---|
-1 | C | U | C | U | U | U | C | 
-  |---|---|---|---|---|---|---|
-
-
-
-After running 0 checking trials:
-Version 44 won 0 games.
-Version 45 won 0 games.
-There were 0 draws.
-Version 44 thought at a rate of inf seconds/move in these checking trials.
-Version 45 thought at a rate of nan seconds/move in these checking trials.
-
-6 Ending boards from these checking trials:
-
-
-*-------------------------*
-
-Version 44 scored 2 points in the trial.
-Version 45 scored 0 points in the trial.
-
-Average rate Version 44 thought in the actual trial: 0.0200318 seconds/move.
-
-Average rate Version 45 thought in the actual trial: 0.0212177 seconds/move.
-Starting board:
-
-
-    A   B   C   D   E   F   G
-
-6 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-5 |   |   |   |   |   | C |   | 
-  |---|---|---|---|---|---|---|
-4 |   |   |   |   |   | C |   | 
-  |---|---|---|---|---|---|---|
-3 |   |   |   |   |   | U |   | 
-  |---|---|---|---|---|---|---|
-2 |   |   |   |   |   | U |   | 
-  |---|---|---|---|---|---|---|
-1 |   |   | C |   |   | C | U | 
-  |---|---|---|---|---|---|---|
-
-
-Ending board #1:
-
-    A   B   C   D   E   F   G
-
-6 | U | C | C |   | U | C | U | 
-  |---|---|---|---|---|---|---|
-5 | U | C | C |   | U | C | U | 
-  |---|---|---|---|---|---|---|
-4 | U | U | U |   | U | C | C | 
-  |---|---|---|---|---|---|---|
-3 | C | C | U |   | C | U | U | 
-  |---|---|---|---|---|---|---|
-2 | U | C | C | U | C | U | C | 
-  |---|---|---|---|---|---|---|
-1 | C | U | C | C | U | C | U | 
-  |---|---|---|---|---|---|---|
-
-Ending board #2:
-
-    A   B   C   D   E   F   G
-
-6 | U | U | C |   | U | U | C | 
-  |---|---|---|---|---|---|---|
-5 | C | C | U |   | U | U | C | 
-  |---|---|---|---|---|---|---|
-4 | U | U | C |   | U | U | U | 
-  |---|---|---|---|---|---|---|
-3 | C | C | C | U | C | C | C | 
-  |---|---|---|---|---|---|---|
-2 | C | C | U | C | U | C | U | 
-  |---|---|---|---|---|---|---|
-1 | U | C | U | U | C | U | C | 
-  |---|---|---|---|---|---|---|
-
-
-
-After running 0 checking trials:
-Version 44 won 0 games.
-Version 45 won 0 games.
-There were 0 draws.
-Version 44 thought at a rate of inf seconds/move in these checking trials.
-Version 45 thought at a rate of inf seconds/move in these checking trials.
-
-6 Ending boards from these checking trials:
-
-
-*-------------------------*
-
-Version 44 scored 2 points in the trial.
-Version 45 scored 0 points in the trial.
-
-Average rate Version 44 thought in the actual trial: 0.0456905 seconds/move.
-
-Average rate Version 45 thought in the actual trial: 0.0468377 seconds/move.
-Starting board:
-
-
-    A   B   C   D   E   F   G
-
-6 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-5 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-4 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-3 |   |   | U |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-2 |   |   | C |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-1 |   | U | C |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-
-
-Ending board #1:
-
-    A   B   C   D   E   F   G
-
-6 | C | U | C |   | C | C | U | 
-  |---|---|---|---|---|---|---|
-5 | C | C | C |   | U | U | C | 
-  |---|---|---|---|---|---|---|
-4 | U | U | C |   | U | U | U | 
-  |---|---|---|---|---|---|---|
-3 | C | C | U |   | C | C | U | 
-  |---|---|---|---|---|---|---|
-2 | C | U | C | U | U | U | U | 
-  |---|---|---|---|---|---|---|
-1 | C | U | C | C | U | U | C | 
-  |---|---|---|---|---|---|---|
-
-Ending board #2:
-
-    A   B   C   D   E   F   G
-
-6 |   | U | C |   | C | C |   | 
-  |---|---|---|---|---|---|---|
-5 |   | C | C |   | U | C |   | 
-  |---|---|---|---|---|---|---|
-4 | U | C | U |   | U | U |   | 
-  |---|---|---|---|---|---|---|
-3 | C | U | C |   | U | U | U | 
-  |---|---|---|---|---|---|---|
-2 | U | C | U | C | C | U | C | 
-  |---|---|---|---|---|---|---|
-1 | C | C | U | U | U | C | U | 
-  |---|---|---|---|---|---|---|
-
-
-
-After running 0 checking trials:
-Version 44 won 0 games.
-Version 45 won 0 games.
-There were 0 draws.
-Version 44 thought at a rate of nan seconds/move in these checking trials.
-Version 45 thought at a rate of inf seconds/move in these checking trials.
-
-6 Ending boards from these checking trials:
-
-
-*-------------------------*
-
-Version 44 scored 0.5 points in the trial.
-Version 45 scored 1.5 points in the trial.
-
-Average rate Version 44 thought in the actual trial: 0.0296366 seconds/move.
-
-Average rate Version 45 thought in the actual trial: 0.0360731 seconds/move.
-Starting board:
-
-
-    A   B   C   D   E   F   G
-
-6 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-5 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-4 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-3 |   |   |   |   |   |   | U | 
-  |---|---|---|---|---|---|---|
-2 |   |   |   |   |   |   | C | 
-  |---|---|---|---|---|---|---|
-1 |   | C |   |   | C |   | U | 
-  |---|---|---|---|---|---|---|
-
-
-Ending board #1:
-
-    A   B   C   D   E   F   G
-
-6 | U |   | C | C | U | U | C | 
-  |---|---|---|---|---|---|---|
-5 | C |   | U | U | U | C | U | 
-  |---|---|---|---|---|---|---|
-4 | U |   | U | C | C | U | C | 
-  |---|---|---|---|---|---|---|
-3 | C | U | C | U | U | C | C | 
-  |---|---|---|---|---|---|---|
-2 | U | C | U | C | C | C | U | 
-  |---|---|---|---|---|---|---|
-1 | U | U | C | U | U | C | C | 
-  |---|---|---|---|---|---|---|
-
-Ending board #2:
-
-    A   B   C   D   E   F   G
-
-6 | U | U | U | C | U | U | U | 
-  |---|---|---|---|---|---|---|
-5 | C | C | U | U | C | C | C | 
-  |---|---|---|---|---|---|---|
-4 | U | C | C | C | U | U | U | 
-  |---|---|---|---|---|---|---|
-3 | C | C | U | U | C | C | U | 
-  |---|---|---|---|---|---|---|
-2 | C | U | C | C | U | U | C | 
-  |---|---|---|---|---|---|---|
-1 | U | C | U | C | C | C | U | 
-  |---|---|---|---|---|---|---|
-
-
-
-After running 0 checking trials:
-Version 44 won 0 games.
-Version 45 won 0 games.
-There were 0 draws.
-Version 44 thought at a rate of inf seconds/move in these checking trials.
-Version 45 thought at a rate of nan seconds/move in these checking trials.
-
-6 Ending boards from these checking trials:
-
-
-*-------------------------*
-
-Version 44 scored 1.5 points in the trial.
-Version 45 scored 0.5 points in the trial.
-
-Average rate Version 44 thought in the actual trial: 0.0288132 seconds/move.
-
-Average rate Version 45 thought in the actual trial: 0.0262228 seconds/move.
-Starting board:
-
-
-    A   B   C   D   E   F   G
-
-6 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-5 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-4 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-3 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-2 |   |   |   |   | U |   |   | 
-  |---|---|---|---|---|---|---|
-1 |   | C |   |   | C |   |   | 
-  |---|---|---|---|---|---|---|
-
-
-Ending board #1:
-
-    A   B   C   D   E   F   G
-
-6 | U | U | C | C | C | U | C | 
-  |---|---|---|---|---|---|---|
-5 | C | U | U | U | C | U | C | 
-  |---|---|---|---|---|---|---|
-4 | U | C | C | U | U | C | C | 
-  |---|---|---|---|---|---|---|
-3 | U | U | U | C | C | U | U | 
-  |---|---|---|---|---|---|---|
-2 | C | C | C | U | U | C | C | 
-  |---|---|---|---|---|---|---|
-1 | U | C | U | U | C | U | C | 
-  |---|---|---|---|---|---|---|
-
-Ending board #2:
-
-    A   B   C   D   E   F   G
-
-6 | U | C | U | U | U | U |   | 
-  |---|---|---|---|---|---|---|
-5 | C | U | C | C | U | C |   | 
-  |---|---|---|---|---|---|---|
-4 | C | C | C | U | U | U |   | 
-  |---|---|---|---|---|---|---|
-3 | C | U | U | C | C | C |   | 
-  |---|---|---|---|---|---|---|
-2 | U | C | C | U | U | U |   | 
-  |---|---|---|---|---|---|---|
-1 | C | C | U | C | C | U |   | 
-  |---|---|---|---|---|---|---|
-
-
-
-After running 0 checking trials:
-Version 44 won 0 games.
-Version 45 won 0 games.
-There were 0 draws.
-Version 44 thought at a rate of nan seconds/move in these checking trials.
-Version 45 thought at a rate of nan seconds/move in these checking trials.
-
-6 Ending boards from these checking trials:
-
-
-*-------------------------*
-
-Version 44 scored 2 points in the trial.
-Version 45 scored 0 points in the trial.
-
-Average rate Version 44 thought in the actual trial: 0.0435987 seconds/move.
-
-Average rate Version 45 thought in the actual trial: 0.0447362 seconds/move.
-Starting board:
-
-
-    A   B   C   D   E   F   G
-
-6 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-5 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-4 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-3 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-2 |   |   | C |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-1 |   | U | C |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-
-
-Ending board #1:
-
-    A   B   C   D   E   F   G
-
-6 |   | U | C |   | C | C |   | 
-  |---|---|---|---|---|---|---|
-5 |   | C | C |   | U | C |   | 
-  |---|---|---|---|---|---|---|
-4 | U | C | U |   | U | U |   | 
-  |---|---|---|---|---|---|---|
-3 | C | U | C |   | U | U | U | 
-  |---|---|---|---|---|---|---|
-2 | U | C | U | C | C | U | C | 
-  |---|---|---|---|---|---|---|
-1 | C | C | U | U | U | C | U | 
-  |---|---|---|---|---|---|---|
-
-Ending board #2:
-
-    A   B   C   D   E   F   G
-
-6 | C | U | C |   | C | C | U | 
-  |---|---|---|---|---|---|---|
-5 | C | C | C |   | U | U | C | 
-  |---|---|---|---|---|---|---|
-4 | U | U | C |   | U | U | U | 
-  |---|---|---|---|---|---|---|
-3 | C | C | U |   | C | C | U | 
-  |---|---|---|---|---|---|---|
-2 | C | U | C | U | U | U | U | 
-  |---|---|---|---|---|---|---|
-1 | C | U | C | C | U | U | C | 
-  |---|---|---|---|---|---|---|
-
-
-
-After running 0 checking trials:
-Version 44 won 0 games.
-Version 45 won 0 games.
-There were 0 draws.
-Version 44 thought at a rate of nan seconds/move in these checking trials.
-Version 45 thought at a rate of nan seconds/move in these checking trials.
-
-6 Ending boards from these checking trials:
-
-
-*-------------------------*
-
-Version 44 scored 1.5 points in the trial.
-Version 45 scored 0.5 points in the trial.
-
-Average rate Version 44 thought in the actual trial: 0.0535216 seconds/move.
-
-Average rate Version 45 thought in the actual trial: 0.0472709 seconds/move.
-Starting board:
-
-
-    A   B   C   D   E   F   G
-
-6 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-5 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-4 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-3 |   |   |   |   |   |   | C | 
-  |---|---|---|---|---|---|---|
-2 |   |   |   |   |   |   | C | 
-  |---|---|---|---|---|---|---|
-1 |   |   |   | C | U |   | U | 
-  |---|---|---|---|---|---|---|
-
-
-Ending board #1:
-
-    A   B   C   D   E   F   G
-
-6 | C | U | C | U | C | U | C | 
-  |---|---|---|---|---|---|---|
-5 | C | U | U | C | C | U | U | 
-  |---|---|---|---|---|---|---|
-4 | U | C | C | C | U | C | U | 
-  |---|---|---|---|---|---|---|
-3 | C | U | U | U | C | U | C | 
-  |---|---|---|---|---|---|---|
-2 | U | C | C | C | U | C | C | 
-  |---|---|---|---|---|---|---|
-1 | C | U | U | C | U | U | U | 
-  |---|---|---|---|---|---|---|
-
-Ending board #2:
-
-    A   B   C   D   E   F   G
-
-6 | U | U |   | C | C | C | U | 
-  |---|---|---|---|---|---|---|
-5 | C | C | U | U | U | U | C | 
-  |---|---|---|---|---|---|---|
-4 | U | U | C | C | C | U | C | 
-  |---|---|---|---|---|---|---|
-3 | C | C | U | U | U | C | U | 
-  |---|---|---|---|---|---|---|
-2 | U | U | C | C | C | U | U | 
-  |---|---|---|---|---|---|---|
-1 | U | C | C | U | C | U | C | 
-  |---|---|---|---|---|---|---|
-
-
-
-After running 0 checking trials:
-Version 44 won 0 games.
-Version 45 won 0 games.
-There were 0 draws.
-Version 44 thought at a rate of nan seconds/move in these checking trials.
-Version 45 thought at a rate of inf seconds/move in these checking trials.
-
-6 Ending boards from these checking trials:
-
-
-*-------------------------*
-
-Version 44 scored 1.5 points in the trial.
-Version 45 scored 0.5 points in the trial.
-
-Average rate Version 44 thought in the actual trial: 0.0222411 seconds/move.
-
-Average rate Version 45 thought in the actual trial: 0.0207027 seconds/move.
-Starting board:
-
-
-    A   B   C   D   E   F   G
-
-6 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-5 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-4 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-3 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-2 |   |   |   |   |   |   | C | 
-  |---|---|---|---|---|---|---|
-1 |   | C | U |   |   |   | U | 
-  |---|---|---|---|---|---|---|
-
-
-Ending board #1:
-
-    A   B   C   D   E   F   G
-
-6 | C | U | U | C | U | U | C | 
-  |---|---|---|---|---|---|---|
-5 | C | C | U | U | C | C | U | 
-  |---|---|---|---|---|---|---|
-4 | U | U | C | C | U | U | U | 
-  |---|---|---|---|---|---|---|
-3 | C | C | U | U | C | C | C | 
-  |---|---|---|---|---|---|---|
-2 | C | U | C | U | U | U | C | 
-  |---|---|---|---|---|---|---|
-1 | C | C | U | C | C | U | U | 
-  |---|---|---|---|---|---|---|
-
-Ending board #2:
-
-    A   B   C   D   E   F   G
-
-6 | U | U | U |   | C | C | U | 
-  |---|---|---|---|---|---|---|
-5 | C | C | C | U | U | U | C | 
-  |---|---|---|---|---|---|---|
-4 | U | C | U | C | C | C | U | 
-  |---|---|---|---|---|---|---|
-3 | C | U | C | C | U | U | C | 
-  |---|---|---|---|---|---|---|
-2 | U | C | U | U | C | C | U | 
-  |---|---|---|---|---|---|---|
-1 | U | U | C | C | U | U | C | 
-  |---|---|---|---|---|---|---|
-
-
-
-After running 0 checking trials:
-Version 44 won 0 games.
-Version 45 won 0 games.
-There were 0 draws.
-Version 44 thought at a rate of inf seconds/move in these checking trials.
-Version 45 thought at a rate of nan seconds/move in these checking trials.
-
-6 Ending boards from these checking trials:
-
-
-*-------------------------*
-
-Version 44 scored 1.5 points in the trial.
-Version 45 scored 0.5 points in the trial.
-
-Average rate Version 44 thought in the actual trial: 0.0390294 seconds/move.
-
-Average rate Version 45 thought in the actual trial: 0.0385779 seconds/move.
-Starting board:
-
-
-    A   B   C   D   E   F   G
-
-6 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-5 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-4 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-3 |   | C |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-2 |   | U |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-1 |   | C | U |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-
-
-Ending board #1:
-
-    A   B   C   D   E   F   G
-
-6 | U | C | U | C | U | C | U | 
-  |---|---|---|---|---|---|---|
-5 | C | C | U | U | C | C | C | 
-  |---|---|---|---|---|---|---|
-4 | U | U | C | C | U | U | U | 
-  |---|---|---|---|---|---|---|
-3 | C | C | U | U | C | C | C | 
-  |---|---|---|---|---|---|---|
-2 | U | U | C | C | U | U | U | 
-  |---|---|---|---|---|---|---|
-1 | U | C | U | C | C | U | C | 
-  |---|---|---|---|---|---|---|
-
-Ending board #2:
-
-    A   B   C   D   E   F   G
-
-6 | C | C | U |   | U | C | U | 
-  |---|---|---|---|---|---|---|
-5 | U | C | U |   | C | C | C | 
-  |---|---|---|---|---|---|---|
-4 | C | C | U |   | U | U | U | 
-  |---|---|---|---|---|---|---|
-3 | U | U | C | U | C | C | U | 
-  |---|---|---|---|---|---|---|
-2 | C | C | U | C | C | U | U | 
-  |---|---|---|---|---|---|---|
-1 | U | U | C | U | U | C | C | 
-  |---|---|---|---|---|---|---|
-
-
-
-After running 0 checking trials:
-Version 44 won 0 games.
-Version 45 won 0 games.
-There were 0 draws.
-Version 44 thought at a rate of nan seconds/move in these checking trials.
-Version 45 thought at a rate of nan seconds/move in these checking trials.
-
-6 Ending boards from these checking trials:
-
-
-*-------------------------*
-
-Version 44 scored 1.5 points in the trial.
-Version 45 scored 0.5 points in the trial.
-
-Average rate Version 44 thought in the actual trial: 0.0330915 seconds/move.
-
-Average rate Version 45 thought in the actual trial: 0.0303449 seconds/move.
-Starting board:
-
-
-    A   B   C   D   E   F   G
-
-6 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-5 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-4 |   |   | C |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-3 |   |   | U |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-2 |   |   | C |   | U |   |   | 
-  |---|---|---|---|---|---|---|
-1 |   | C | U |   | C | U |   | 
-  |---|---|---|---|---|---|---|
-
-
-Ending board #1:
-
-    A   B   C   D   E   F   G
-
-6 | U | U | C | C | C | U | C | 
-  |---|---|---|---|---|---|---|
-5 | C | U | U | U | C | U | C | 
-  |---|---|---|---|---|---|---|
-4 | U | C | C | U | U | C | C | 
-  |---|---|---|---|---|---|---|
-3 | U | U | U | C | C | U | U | 
-  |---|---|---|---|---|---|---|
-2 | C | C | C | U | U | C | C | 
-  |---|---|---|---|---|---|---|
-1 | U | C | U | U | C | U | C | 
-  |---|---|---|---|---|---|---|
-
-Ending board #2:
-
-    A   B   C   D   E   F   G
-
-6 | U | C | U | U | U | U |   | 
-  |---|---|---|---|---|---|---|
-5 | C | U | C | C | U | C |   | 
-  |---|---|---|---|---|---|---|
-4 | C | C | C | U | U | U |   | 
-  |---|---|---|---|---|---|---|
-3 | C | U | U | C | C | C |   | 
-  |---|---|---|---|---|---|---|
-2 | U | C | C | U | U | U |   | 
-  |---|---|---|---|---|---|---|
-1 | C | C | U | C | C | U |   | 
-  |---|---|---|---|---|---|---|
-
-
-
-After running 0 checking trials:
-Version 44 won 0 games.
-Version 45 won 0 games.
-There were 0 draws.
-Version 44 thought at a rate of inf seconds/move in these checking trials.
-Version 45 thought at a rate of nan seconds/move in these checking trials.
-
-6 Ending boards from these checking trials:
-
-
-*-------------------------*
-
-Version 44 scored 2 points in the trial.
-Version 45 scored 0 points in the trial.
-
-Average rate Version 44 thought in the actual trial: 0.0434965 seconds/move.
-
-Average rate Version 45 thought in the actual trial: 0.044492 seconds/move.
-Starting board:
-
-
-    A   B   C   D   E   F   G
-
-6 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-5 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-4 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-3 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-2 |   |   |   |   | C |   |   | 
-  |---|---|---|---|---|---|---|
-1 |   |   |   |   | C | U |   | 
-  |---|---|---|---|---|---|---|
-
-
-Ending board #1:
-
-    A   B   C   D   E   F   G
-
-6 |   | C | C |   | C | U |   | 
-  |---|---|---|---|---|---|---|
-5 |   | C | U |   | C | C |   | 
-  |---|---|---|---|---|---|---|
-4 |   | U | U |   | U | C |   | 
-  |---|---|---|---|---|---|---|
-3 | U | U | U | U | C | U | C | 
-  |---|---|---|---|---|---|---|
-2 | C | U | C | C | U | C | U | 
-  |---|---|---|---|---|---|---|
-1 | U | C | U | U | U | C | C | 
-  |---|---|---|---|---|---|---|
-
-Ending board #2:
-
-    A   B   C   D   E   F   G
-
-6 | U | C | U |   | C | U | C | 
-  |---|---|---|---|---|---|---|
-5 | U | U | C |   | C | C | U | 
-  |---|---|---|---|---|---|---|
-4 | C | U | U |   | C | U | U | 
-  |---|---|---|---|---|---|---|
-3 | U | C | C |   | U | C | C | 
-  |---|---|---|---|---|---|---|
-2 | C | U | U | U | C | U | C | 
-  |---|---|---|---|---|---|---|
-1 | C | U | U | C | C | U | C | 
-  |---|---|---|---|---|---|---|
-
-
-
-After running 0 checking trials:
-Version 44 won 0 games.
-Version 45 won 0 games.
-There were 0 draws.
-Version 44 thought at a rate of nan seconds/move in these checking trials.
-Version 45 thought at a rate of inf seconds/move in these checking trials.
-
-6 Ending boards from these checking trials:
-
-
-*-------------------------*
-
-Version 44 scored 2 points in the trial.
-Version 45 scored 0 points in the trial.
-
-Average rate Version 44 thought in the actual trial: 0.0438697 seconds/move.
-
-Average rate Version 45 thought in the actual trial: 0.0452197 seconds/move.
-Starting board:
-
-
-    A   B   C   D   E   F   G
-
-6 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-5 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-4 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-3 |   |   |   |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-2 |   |   | C |   |   |   |   | 
-  |---|---|---|---|---|---|---|
-1 |   |   | C |   |   | U |   | 
-  |---|---|---|---|---|---|---|
-
-
-Ending board #1:
-
-    A   B   C   D   E   F   G
-
-6 | C | U | C |   | C | C | U | 
-  |---|---|---|---|---|---|---|
-5 | C | C | C |   | U | U | C | 
-  |---|---|---|---|---|---|---|
-4 | U | U | C |   | U | U | U | 
-  |---|---|---|---|---|---|---|
-3 | C | C | U |   | C | C | U | 
-  |---|---|---|---|---|---|---|
-2 | C | U | C | U | U | U | U | 
-  |---|---|---|---|---|---|---|
-1 | C | U | C | C | U | U | C | 
-  |---|---|---|---|---|---|---|
-
-Ending board #2:
-
-    A   B   C   D   E   F   G
-
-6 |   | U | C |   | C | C |   | 
-  |---|---|---|---|---|---|---|
-5 |   | C | C |   | U | C |   | 
-  |---|---|---|---|---|---|---|
-4 | U | C | U |   | U | U |   | 
-  |---|---|---|---|---|---|---|
-3 | C | U | C |   | U | U | U | 
-  |---|---|---|---|---|---|---|
-2 | U | C | U | C | C | U | C | 
-  |---|---|---|---|---|---|---|
-1 | C | C | U | U | U | C | U | 
-  |---|---|---|---|---|---|---|
-
-
-
-After running 0 checking trials:
-Version 44 won 0 games.
-Version 45 won 0 games.
-There were 0 draws.
-Version 44 thought at a rate of nan seconds/move in these checking trials.
-Version 45 thought at a rate of nan seconds/move in these checking trials.
-
-6 Ending boards from these checking trials:
-
-
-*-------------------------*
-
-Version 44 scored 2 points in the trial.
-Version 45 scored 0 points in the trial.
-
-Average rate Version 44 thought in the actual trial: 0.0192384 seconds/move.
-
-Average rate Version 45 thought in the actual trial: 0.0190481 seconds/move.
+Average rate Version 45 thought in the actual trial: 0.0143324 seconds/move.
 Starting board:
 
 
@@ -1114,7 +19,7 @@ Starting board:
   |---|---|---|---|---|---|---|
 2 |   |   |   |   |   |   |   | 
   |---|---|---|---|---|---|---|
-1 |   | C |   |   | C | U |   | 
+1 |   |   |   |   | C |   |   | 
   |---|---|---|---|---|---|---|
 
 
@@ -1122,34 +27,399 @@ Ending board #1:
 
     A   B   C   D   E   F   G
 
-6 | C | C | C |   | U | C | U | 
+6 | U | U | C | C | C |   |   | 
   |---|---|---|---|---|---|---|
-5 | U | U | U |   | C | U | C | 
+5 | C | U | U | U | C | U |   | 
   |---|---|---|---|---|---|---|
-4 | C | C | C |   | U | U | U | 
+4 | U | C | C | C | U | C |   | 
   |---|---|---|---|---|---|---|
-3 | U | U | C | U | U | C | C | 
+3 | C | C | U | U | C | U |   | 
   |---|---|---|---|---|---|---|
-2 | C | U | U | C | C | C | U | 
+2 | U | U | U | C | C | U |   | 
   |---|---|---|---|---|---|---|
-1 | U | U | C | U | U | C | C | 
+1 | C | C | U | U | U | C |   | 
   |---|---|---|---|---|---|---|
 
 Ending board #2:
 
     A   B   C   D   E   F   G
 
-6 |   |   |   |   | C | U |   | 
+6 |   | C | U | C | U | C | U | 
   |---|---|---|---|---|---|---|
-5 | C |   | C | U | U | U | U | 
+5 |   | C | C | C | U | U | C | 
   |---|---|---|---|---|---|---|
-4 | U | U | C | C | U | U | U | 
+4 | U | U | U | U | C | C | U | 
   |---|---|---|---|---|---|---|
-3 | C | C | U | U | C | C | C | 
+3 | C | U | C | C | U | C | C | 
   |---|---|---|---|---|---|---|
-2 | U | C | C | C | U | U | U | 
+2 | U | C | U | U | U | C | U | 
   |---|---|---|---|---|---|---|
-1 | C | C | U | C | C | U | C | 
+1 | U | U | C | C | C | U | C | 
+  |---|---|---|---|---|---|---|
+
+
+
+After running 0 checking trials:
+Version 44 won 0 games.
+Version 45 won 0 games.
+There were 0 draws.
+Version 44 thought at a rate of nan seconds/move in these checking trials.
+Version 45 thought at a rate of nan seconds/move in these checking trials.
+
+6 Ending boards from these checking trials:
+
+
+*-------------------------*
+
+Version 44 scored 0 points in the trial.
+Version 45 scored 2 points in the trial.
+
+Average rate Version 44 thought in the actual trial: 0.0400382 seconds/move.
+
+Average rate Version 45 thought in the actual trial: 0.0359603 seconds/move.
+Starting board:
+
+
+    A   B   C   D   E   F   G
+
+6 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+5 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+4 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+3 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+2 | U |   |   |   |   |   | C | 
+  |---|---|---|---|---|---|---|
+1 | U | C |   |   | C | U | C | 
+  |---|---|---|---|---|---|---|
+
+
+Ending board #1:
+
+    A   B   C   D   E   F   G
+
+6 | U | C | C | U | C | U | U | 
+  |---|---|---|---|---|---|---|
+5 | C | U | U | C | U | C | C | 
+  |---|---|---|---|---|---|---|
+4 | U | C | U | U | U | C | U | 
+  |---|---|---|---|---|---|---|
+3 | C | U | U | C | C | C | U | 
+  |---|---|---|---|---|---|---|
+2 | U | C | C | U | C | U | C | 
+  |---|---|---|---|---|---|---|
+1 | U | C | U | C | C | U | C | 
+  |---|---|---|---|---|---|---|
+
+Ending board #2:
+
+    A   B   C   D   E   F   G
+
+6 | U |   | U |   | C | U | C | 
+  |---|---|---|---|---|---|---|
+5 | C |   | C |   | U | U | U | 
+  |---|---|---|---|---|---|---|
+4 | U | C | C |   | C | U | C | 
+  |---|---|---|---|---|---|---|
+3 | U | U | C |   | C | C | C | 
+  |---|---|---|---|---|---|---|
+2 | C | C | U |   | U | U | U | 
+  |---|---|---|---|---|---|---|
+1 | C | U | C | U | U | C | U | 
+  |---|---|---|---|---|---|---|
+
+
+
+After running 0 checking trials:
+Version 44 won 0 games.
+Version 45 won 0 games.
+There were 0 draws.
+Version 44 thought at a rate of nan seconds/move in these checking trials.
+Version 45 thought at a rate of nan seconds/move in these checking trials.
+
+6 Ending boards from these checking trials:
+
+
+*-------------------------*
+
+Version 44 scored 1.5 points in the trial.
+Version 45 scored 0.5 points in the trial.
+
+Average rate Version 44 thought in the actual trial: 0.015753 seconds/move.
+
+Average rate Version 45 thought in the actual trial: 0.0164918 seconds/move.
+Starting board:
+
+
+    A   B   C   D   E   F   G
+
+6 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+5 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+4 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+3 |   |   |   |   |   |   | U | 
+  |---|---|---|---|---|---|---|
+2 |   |   |   | C |   |   | U | 
+  |---|---|---|---|---|---|---|
+1 | C |   | C | U |   |   | C | 
+  |---|---|---|---|---|---|---|
+
+
+Ending board #1:
+
+    A   B   C   D   E   F   G
+
+6 | C | C | U | C | C | U | U | 
+  |---|---|---|---|---|---|---|
+5 | U | C | U | C | U | U | C | 
+  |---|---|---|---|---|---|---|
+4 | C | U | U | C | C | U | U | 
+  |---|---|---|---|---|---|---|
+3 | U | C | C | U | U | C | U | 
+  |---|---|---|---|---|---|---|
+2 | C | U | U | C | U | U | U | 
+  |---|---|---|---|---|---|---|
+1 | C | C | C | U | C | C | C | 
+  |---|---|---|---|---|---|---|
+
+Ending board #2:
+
+    A   B   C   D   E   F   G
+
+6 | C | U | U | U | C |   | U | 
+  |---|---|---|---|---|---|---|
+5 | C | U | U | U | C |   | U | 
+  |---|---|---|---|---|---|---|
+4 | U | U | C | U | U |   | C | 
+  |---|---|---|---|---|---|---|
+3 | C | C | U | C | C | U | C | 
+  |---|---|---|---|---|---|---|
+2 | C | C | C | U | U | C | C | 
+  |---|---|---|---|---|---|---|
+1 | U | U | U | C | C | C | U | 
+  |---|---|---|---|---|---|---|
+
+
+
+After running 0 checking trials:
+Version 44 won 0 games.
+Version 45 won 0 games.
+There were 0 draws.
+Version 44 thought at a rate of nan seconds/move in these checking trials.
+Version 45 thought at a rate of nan seconds/move in these checking trials.
+
+6 Ending boards from these checking trials:
+
+
+*-------------------------*
+
+Version 44 scored 0 points in the trial.
+Version 45 scored 2 points in the trial.
+
+Average rate Version 44 thought in the actual trial: 0.0446937 seconds/move.
+
+Average rate Version 45 thought in the actual trial: 0.0461917 seconds/move.
+Starting board:
+
+
+    A   B   C   D   E   F   G
+
+6 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+5 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+4 | C |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+3 | U |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+2 | C |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+1 | U |   | U |   |   |   | C | 
+  |---|---|---|---|---|---|---|
+
+
+Ending board #1:
+
+    A   B   C   D   E   F   G
+
+6 | C |   | C |   | U | C | U | 
+  |---|---|---|---|---|---|---|
+5 | U |   | U |   | U | C | C | 
+  |---|---|---|---|---|---|---|
+4 | U |   | C |   | C | U | C | 
+  |---|---|---|---|---|---|---|
+3 | C | U | C |   | U | C | U | 
+  |---|---|---|---|---|---|---|
+2 | U | C | U | C | C | U | U | 
+  |---|---|---|---|---|---|---|
+1 | C | U | C | U | C | U | U | 
+  |---|---|---|---|---|---|---|
+
+Ending board #2:
+
+    A   B   C   D   E   F   G
+
+6 | C | U | U | C |   | U | U | 
+  |---|---|---|---|---|---|---|
+5 | U | C | C | U |   | U | C | 
+  |---|---|---|---|---|---|---|
+4 | C | C | U | U | U | C | U | 
+  |---|---|---|---|---|---|---|
+3 | U | U | U | C | C | U | C | 
+  |---|---|---|---|---|---|---|
+2 | C | C | C | U | U | C | C | 
+  |---|---|---|---|---|---|---|
+1 | U | C | U | C | U | C | C | 
+  |---|---|---|---|---|---|---|
+
+
+
+After running 0 checking trials:
+Version 44 won 0 games.
+Version 45 won 0 games.
+There were 0 draws.
+Version 44 thought at a rate of nan seconds/move in these checking trials.
+Version 45 thought at a rate of inf seconds/move in these checking trials.
+
+6 Ending boards from these checking trials:
+
+
+*-------------------------*
+
+Version 44 scored 0 points in the trial.
+Version 45 scored 2 points in the trial.
+
+Average rate Version 44 thought in the actual trial: 0.0145668 seconds/move.
+
+Average rate Version 45 thought in the actual trial: 0.0145872 seconds/move.
+Starting board:
+
+
+    A   B   C   D   E   F   G
+
+6 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+5 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+4 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+3 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+2 |   |   |   |   | U |   |   | 
+  |---|---|---|---|---|---|---|
+1 |   |   |   |   | C |   |   | 
+  |---|---|---|---|---|---|---|
+
+
+Ending board #1:
+
+    A   B   C   D   E   F   G
+
+6 | U | U | C | C | C |   |   | 
+  |---|---|---|---|---|---|---|
+5 | C | U | U | U | C | U |   | 
+  |---|---|---|---|---|---|---|
+4 | U | C | C | C | U | C |   | 
+  |---|---|---|---|---|---|---|
+3 | C | C | U | U | C | U |   | 
+  |---|---|---|---|---|---|---|
+2 | U | U | U | C | C | U |   | 
+  |---|---|---|---|---|---|---|
+1 | C | C | U | U | U | C |   | 
+  |---|---|---|---|---|---|---|
+
+Ending board #2:
+
+    A   B   C   D   E   F   G
+
+6 |   | C | U | C | U | C | U | 
+  |---|---|---|---|---|---|---|
+5 |   | C | C | C | U | U | C | 
+  |---|---|---|---|---|---|---|
+4 | U | U | U | U | C | C | U | 
+  |---|---|---|---|---|---|---|
+3 | C | U | C | C | U | C | C | 
+  |---|---|---|---|---|---|---|
+2 | U | C | U | U | U | C | U | 
+  |---|---|---|---|---|---|---|
+1 | U | U | C | C | C | U | C | 
+  |---|---|---|---|---|---|---|
+
+
+
+After running 0 checking trials:
+Version 44 won 0 games.
+Version 45 won 0 games.
+There were 0 draws.
+Version 44 thought at a rate of inf seconds/move in these checking trials.
+Version 45 thought at a rate of nan seconds/move in these checking trials.
+
+6 Ending boards from these checking trials:
+
+
+*-------------------------*
+
+Version 44 scored 2 points in the trial.
+Version 45 scored 0 points in the trial.
+
+Average rate Version 44 thought in the actual trial: 0.0173697 seconds/move.
+
+Average rate Version 45 thought in the actual trial: 0.0171585 seconds/move.
+Starting board:
+
+
+    A   B   C   D   E   F   G
+
+6 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+5 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+4 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+3 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+2 | C |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+1 | U |   |   |   |   | C |   | 
+  |---|---|---|---|---|---|---|
+
+
+Ending board #1:
+
+    A   B   C   D   E   F   G
+
+6 | U |   | C | U | C | U | U | 
+  |---|---|---|---|---|---|---|
+5 | C |   | C | C | C | U | C | 
+  |---|---|---|---|---|---|---|
+4 | U |   | C | C | U | U | U | 
+  |---|---|---|---|---|---|---|
+3 | U |   | U | U | C | C | C | 
+  |---|---|---|---|---|---|---|
+2 | U |   | C | C | U | U | U | 
+  |---|---|---|---|---|---|---|
+1 | C | U | C | U | C | U | C | 
+  |---|---|---|---|---|---|---|
+
+Ending board #2:
+
+    A   B   C   D   E   F   G
+
+6 |   | U |   | C |   |   |   | 
+  |---|---|---|---|---|---|---|
+5 | C | U | U | U |   | C |   | 
+  |---|---|---|---|---|---|---|
+4 | U | C | U | U |   | C | C | 
+  |---|---|---|---|---|---|---|
+3 | C | U | C | C | U | U | U | 
+  |---|---|---|---|---|---|---|
+2 | C | C | U | U | U | C | C | 
+  |---|---|---|---|---|---|---|
+1 | U | C | U | C | U | C | C | 
   |---|---|---|---|---|---|---|
 
 
@@ -1169,9 +439,9 @@ Version 45 thought at a rate of inf seconds/move in these checking trials.
 Version 44 scored 2 points in the trial.
 Version 45 scored 0 points in the trial.
 
-Average rate Version 44 thought in the actual trial: 0.0380025 seconds/move.
+Average rate Version 44 thought in the actual trial: 0.017378 seconds/move.
 
-Average rate Version 45 thought in the actual trial: 0.0361569 seconds/move.
+Average rate Version 45 thought in the actual trial: 0.0171657 seconds/move.
 Starting board:
 
 
@@ -1185,9 +455,9 @@ Starting board:
   |---|---|---|---|---|---|---|
 3 |   |   |   |   |   |   |   | 
   |---|---|---|---|---|---|---|
-2 |   |   |   |   |   | U |   | 
+2 |   |   |   |   |   |   | C | 
   |---|---|---|---|---|---|---|
-1 |   |   |   |   | C | U | C | 
+1 |   | C |   |   |   |   | U | 
   |---|---|---|---|---|---|---|
 
 
@@ -1195,107 +465,34 @@ Ending board #1:
 
     A   B   C   D   E   F   G
 
-6 | U | C | C |   | U | U | U | 
+6 | U | U | C | U | C |   | U | 
   |---|---|---|---|---|---|---|
-5 | C | U | C |   | U | U | C | 
+5 | C | U | C | C | C |   | C | 
   |---|---|---|---|---|---|---|
-4 | U | U | C | U | C | U | U | 
+4 | C | U | U | C | C |   | U | 
   |---|---|---|---|---|---|---|
-3 | C | C | U | C | U | C | C | 
+3 | U | C | C | U | U |   | U | 
   |---|---|---|---|---|---|---|
-2 | U | U | C | C | C | U | C | 
+2 | C | U | U | C | C |   | U | 
   |---|---|---|---|---|---|---|
-1 | U | U | C | C | C | U | C | 
+1 | U | U | C | U | C | U | C | 
   |---|---|---|---|---|---|---|
 
 Ending board #2:
-
-    A   B   C   D   E   F   G
-
-6 | U |   | U |   | U | U |   | 
-  |---|---|---|---|---|---|---|
-5 | U | C | U | U | C | C |   | 
-  |---|---|---|---|---|---|---|
-4 | C | U | C | U | U | C |   | 
-  |---|---|---|---|---|---|---|
-3 | C | C | U | U | C | U | C | 
-  |---|---|---|---|---|---|---|
-2 | U | C | C | C | U | C | C | 
-  |---|---|---|---|---|---|---|
-1 | C | C | U | U | U | C | U | 
-  |---|---|---|---|---|---|---|
-
-
-
-After running 0 checking trials:
-Version 44 won 0 games.
-Version 45 won 0 games.
-There were 0 draws.
-Version 44 thought at a rate of nan seconds/move in these checking trials.
-Version 45 thought at a rate of nan seconds/move in these checking trials.
-
-6 Ending boards from these checking trials:
-
-
-*-------------------------*
-
-Version 44 scored 2 points in the trial.
-Version 45 scored 0 points in the trial.
-
-Average rate Version 44 thought in the actual trial: 0.0452352 seconds/move.
-
-Average rate Version 45 thought in the actual trial: 0.0460158 seconds/move.
-Starting board:
-
 
     A   B   C   D   E   F   G
 
 6 |   |   |   |   |   |   |   | 
   |---|---|---|---|---|---|---|
-5 |   |   |   |   |   |   |   | 
+5 | C | C |   | U | U | U | C | 
   |---|---|---|---|---|---|---|
-4 |   |   |   |   |   |   |   | 
+4 | C | C | U | U | U | C | U | 
   |---|---|---|---|---|---|---|
-3 |   |   |   |   | U |   |   | 
+3 | U | U | U | C | C | U | C | 
   |---|---|---|---|---|---|---|
-2 |   |   |   |   | C |   |   | 
+2 | C | C | U | U | U | C | C | 
   |---|---|---|---|---|---|---|
-1 |   | U |   |   | C |   |   | 
-  |---|---|---|---|---|---|---|
-
-
-Ending board #1:
-
-    A   B   C   D   E   F   G
-
-6 | U | C | U |   | C | U | C | 
-  |---|---|---|---|---|---|---|
-5 | U | U | C |   | C | C | U | 
-  |---|---|---|---|---|---|---|
-4 | C | U | U |   | C | U | U | 
-  |---|---|---|---|---|---|---|
-3 | U | C | C |   | U | C | C | 
-  |---|---|---|---|---|---|---|
-2 | C | U | U | U | C | U | C | 
-  |---|---|---|---|---|---|---|
-1 | C | U | U | C | C | U | C | 
-  |---|---|---|---|---|---|---|
-
-Ending board #2:
-
-    A   B   C   D   E   F   G
-
-6 |   | C | C |   | C | U |   | 
-  |---|---|---|---|---|---|---|
-5 |   | C | U |   | C | C |   | 
-  |---|---|---|---|---|---|---|
-4 |   | U | U |   | U | C |   | 
-  |---|---|---|---|---|---|---|
-3 | U | U | U | U | C | U | C | 
-  |---|---|---|---|---|---|---|
-2 | C | U | C | C | U | C | U | 
-  |---|---|---|---|---|---|---|
-1 | U | C | U | U | U | C | C | 
+1 | C | C | U | C | U | C | U | 
   |---|---|---|---|---|---|---|
 
 
@@ -1312,12 +509,12 @@ Version 45 thought at a rate of inf seconds/move in these checking trials.
 
 *-------------------------*
 
-Version 44 scored 2 points in the trial.
-Version 45 scored 0 points in the trial.
+Version 44 scored 0.5 points in the trial.
+Version 45 scored 1.5 points in the trial.
 
-Average rate Version 44 thought in the actual trial: 0.0150303 seconds/move.
+Average rate Version 44 thought in the actual trial: 0.0119881 seconds/move.
 
-Average rate Version 45 thought in the actual trial: 0.00938453 seconds/move.
+Average rate Version 45 thought in the actual trial: 0.0117905 seconds/move.
 Starting board:
 
 
@@ -1329,11 +526,11 @@ Starting board:
   |---|---|---|---|---|---|---|
 4 |   |   |   |   |   |   |   | 
   |---|---|---|---|---|---|---|
-3 |   | C |   |   |   |   |   | 
+3 |   |   |   | U |   |   |   | 
   |---|---|---|---|---|---|---|
-2 |   | U |   |   |   | C |   | 
+2 |   |   |   | C | C |   | U | 
   |---|---|---|---|---|---|---|
-1 |   | C | U |   | U | C |   | 
+1 |   |   |   | U | C | U | C | 
   |---|---|---|---|---|---|---|
 
 
@@ -1341,34 +538,326 @@ Ending board #1:
 
     A   B   C   D   E   F   G
 
-6 | C | U | U |   | U | U | U | 
+6 | C | C | U | U | C | U | C | 
   |---|---|---|---|---|---|---|
-5 | U | C | C |   | C | C | C | 
+5 | U | C | C | U | C | C | U | 
   |---|---|---|---|---|---|---|
-4 | U | C | U |   | C | U | U | 
+4 | C | U | U | C | C | U | C | 
   |---|---|---|---|---|---|---|
-3 | C | C | U |   | U | C | C | 
+3 | U | C | C | U | U | C | U | 
   |---|---|---|---|---|---|---|
-2 | C | U | C | U | U | C | U | 
+2 | U | U | U | C | C | U | U | 
   |---|---|---|---|---|---|---|
-1 | U | C | U | C | U | C | C | 
+1 | U | C | C | U | C | U | C | 
   |---|---|---|---|---|---|---|
 
 Ending board #2:
 
     A   B   C   D   E   F   G
 
-6 | C | C | U |   | U | U | U | 
+6 | U |   | U | U | C | U | U | 
   |---|---|---|---|---|---|---|
-5 | C | C | U |   | C | U | C | 
+5 | C |   | U | U | C | C | C | 
   |---|---|---|---|---|---|---|
-4 | U | U | C |   | U | U | U | 
+4 | C | U | C | C | C | U | C | 
   |---|---|---|---|---|---|---|
-3 | C | U | C | U | C | C | C | 
+3 | U | C | C | U | U | C | U | 
   |---|---|---|---|---|---|---|
-2 | U | C | U | C | C | U | U | 
+2 | C | U | U | C | C | U | U | 
+  |---|---|---|---|---|---|---|
+1 | U | C | C | U | C | U | C | 
+  |---|---|---|---|---|---|---|
+
+
+
+After running 0 checking trials:
+Version 44 won 0 games.
+Version 45 won 0 games.
+There were 0 draws.
+Version 44 thought at a rate of inf seconds/move in these checking trials.
+Version 45 thought at a rate of inf seconds/move in these checking trials.
+
+6 Ending boards from these checking trials:
+
+
+*-------------------------*
+
+Version 44 scored 0 points in the trial.
+Version 45 scored 2 points in the trial.
+
+Average rate Version 44 thought in the actual trial: 0.0150139 seconds/move.
+
+Average rate Version 45 thought in the actual trial: 0.0149254 seconds/move.
+Starting board:
+
+
+    A   B   C   D   E   F   G
+
+6 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+5 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+4 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+3 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+2 |   |   |   |   | U |   |   | 
+  |---|---|---|---|---|---|---|
+1 |   |   |   | C | C |   |   | 
+  |---|---|---|---|---|---|---|
+
+
+Ending board #1:
+
+    A   B   C   D   E   F   G
+
+6 |   | C | U | C | U | C | U | 
+  |---|---|---|---|---|---|---|
+5 |   | C | C | C | U | U | C | 
+  |---|---|---|---|---|---|---|
+4 | U | U | U | U | C | C | U | 
+  |---|---|---|---|---|---|---|
+3 | C | U | C | C | U | C | C | 
+  |---|---|---|---|---|---|---|
+2 | U | C | U | U | U | C | U | 
   |---|---|---|---|---|---|---|
 1 | U | U | C | C | C | U | C | 
+  |---|---|---|---|---|---|---|
+
+Ending board #2:
+
+    A   B   C   D   E   F   G
+
+6 | U | U | C | C | C |   |   | 
+  |---|---|---|---|---|---|---|
+5 | C | U | U | U | C | U |   | 
+  |---|---|---|---|---|---|---|
+4 | U | C | C | C | U | C |   | 
+  |---|---|---|---|---|---|---|
+3 | C | C | U | U | C | U |   | 
+  |---|---|---|---|---|---|---|
+2 | U | U | U | C | C | U |   | 
+  |---|---|---|---|---|---|---|
+1 | C | C | U | U | U | C |   | 
+  |---|---|---|---|---|---|---|
+
+
+
+After running 0 checking trials:
+Version 44 won 0 games.
+Version 45 won 0 games.
+There were 0 draws.
+Version 44 thought at a rate of nan seconds/move in these checking trials.
+Version 45 thought at a rate of nan seconds/move in these checking trials.
+
+6 Ending boards from these checking trials:
+
+
+*-------------------------*
+
+Version 44 scored 0 points in the trial.
+Version 45 scored 2 points in the trial.
+
+Average rate Version 44 thought in the actual trial: 0.0172476 seconds/move.
+
+Average rate Version 45 thought in the actual trial: 0.016991 seconds/move.
+Starting board:
+
+
+    A   B   C   D   E   F   G
+
+6 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+5 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+4 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+3 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+2 |   | C | U | U |   |   |   | 
+  |---|---|---|---|---|---|---|
+1 |   | C | C | U |   | C | U | 
+  |---|---|---|---|---|---|---|
+
+
+Ending board #1:
+
+    A   B   C   D   E   F   G
+
+6 | C | U | U | C |   | U | U | 
+  |---|---|---|---|---|---|---|
+5 | U | C | C | C |   | C | C | 
+  |---|---|---|---|---|---|---|
+4 | C | U | U | C |   | U | U | 
+  |---|---|---|---|---|---|---|
+3 | U | C | C | U |   | C | C | 
+  |---|---|---|---|---|---|---|
+2 | C | C | U | U | U | U | U | 
+  |---|---|---|---|---|---|---|
+1 | U | C | C | U | C | C | U | 
+  |---|---|---|---|---|---|---|
+
+Ending board #2:
+
+    A   B   C   D   E   F   G
+
+6 |   | C | U | U | U |   | C | 
+  |---|---|---|---|---|---|---|
+5 | U | U | U | U | C |   | U | 
+  |---|---|---|---|---|---|---|
+4 | C | C | C | U | U | U | C | 
+  |---|---|---|---|---|---|---|
+3 | U | U | U | C | C | C | U | 
+  |---|---|---|---|---|---|---|
+2 | C | U | C | C | U | C | C | 
+  |---|---|---|---|---|---|---|
+1 | C | U | U | C | C | U | C | 
+  |---|---|---|---|---|---|---|
+
+
+
+After running 0 checking trials:
+Version 44 won 0 games.
+Version 45 won 0 games.
+There were 0 draws.
+Version 44 thought at a rate of inf seconds/move in these checking trials.
+Version 45 thought at a rate of nan seconds/move in these checking trials.
+
+6 Ending boards from these checking trials:
+
+
+*-------------------------*
+
+Version 44 scored 0 points in the trial.
+Version 45 scored 2 points in the trial.
+
+Average rate Version 44 thought in the actual trial: 0.00973203 seconds/move.
+
+Average rate Version 45 thought in the actual trial: 0.0106225 seconds/move.
+Starting board:
+
+
+    A   B   C   D   E   F   G
+
+6 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+5 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+4 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+3 |   |   |   |   |   |   | U | 
+  |---|---|---|---|---|---|---|
+2 |   |   |   |   |   |   | U | 
+  |---|---|---|---|---|---|---|
+1 | C |   | U | C | U | C | C | 
+  |---|---|---|---|---|---|---|
+
+
+Ending board #1:
+
+    A   B   C   D   E   F   G
+
+6 | C | U | U | C | U |   | U | 
+  |---|---|---|---|---|---|---|
+5 | C | U | C | U | U | U | U | 
+  |---|---|---|---|---|---|---|
+4 | U | U | C | U | C | C | C | 
+  |---|---|---|---|---|---|---|
+3 | C | C | C | U | U | C | C | 
+  |---|---|---|---|---|---|---|
+2 | U | C | U | C | U | C | C | 
+  |---|---|---|---|---|---|---|
+1 | U | C | C | U | C | U | U | 
+  |---|---|---|---|---|---|---|
+
+Ending board #2:
+
+    A   B   C   D   E   F   G
+
+6 | U |   | U | U | U |   | C | 
+  |---|---|---|---|---|---|---|
+5 | C |   | C | C | C |   | U | 
+  |---|---|---|---|---|---|---|
+4 | U | U | C | C | C |   | C | 
+  |---|---|---|---|---|---|---|
+3 | C | C | U | C | U |   | U | 
+  |---|---|---|---|---|---|---|
+2 | U | U | C | U | U | C | U | 
+  |---|---|---|---|---|---|---|
+1 | C | U | U | C | U | C | C | 
+  |---|---|---|---|---|---|---|
+
+
+
+After running 0 checking trials:
+Version 44 won 0 games.
+Version 45 won 0 games.
+There were 0 draws.
+Version 44 thought at a rate of nan seconds/move in these checking trials.
+Version 45 thought at a rate of nan seconds/move in these checking trials.
+
+6 Ending boards from these checking trials:
+
+
+*-------------------------*
+
+Version 44 scored 1.5 points in the trial.
+Version 45 scored 0.5 points in the trial.
+
+Average rate Version 44 thought in the actual trial: 0.0337938 seconds/move.
+
+Average rate Version 45 thought in the actual trial: 0.0322871 seconds/move.
+Starting board:
+
+
+    A   B   C   D   E   F   G
+
+6 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+5 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+4 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+3 |   |   |   |   |   |   | C | 
+  |---|---|---|---|---|---|---|
+2 |   |   |   |   |   |   | C | 
+  |---|---|---|---|---|---|---|
+1 | U |   |   | C |   |   | U | 
+  |---|---|---|---|---|---|---|
+
+
+Ending board #1:
+
+    A   B   C   D   E   F   G
+
+6 | U | C | U | C | C |   | U | 
+  |---|---|---|---|---|---|---|
+5 | C | C | C | U | U |   | C | 
+  |---|---|---|---|---|---|---|
+4 | U | U | U | C | C |   | U | 
+  |---|---|---|---|---|---|---|
+3 | U | C | C | U | U | U | U | 
+  |---|---|---|---|---|---|---|
+2 | U | U | U | C | U | C | U | 
+  |---|---|---|---|---|---|---|
+1 | C | C | C | U | C | C | C | 
+  |---|---|---|---|---|---|---|
+
+Ending board #2:
+
+    A   B   C   D   E   F   G
+
+6 | U | C | U | U | U | C | C | 
+  |---|---|---|---|---|---|---|
+5 | U | U | C | C | U | U | U | 
+  |---|---|---|---|---|---|---|
+4 | C | C | C | U | C | C | C | 
+  |---|---|---|---|---|---|---|
+3 | C | U | U | C | U | U | C | 
+  |---|---|---|---|---|---|---|
+2 | C | C | C | U | C | C | C | 
+  |---|---|---|---|---|---|---|
+1 | U | U | U | C | U | U | U | 
   |---|---|---|---|---|---|---|
 
 
@@ -1388,9 +877,9 @@ Version 45 thought at a rate of nan seconds/move in these checking trials.
 Version 44 scored 0.5 points in the trial.
 Version 45 scored 1.5 points in the trial.
 
-Average rate Version 44 thought in the actual trial: 0.0174354 seconds/move.
+Average rate Version 44 thought in the actual trial: 0.0236729 seconds/move.
 
-Average rate Version 45 thought in the actual trial: 0.0160089 seconds/move.
+Average rate Version 45 thought in the actual trial: 0.0236788 seconds/move.
 Starting board:
 
 
@@ -1404,9 +893,9 @@ Starting board:
   |---|---|---|---|---|---|---|
 3 |   |   |   |   |   |   |   | 
   |---|---|---|---|---|---|---|
-2 |   |   |   |   |   | C |   | 
+2 |   |   |   |   |   |   |   | 
   |---|---|---|---|---|---|---|
-1 |   |   | U |   |   | C | U | 
+1 | U |   |   | C |   |   | C | 
   |---|---|---|---|---|---|---|
 
 
@@ -1414,34 +903,34 @@ Ending board #1:
 
     A   B   C   D   E   F   G
 
-6 | U | U | C | C | U | C | C | 
+6 | C | C | U | C | C | C | U | 
   |---|---|---|---|---|---|---|
-5 | C | U | U | U | C | C | C | 
+5 | U | U | C | U | U | U | C | 
   |---|---|---|---|---|---|---|
-4 | U | U | C | C | U | U | U | 
+4 | C | C | U | U | C | C | U | 
   |---|---|---|---|---|---|---|
-3 | U | C | U | U | C | C | C | 
+3 | U | U | C | C | U | U | U | 
   |---|---|---|---|---|---|---|
-2 | C | U | C | C | U | C | C | 
+2 | C | C | C | U | C | C | U | 
   |---|---|---|---|---|---|---|
-1 | U | C | U | U | U | C | U | 
+1 | U | U | U | C | U | C | C | 
   |---|---|---|---|---|---|---|
 
 Ending board #2:
 
     A   B   C   D   E   F   G
 
-6 | U | U | C |   | C | C | U | 
+6 | C |   |   | U | U | U |   | 
   |---|---|---|---|---|---|---|
-5 | C | U | C |   | U | C | C | 
+5 | C |   |   | C | U | C |   | 
   |---|---|---|---|---|---|---|
-4 | C | U | U |   | U | C | U | 
+4 | U |   | U | C | U | U | U | 
   |---|---|---|---|---|---|---|
-3 | C | C | C | U | U | U | U | 
+3 | C |   | C | U | C | C | C | 
   |---|---|---|---|---|---|---|
-2 | U | C | U | C | C | U | U | 
+2 | U |   | U | C | U | C | U | 
   |---|---|---|---|---|---|---|
-1 | C | U | C | U | C | U | C | 
+1 | C | C | C | U | C | U | U | 
   |---|---|---|---|---|---|---|
 
 
@@ -1452,6 +941,517 @@ Version 45 won 0 games.
 There were 0 draws.
 Version 44 thought at a rate of nan seconds/move in these checking trials.
 Version 45 thought at a rate of nan seconds/move in these checking trials.
+
+6 Ending boards from these checking trials:
+
+
+*-------------------------*
+
+Version 44 scored 0.5 points in the trial.
+Version 45 scored 1.5 points in the trial.
+
+Average rate Version 44 thought in the actual trial: 0.0398507 seconds/move.
+
+Average rate Version 45 thought in the actual trial: 0.0398665 seconds/move.
+Starting board:
+
+
+    A   B   C   D   E   F   G
+
+6 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+5 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+4 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+3 | C |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+2 | U |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+1 | C | C |   |   |   |   | U | 
+  |---|---|---|---|---|---|---|
+
+
+Ending board #1:
+
+    A   B   C   D   E   F   G
+
+6 | C | U | U | U | U | U | U | 
+  |---|---|---|---|---|---|---|
+5 | U | C | C | U | C | C | U | 
+  |---|---|---|---|---|---|---|
+4 | C | U | U | C | U | U | C | 
+  |---|---|---|---|---|---|---|
+3 | C | C | C | U | C | C | C | 
+  |---|---|---|---|---|---|---|
+2 | U | U | C | C | U | U | U | 
+  |---|---|---|---|---|---|---|
+1 | C | C | C | U | C | C | U | 
+  |---|---|---|---|---|---|---|
+
+Ending board #2:
+
+    A   B   C   D   E   F   G
+
+6 | U | U | C | C | U | U | U | 
+  |---|---|---|---|---|---|---|
+5 | U | C | U | U | C | C | C | 
+  |---|---|---|---|---|---|---|
+4 | C | U | U | C | U | U | U | 
+  |---|---|---|---|---|---|---|
+3 | C | C | C | U | C | C | C | 
+  |---|---|---|---|---|---|---|
+2 | U | U | U | C | U | C | U | 
+  |---|---|---|---|---|---|---|
+1 | C | C | C | U | C | C | U | 
+  |---|---|---|---|---|---|---|
+
+
+
+After running 0 checking trials:
+Version 44 won 0 games.
+Version 45 won 0 games.
+There were 0 draws.
+Version 44 thought at a rate of inf seconds/move in these checking trials.
+Version 45 thought at a rate of nan seconds/move in these checking trials.
+
+6 Ending boards from these checking trials:
+
+
+*-------------------------*
+
+Version 44 scored 2 points in the trial.
+Version 45 scored 0 points in the trial.
+
+Average rate Version 44 thought in the actual trial: 0.0101701 seconds/move.
+
+Average rate Version 45 thought in the actual trial: 0.0114551 seconds/move.
+Starting board:
+
+
+    A   B   C   D   E   F   G
+
+6 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+5 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+4 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+3 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+2 |   | C |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+1 |   | U |   |   | U |   | C | 
+  |---|---|---|---|---|---|---|
+
+
+Ending board #1:
+
+    A   B   C   D   E   F   G
+
+6 | U | C | C |   | C | C | U | 
+  |---|---|---|---|---|---|---|
+5 | U | U | U |   | U | C | C | 
+  |---|---|---|---|---|---|---|
+4 | U | U | U |   | U | U | U | 
+  |---|---|---|---|---|---|---|
+3 | C | C | U |   | U | C | C | 
+  |---|---|---|---|---|---|---|
+2 | C | C | C | U | C | U | C | 
+  |---|---|---|---|---|---|---|
+1 | U | U | C | C | U | C | C | 
+  |---|---|---|---|---|---|---|
+
+Ending board #2:
+
+    A   B   C   D   E   F   G
+
+6 |   | U | U |   | C |   | U | 
+  |---|---|---|---|---|---|---|
+5 |   | C | C |   | U |   | C | 
+  |---|---|---|---|---|---|---|
+4 |   | C | C |   | C | C | U | 
+  |---|---|---|---|---|---|---|
+3 |   | U | C |   | C | U | C | 
+  |---|---|---|---|---|---|---|
+2 | C | U | U |   | U | C | U | 
+  |---|---|---|---|---|---|---|
+1 | U | C | U | U | C | U | U | 
+  |---|---|---|---|---|---|---|
+
+
+
+After running 0 checking trials:
+Version 44 won 0 games.
+Version 45 won 0 games.
+There were 0 draws.
+Version 44 thought at a rate of nan seconds/move in these checking trials.
+Version 45 thought at a rate of inf seconds/move in these checking trials.
+
+6 Ending boards from these checking trials:
+
+
+*-------------------------*
+
+Version 44 scored 0.5 points in the trial.
+Version 45 scored 1.5 points in the trial.
+
+Average rate Version 44 thought in the actual trial: 0.0251477 seconds/move.
+
+Average rate Version 45 thought in the actual trial: 0.021762 seconds/move.
+Starting board:
+
+
+    A   B   C   D   E   F   G
+
+6 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+5 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+4 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+3 | C |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+2 | U |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+1 | C | U | C |   |   | C | U | 
+  |---|---|---|---|---|---|---|
+
+
+Ending board #1:
+
+    A   B   C   D   E   F   G
+
+6 | C | C | C | U | C | C | U | 
+  |---|---|---|---|---|---|---|
+5 | U | U | C | U | C | U | U | 
+  |---|---|---|---|---|---|---|
+4 | U | U | C | C | C | U | C | 
+  |---|---|---|---|---|---|---|
+3 | C | C | U | U | U | C | U | 
+  |---|---|---|---|---|---|---|
+2 | U | C | U | C | U | C | C | 
+  |---|---|---|---|---|---|---|
+1 | C | U | C | U | U | C | U | 
+  |---|---|---|---|---|---|---|
+
+Ending board #2:
+
+    A   B   C   D   E   F   G
+
+6 | U | U | C | C |   | U | C | 
+  |---|---|---|---|---|---|---|
+5 | C | C | U | U |   | U | C | 
+  |---|---|---|---|---|---|---|
+4 | U | U | C | U | U | U | U | 
+  |---|---|---|---|---|---|---|
+3 | C | C | U | U | C | C | C | 
+  |---|---|---|---|---|---|---|
+2 | U | C | U | C | U | C | C | 
+  |---|---|---|---|---|---|---|
+1 | C | U | C | U | C | C | U | 
+  |---|---|---|---|---|---|---|
+
+
+
+After running 0 checking trials:
+Version 44 won 0 games.
+Version 45 won 0 games.
+There were 0 draws.
+Version 44 thought at a rate of nan seconds/move in these checking trials.
+Version 45 thought at a rate of nan seconds/move in these checking trials.
+
+6 Ending boards from these checking trials:
+
+
+*-------------------------*
+
+Version 44 scored 0.5 points in the trial.
+Version 45 scored 1.5 points in the trial.
+
+Average rate Version 44 thought in the actual trial: 0.0237447 seconds/move.
+
+Average rate Version 45 thought in the actual trial: 0.0237845 seconds/move.
+Starting board:
+
+
+    A   B   C   D   E   F   G
+
+6 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+5 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+4 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+3 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+2 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+1 | C |   |   | C |   |   | U | 
+  |---|---|---|---|---|---|---|
+
+
+Ending board #1:
+
+    A   B   C   D   E   F   G
+
+6 | U | C | C | C | U | C | C | 
+  |---|---|---|---|---|---|---|
+5 | C | U | U | U | C | U | U | 
+  |---|---|---|---|---|---|---|
+4 | U | C | C | U | U | C | C | 
+  |---|---|---|---|---|---|---|
+3 | U | U | U | C | C | U | U | 
+  |---|---|---|---|---|---|---|
+2 | U | C | C | U | C | C | C | 
+  |---|---|---|---|---|---|---|
+1 | C | C | U | C | U | U | U | 
+  |---|---|---|---|---|---|---|
+
+Ending board #2:
+
+    A   B   C   D   E   F   G
+
+6 |   | U | U | U |   |   | C | 
+  |---|---|---|---|---|---|---|
+5 |   | C | U | C |   |   | C | 
+  |---|---|---|---|---|---|---|
+4 | U | U | U | C | U |   | U | 
+  |---|---|---|---|---|---|---|
+3 | C | C | C | U | C |   | C | 
+  |---|---|---|---|---|---|---|
+2 | U | C | U | C | U |   | U | 
+  |---|---|---|---|---|---|---|
+1 | U | U | C | U | C | C | C | 
+  |---|---|---|---|---|---|---|
+
+
+
+After running 0 checking trials:
+Version 44 won 0 games.
+Version 45 won 0 games.
+There were 0 draws.
+Version 44 thought at a rate of nan seconds/move in these checking trials.
+Version 45 thought at a rate of nan seconds/move in these checking trials.
+
+6 Ending boards from these checking trials:
+
+
+*-------------------------*
+
+Version 44 scored 0 points in the trial.
+Version 45 scored 2 points in the trial.
+
+Average rate Version 44 thought in the actual trial: 0.0232186 seconds/move.
+
+Average rate Version 45 thought in the actual trial: 0.0240198 seconds/move.
+Starting board:
+
+
+    A   B   C   D   E   F   G
+
+6 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+5 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+4 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+3 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+2 |   |   |   |   | C |   |   | 
+  |---|---|---|---|---|---|---|
+1 |   |   |   | C | U |   |   | 
+  |---|---|---|---|---|---|---|
+
+
+Ending board #1:
+
+    A   B   C   D   E   F   G
+
+6 | C | C |   | C | U | C |   | 
+  |---|---|---|---|---|---|---|
+5 | U | U |   | U | C | C |   | 
+  |---|---|---|---|---|---|---|
+4 | U | C | U | C | U | U |   | 
+  |---|---|---|---|---|---|---|
+3 | C | U | U | U | C | C | C | 
+  |---|---|---|---|---|---|---|
+2 | U | C | C | C | U | U | U | 
+  |---|---|---|---|---|---|---|
+1 | C | U | U | U | C | U | C | 
+  |---|---|---|---|---|---|---|
+
+Ending board #2:
+
+    A   B   C   D   E   F   G
+
+6 | C | U | U | U | U | C | U | 
+  |---|---|---|---|---|---|---|
+5 | U | C | C | C | U | C | C | 
+  |---|---|---|---|---|---|---|
+4 | C | U | U | U | C | C | U | 
+  |---|---|---|---|---|---|---|
+3 | U | C | C | C | U | U | C | 
+  |---|---|---|---|---|---|---|
+2 | C | U | U | U | C | C | U | 
+  |---|---|---|---|---|---|---|
+1 | U | C | C | C | U | C | U | 
+  |---|---|---|---|---|---|---|
+
+
+
+After running 0 checking trials:
+Version 44 won 0 games.
+Version 45 won 0 games.
+There were 0 draws.
+Version 44 thought at a rate of nan seconds/move in these checking trials.
+Version 45 thought at a rate of inf seconds/move in these checking trials.
+
+6 Ending boards from these checking trials:
+
+
+*-------------------------*
+
+Version 44 scored 0 points in the trial.
+Version 45 scored 2 points in the trial.
+
+Average rate Version 44 thought in the actual trial: 0.0239107 seconds/move.
+
+Average rate Version 45 thought in the actual trial: 0.0240923 seconds/move.
+Starting board:
+
+
+    A   B   C   D   E   F   G
+
+6 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+5 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+4 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+3 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+2 |   |   | C |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+1 |   |   | U | C |   |   |   | 
+  |---|---|---|---|---|---|---|
+
+
+Ending board #1:
+
+    A   B   C   D   E   F   G
+
+6 | U | C | U | U | U | U | C | 
+  |---|---|---|---|---|---|---|
+5 | C | C | U | C | C | C | U | 
+  |---|---|---|---|---|---|---|
+4 | U | C | C | U | U | U | C | 
+  |---|---|---|---|---|---|---|
+3 | C | U | U | C | C | C | U | 
+  |---|---|---|---|---|---|---|
+2 | U | C | C | U | U | U | C | 
+  |---|---|---|---|---|---|---|
+1 | U | C | U | C | C | C | U | 
+  |---|---|---|---|---|---|---|
+
+Ending board #2:
+
+    A   B   C   D   E   F   G
+
+6 |   | C | U | C |   |   | C | 
+  |---|---|---|---|---|---|---|
+5 |   | C | C | U |   | U | U | 
+  |---|---|---|---|---|---|---|
+4 | C | U | U | C | U | C | U | 
+  |---|---|---|---|---|---|---|
+3 | C | C | C | U | U | U | C | 
+  |---|---|---|---|---|---|---|
+2 | U | U | U | C | C | C | U | 
+  |---|---|---|---|---|---|---|
+1 | C | U | C | U | U | U | C | 
+  |---|---|---|---|---|---|---|
+
+
+
+After running 0 checking trials:
+Version 44 won 0 games.
+Version 45 won 0 games.
+There were 0 draws.
+Version 44 thought at a rate of nan seconds/move in these checking trials.
+Version 45 thought at a rate of nan seconds/move in these checking trials.
+
+6 Ending boards from these checking trials:
+
+
+*-------------------------*
+
+Version 44 scored 0.5 points in the trial.
+Version 45 scored 1.5 points in the trial.
+
+Average rate Version 44 thought in the actual trial: 0.0158975 seconds/move.
+
+Average rate Version 45 thought in the actual trial: 0.0171666 seconds/move.
+Starting board:
+
+
+    A   B   C   D   E   F   G
+
+6 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+5 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+4 |   |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+3 | U |   |   |   |   |   |   | 
+  |---|---|---|---|---|---|---|
+2 | C |   |   |   |   |   | C | 
+  |---|---|---|---|---|---|---|
+1 | U |   | U |   |   |   | C | 
+  |---|---|---|---|---|---|---|
+
+
+Ending board #1:
+
+    A   B   C   D   E   F   G
+
+6 | C | U | U | C | U | C | C | 
+  |---|---|---|---|---|---|---|
+5 | U | C | C | C | U | U | U | 
+  |---|---|---|---|---|---|---|
+4 | C | C | U | U | C | C | U | 
+  |---|---|---|---|---|---|---|
+3 | U | U | C | C | U | U | C | 
+  |---|---|---|---|---|---|---|
+2 | C | U | U | U | C | C | C | 
+  |---|---|---|---|---|---|---|
+1 | U | U | U | C | U | C | C | 
+  |---|---|---|---|---|---|---|
+
+Ending board #2:
+
+    A   B   C   D   E   F   G
+
+6 | U | U | U | C | U |   | U | 
+  |---|---|---|---|---|---|---|
+5 | C | C | U | U | C |   | C | 
+  |---|---|---|---|---|---|---|
+4 | C | U | C | C | U |   | U | 
+  |---|---|---|---|---|---|---|
+3 | C | C | U | U | C | U | C | 
+  |---|---|---|---|---|---|---|
+2 | U | U | C | C | U | C | U | 
+  |---|---|---|---|---|---|---|
+1 | C | C | C | U | C | U | U | 
+  |---|---|---|---|---|---|---|
+
+
+
+After running 0 checking trials:
+Version 44 won 0 games.
+Version 45 won 0 games.
+There were 0 draws.
+Version 44 thought at a rate of inf seconds/move in these checking trials.
+Version 45 thought at a rate of inf seconds/move in these checking trials.
 
 6 Ending boards from these checking trials:
 
