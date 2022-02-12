@@ -164,62 +164,35 @@ void play_starting_moves_on_to_board(vector<vector<char>>& board, const vector<c
     }
 }
 
-void initialize_empty_board(vector<vector<char>>& board)
-{
-    vector<char> row;
-
-    for (int i = 0; i <= max_col_index; i++)
-    {
-        row.push_back(' ');
-    }
-
-    for (int i = 0; i <= max_row_index; i++)
-    {
-        board.push_back(row);
-    }
+void initialize_empty_board(vector<vector<char>>& board) {
+    board.assign(6, vector<char>(7, ' '));
 }
 
-vector<vector<char>> return_board_with_starting_moves_played(const vector<coordinate>& moves)
-{
+vector<vector<char>> return_board_with_starting_moves_played(const vector<coordinate>& moves) {
     vector<vector<char>> board;
-
     initialize_empty_board(board);
-
     play_starting_moves_on_to_board(board, moves);
-
     return board;
 }
 
-int get_hash_value_of_moves(const vector<coordinate>& set_of_moves)
-{
+int get_hash_value_of_moves(const vector<coordinate>& set_of_moves) {
     int hash_value = 0;
-
     vector<vector<char>> board;
-
     initialize_empty_board(board);
-
-    for (const coordinate& current_move: set_of_moves)
-    {
-        board[current_move.row][current_move.col] = 'C';
+    for (const coordinate& current_move: set_of_moves) {
+        board[current_move.row][current_move.col] = 'C'; 
+        // I could also alternate between placing 'C' and 'U', but it doesn't really matter.
+        // The hash_value is just to serve as a rough representation, to make the remove_duplicate_sets
+        // function faster (the hash_value doesn't have to be perfect or anything).
     }
 
-    for (int r = 0; r <= max_row_index; r++)
-    {
-        for (int c = 0; c <= max_col_index; c++)
-        {
+    for (int r = 0; r <= max_row_index; ++r) {
+        for (int c = 0; c <= max_col_index; ++c) {
             int base = (c+1)*(r+1);
-
-            int exponent = 2;
-
-            if (board[r][c] == 'C')
-            {
-                exponent = 4;
-            }
-
+            int exponent = board[r][c] == 'C' ? 4 : 2; // 4 if the square has a piece, 2 if it's empty.
             hash_value += pow(base, exponent);
         }
     }
-
     return hash_value;
 }
 
@@ -316,6 +289,7 @@ vector<vector<coordinate>> record_all_sets_of_possible_starting_moves(int max_nu
     cout << raw_sets.size() << " starting positions generated\n";
 
     sort(raw_sets.begin(), raw_sets.end(), compare_sets_of_starting_moves);
+    // helps the remove_duplicate_sets function run faster.
 
     remove_duplicate_sets(raw_sets);
 
