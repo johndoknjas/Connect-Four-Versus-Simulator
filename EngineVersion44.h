@@ -1,4 +1,4 @@
-// Critical moves idea - depth 9
+// Version 57 - depth 9
 
 #pragma once
 #include <vector>
@@ -804,7 +804,7 @@ coordinate position::find_best_move_for_comp()
 
     // Randomly pick a move with the same evaluation as the calling position object.
 
-    vector <int> indices; // will store all the possible indices of future_positions vector.
+    vector<int> indices; // will store all the possible indices of future_positions vector.
 
     for (int i = 0; i < future_positions.size(); i++)
     {
@@ -1019,6 +1019,8 @@ void position::add_position_to_transposition_table(bool is_evaluation_indisputab
                 current.calculation_depth_from_this_position = calculation_depth_from_this_position;
                 current.possible_moves_sorted = possible_moves_sorted;
                 current.is_evaluation_indisputable = is_evaluation_indisputable;
+                // current.board and current.is_comp_turn can be left as they are, since the if
+                // statement confirmed that they're already equal to the calling object's stuff.
             }
             return;
         }
@@ -2156,6 +2158,34 @@ void position::analyze_last_move()
         }
     }
 
+    if (depth == impossible_depth) {
+        /* 
+        If depth == impossible_depth, then this means that the side whose turn it is has a 3-in-a-row
+        that can be filled right now. However, the opponent may have won just now with last_move.
+        I had assumed this would never happen, but it turns out that some squares amplifying a 3-in-a-row
+        will not be adding to an amplifying vector, if this 3-in-a-row threat was created in the root node.
+        This means my above assumption isn't the case.
+        For future work, debugging why this is the case is definitely an area ripe for improvement.
+        It may just be an issue with how the Versus Sim updates the amplifying vectors in main.cpp, but
+        it could also be inherent to code the in position class - not sure.
+        If you do fix this, then in the ternary below, calling did_someone_win() should be unnecessary.
+        All that decides who gets the winning eval is whose turn it is to move.
+
+        Anyway, for now there are four possible cases:
+            It's the comp's turn and did_someone_win() = true. This means the user has won.
+            It's the comp's turn and did_someone_win() = false. This means the user hasn't won, which
+            will allow the comp to win on the spot now.
+            It's the user's turn and did_someone_win() = true. So, the comp has won.
+            It's the user's turn and did_someone_win() = false. Therefore, the user can win on the spot.
+
+        These four conditions can be dealt with on one line:
+        */
+        evaluation = (is_comp_turn != did_someone_win()) ? INT_MAX : INT_MIN;
+
+        add_position_to_transposition_table(true);
+        return;
+    }
+
     // See how many pieces are in a row horizontally due to last_move:
 
     analyze_horizontal_perspective_of_last_move(); // sets evaluation to INT_MAX/INT_MIN if someone won,
@@ -2212,15 +2242,8 @@ void position::analyze_last_move()
 
     vector<coordinate> critical_moves; // stores moves (for either side) that make a 4-in-a-row, that can be played now.
 
-    if (depth == impossible_depth || find_critical_moves(critical_moves)) { 
+    if (find_critical_moves(critical_moves)) { 
         // critical moves passed by reference.
-        // Checking depth == impossible_depth hopes for a lucky short-circuit evaluation. If it's true,
-        // then there's a forced win on the spot for the player to move, and getting the critical_moves
-        // isn't needed.
-        // If depth == impossible_depth is false, then it's possible (although unlikely) that
-        // find_critical_moves could return true. However, the main reason it then gets called is to
-        // fill the critical_moves_vector, since this if statement will probably evaluate to false.
-
         evaluation = is_comp_turn ? INT_MAX : INT_MIN;
         add_position_to_transposition_table(true);
         return;
