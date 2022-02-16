@@ -75,9 +75,6 @@ public:
     void set_is_comp_turn (bool turnP);
     void set_depth(int depthP);
     void clean_up_amplifying_vectors(); // removes all elements in the 4 amplifying vectors that are no longer ' ' chars.
-    void rearrange_possible_moves(const vector<coordinate>& front_moves); // puts the moves in front_moves at the front of
-                                                                          // the possible_moves vector of the calling object.
-                                                                          // All these moves should already be in possible_moves.
 
     void add_position_to_transposition_table(bool is_evaluation_indisputable);
     // Adds this position's board (the key) and evaluation to the appropriate index in
@@ -966,27 +963,6 @@ void position::clean_up_amplifying_vectors()
     remove_treasure_spot_objects_from_vector(squares_amplifying_comp_3);
     remove_treasure_spot_objects_from_vector(squares_amplifying_user_2);
     remove_treasure_spot_objects_from_vector(squares_amplifying_user_3);
-}
-
-void position::rearrange_possible_moves(const vector<coordinate>& front_moves)
-{
-    int start_size = possible_moves.size();
-
-    vector<coordinate> replacement = front_moves; // possible_moves will be set to this vector at the end of the function.
-
-    for (const coordinate& temp: possible_moves)
-    {
-        if (!in_coordinate_vector(front_moves, temp)) // not in front_moves, so add to replacement:
-        {
-            replacement.push_back(temp);
-        }
-    }
-
-    possible_moves = replacement;
-
-    if (possible_moves.size() != start_size) {
-        throw runtime_error("possible_moves.size changes.\n");
-    }
 }
 
 void position::add_position_to_transposition_table(bool is_evaluation_indisputable)
