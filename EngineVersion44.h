@@ -195,6 +195,9 @@ public:
 
     static vector<vector<bool>> board_of_squares_winning_for_comp; // 2-D board that stores true for a square if the comp wins after filling it in.
     static vector<vector<bool>> board_of_squares_winning_for_user; // 2-D board that stores true for a square if the user wins after filling it in.
+    static const int impossible_depth; // This is sent to the third constructor as the depth parameter when
+                                       // the position is not one I want to consider in analyze_last_move(), due
+                                       // to the fact that the player to move can win on the spot.
 
     // Public static methods:
 
@@ -367,6 +370,8 @@ vector<treasure_spot> position::empty_amplifying_vector;
 
 vector<vector<bool>> position::board_of_squares_winning_for_comp = create_board_of_bools();
 vector<vector<bool>> position::board_of_squares_winning_for_user = create_board_of_bools();
+
+const int position::impossible_depth = 100;
 
 // CONSTRUCTORS:
 
@@ -627,7 +632,7 @@ position::position(shared_ptr<string> boardP, bool is_comp_turnP,
     is_a_pruned_branch = false;
     got_value_from_pruned_child = false;
 
-    analyze_last_move(); // will analyze the last_move, and then call minimax() if the game isn't over.
+    analyze_last_move();
 
     (*board)[index(last_move.row, last_move.col)] = ' '; // since board is a pointer. 
     // This is repairing board for the parent node to use it.
@@ -721,7 +726,10 @@ coordinate position::find_best_move_for_comp()
 
     if (future_positions.empty())
     {
-        // This position must have a forced win, but it got its evaluation immediately from the TT and doesn't have a future positions vector.
+        // This position must have a forced win, but it may have gotten its evaluation immediately from the TT 
+        // and doesn't have a future positions vector. Or, a critical move was found for the player whose 
+        // turn it is right now, which would have also resulted in this node getting a winning evaluation
+        // but no future_positions vector.
 
         // So, create a new search right here with depth_limit = 1 or 2. The TT will be used in the search process implicitly, as it
         // would normally.
@@ -974,26 +982,9 @@ void position::rearrange_possible_moves(const vector<coordinate>& front_moves)
         }
     }
 
-    string backup_output = "";
-    for (const coordinate& current_move: possible_moves) {
-        string current_str = "(";
-        current_str += (char)('A' + current_move.col);
-        current_str += to_string(6 - current_move.row);
-        current_str += "), ";
-        backup_output += current_str;
-    }
-
     possible_moves = replacement;
 
-    if (possible_moves.size() != start_size)
-    {
-        cout << "\n\n";
-        display_board();
-        cout << "\n\n";
-        cout << backup_output << "\n\n";
-        for (const coordinate& current_move: possible_moves) {
-            cout << "(" << (char)('A' + current_move.col) << 6 - current_move.row << "), ";
-        }
+    if (possible_moves.size() != start_size) {
         throw runtime_error("possible_moves.size changes.\n");
     }
 }
@@ -2159,7 +2150,7 @@ void position::analyze_last_move()
         {
             evaluation = current.evaluation;
 
-          //  counter_of_TT_usefulness ++;
+            // counter_of_TT_usefulness ++;
 
             return; // All done for this position entirely!
         }
@@ -2221,9 +2212,15 @@ void position::analyze_last_move()
 
     vector<coordinate> critical_moves; // stores moves (for either side) that make a 4-in-a-row, that can be played now.
 
-    if (find_critical_moves(critical_moves)) { // critical moves passed by reference.
-        // Function returns true if the side to move has at least one critical move, since this means
-        // they can win on the spot.
+    if (depth == impossible_depth || find_critical_moves(critical_moves)) { 
+        // critical moves passed by reference.
+        // Checking depth == impossible_depth hopes for a lucky short-circuit evaluation. If it's true,
+        // then there's a forced win on the spot for the player to move, and getting the critical_moves
+        // isn't needed.
+        // If depth == impossible_depth is false, then it's possible (although unlikely) that
+        // find_critical_moves could return true. However, the main reason it then gets called is to
+        // fill the critical_moves_vector, since this if statement will probably evaluate to false.
+
         evaluation = is_comp_turn ? INT_MAX : INT_MIN;
         add_position_to_transposition_table(true);
         return;
@@ -2795,7 +2792,7 @@ void position::minimax(int num_possible_moves_to_consider)
     // The game is not over, so look at all positions one move ahead.
     // Then, set evaluation accordingly, using the minimax algorithm...
 
-    for (int i = 0; i < num_possible_moves_to_consider; ++i) // running through the possible_moves vector to play out each move.
+    for (int i = 0; i < possible_moves.size(); ++i) // running through the possible_moves vector to play out each move.
     {
         if (stop_signal)
         {
@@ -2804,7 +2801,14 @@ void position::minimax(int num_possible_moves_to_consider)
 
         // Now to make a new position object, with this updated board that's one move ahead.
 
-        unique_ptr<position> pt = make_unique<position>(board, !is_comp_turn, depth + 1,
+        // The ternary below sends an impossible value for the depth (100) if the move is not one I want to 
+        // consider. If i isn't smaller than num_possible_moves_to_consider, then the move will 
+        // lose immediately to the opponent on the next move. 
+        // The reason I'm still creating an object for it is to ensure the future_positions vector
+        // includes it, so that when adding it to the TT, the possible_moves_sorted vector won't be
+        // incomplete (this avoids messing up another node that using the TT).
+        unique_ptr<position> pt = make_unique<position>(board, !is_comp_turn, 
+                                                        (i < num_possible_moves_to_consider ? depth + 1 : impossible_depth),
                                                         number_of_pieces + 1, possible_moves[i],
                                                         possible_moves, i, alpha, beta,
                                                         squares_amplifying_comp_2, squares_amplifying_comp_3,

@@ -10,6 +10,9 @@ To do:
     to all the positions between -10 and 10 (from the engine at the time of making the DB), as opposed to
     just 1 million random positions (which is what the versus sim is currently doing right now).
 
+  - Prevent a position from being played if its mirror image was played in a previous trial.
+    E.g., starting moves (F1, G1) vs (B1, A1).
+
 
 
 
