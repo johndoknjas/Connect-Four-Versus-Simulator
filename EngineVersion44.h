@@ -1,4 +1,4 @@
-// V.56 depth 9
+// Critical moves idea - depth 9
 
 #pragma once
 #include <vector>
@@ -99,8 +99,10 @@ public:
 
     void print_amplifying_vectors(); // prints the contents of all 4 amplifying vectors to the screen (this is just for testing!)
 
-    void find_critical_moves(vector<coordinate>& critical_moves); // Fills vector with moves that can be played now, which
+    bool find_critical_moves(vector<coordinate>& critical_moves); // Fills vector with moves that can be played now, which
                                                                   // lead to a 4-in-a-row.
+                                                                  // Returns true if the player to move now is winning - 
+                                                                  // i.e., if any critical moves exist for them.
 
     void find_critical_moves_in_amplifying_vector(vector<coordinate>& critical_moves,
                                                   const shared_ptr<vector<treasure_spot>> amplifying_vector,
@@ -300,7 +302,7 @@ private:
                                                                      // "analyze_last_move()".
     void add_to_appropriate_amplifying_vector(int num_pieces_in_a_row, const treasure_spot& empty_square);
     // function adds empty_square to one of the four amplifying vectors, depending on num_pieces_in_a_row and whose turn it is.
-    void minimax(); // Employs the minimax algorithm...
+    void minimax(int num_possible_moves_to_consider); // Employs the minimax algorithm...
                     // fills the future_positions vector with all positions one move ahead.
                     // eventually gives the evaluation attribute a value.
     double find_revised_player_evaluation(const vector<coordinate_and_double>& info_for_player_amplifying_squares,
@@ -435,7 +437,7 @@ position::position(bool is_comp_turnP)
 
     // So, call minimax() now:
 
-    minimax();
+    minimax(possible_moves.size());
 }
 
 position::position(const string& boardP, bool is_comp_turnP, coordinate last_moveP,
@@ -972,10 +974,26 @@ void position::rearrange_possible_moves(const vector<coordinate>& front_moves)
         }
     }
 
+    string backup_output = "";
+    for (const coordinate& current_move: possible_moves) {
+        string current_str = "(";
+        current_str += (char)('A' + current_move.col);
+        current_str += to_string(6 - current_move.row);
+        current_str += "), ";
+        backup_output += current_str;
+    }
+
     possible_moves = replacement;
 
     if (possible_moves.size() != start_size)
     {
+        cout << "\n\n";
+        display_board();
+        cout << "\n\n";
+        cout << backup_output << "\n\n";
+        for (const coordinate& current_move: possible_moves) {
+            cout << "(" << (char)('A' + current_move.col) << 6 - current_move.row << "), ";
+        }
         throw runtime_error("possible_moves.size changes.\n");
     }
 }
@@ -1150,7 +1168,7 @@ void position::print_amplifying_vectors()
     }
 }
 
-void position::find_critical_moves(vector<coordinate>& critical_moves)
+bool position::find_critical_moves(vector<coordinate>& critical_moves)
 {
     // If it is the comp's turn in this position, I'll want to first add any moves that win for the comp to the
     // critical_moves vector first. This is because the critical_moves will be put at the front of possible_moves vector,
@@ -1159,7 +1177,13 @@ void position::find_critical_moves(vector<coordinate>& critical_moves)
     if (is_comp_turn)
     {
         find_critical_moves_in_amplifying_vector(critical_moves, squares_amplifying_comp_2, false, 'C');
+        if (!critical_moves.empty()) {
+            return true;
+        }
         find_critical_moves_in_amplifying_vector(critical_moves, squares_amplifying_comp_3, true, 'C');
+        if (!critical_moves.empty()) {
+            return true;
+        }
         find_critical_moves_in_amplifying_vector(critical_moves, squares_amplifying_user_2, false, 'U');
         find_critical_moves_in_amplifying_vector(critical_moves, squares_amplifying_user_3, true, 'U');
     }
@@ -1167,12 +1191,19 @@ void position::find_critical_moves(vector<coordinate>& critical_moves)
     else // user's turn, so look at moves that win for the user first...
     {
         find_critical_moves_in_amplifying_vector(critical_moves, squares_amplifying_user_2, false, 'U');
+        if (!critical_moves.empty()) {
+            return true;
+        }
         find_critical_moves_in_amplifying_vector(critical_moves, squares_amplifying_user_3, true, 'U');
+        if (!critical_moves.empty()) {
+            return true;
+        }
         find_critical_moves_in_amplifying_vector(critical_moves, squares_amplifying_comp_2, false, 'C');
         find_critical_moves_in_amplifying_vector(critical_moves, squares_amplifying_comp_3, true, 'C');
     }
 
     remove_duplicates(critical_moves);
+    return false;
 }
 
 void position::find_critical_moves_in_amplifying_vector(vector<coordinate>& critical_moves,
@@ -2190,24 +2221,19 @@ void position::analyze_last_move()
 
     vector<coordinate> critical_moves; // stores moves (for either side) that make a 4-in-a-row, that can be played now.
 
-    find_critical_moves(critical_moves); // passed by reference.
+    if (find_critical_moves(critical_moves)) { // critical moves passed by reference.
+        // Function returns true if the side to move has at least one critical move, since this means
+        // they can win on the spot.
+        evaluation = is_comp_turn ? INT_MAX : INT_MIN;
+        add_position_to_transposition_table(true);
+        return;
+    }
 
-    if (depth >= depth_limit && critical_moves.size() == 0) // Quiescent state reached at depth_limit (or beyond).
+    if (depth >= depth_limit && critical_moves.empty()) // Quiescent state reached at depth_limit (or beyond).
     {
         // So, smart_evaluation() is ready to evaluate the position:
-
         smart_evaluation(); // gives the evaluation attribute a value.
-
-        if (evaluation == INT_MAX || evaluation == INT_MIN)
-        {
-            add_position_to_transposition_table(true);
-        }
-
-        else
-        {
-            add_position_to_transposition_table(false);
-        }
-
+        add_position_to_transposition_table(evaluation == INT_MAX || evaluation == INT_MIN);
         return;
     }
 
@@ -2215,27 +2241,22 @@ void position::analyze_last_move()
     // If so, set this calling object's possible_moves vector to equal it.
     // Note that this is where nearly all the speed of the TT comes to fruition!
 
-    bool found_earlier_duplicate_in_TT = false;
-
     for (const position_info_for_TT_v2& current: transposition_table[hash_value_of_position])
     {
         if (current.board == *board && current.is_comp_turn == is_comp_turn && !current.possible_moves_sorted.empty())
         {
             possible_moves = current.possible_moves_sorted;
-
-            found_earlier_duplicate_in_TT = true;
-
-            break;
+            minimax(possible_moves.size());
+            return;
         }
     }
-
-    if (!found_earlier_duplicate_in_TT)
-    {
-        rearrange_possible_moves(critical_moves); // Function puts the critical_moves in possible_moves at the front
-                                                  // of possible_moves.
+    // If control reaches this point, then no duplicate was found in the TT.
+    if (!critical_moves.empty()) {
+        rearrange_possible_moves(critical_moves);
+        minimax(critical_moves.size());
+    } else {
+        minimax(possible_moves.size());
     }
-
-    minimax();
 }
 
 void position::analyze_horizontal_perspective_of_last_move()
@@ -2767,14 +2788,14 @@ void position::add_to_appropriate_amplifying_vector(int num_pieces_in_a_row, con
     }
 }
 
-void position::minimax()
+void position::minimax(int num_possible_moves_to_consider)
 {
     // Here's where all the magic happens.
 
     // The game is not over, so look at all positions one move ahead.
     // Then, set evaluation accordingly, using the minimax algorithm...
 
-    for (int i = 0; i < possible_moves.size(); i++) // running through the possible_moves vector to play out each move.
+    for (int i = 0; i < num_possible_moves_to_consider; ++i) // running through the possible_moves vector to play out each move.
     {
         if (stop_signal)
         {
