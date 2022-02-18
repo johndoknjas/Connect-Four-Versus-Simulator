@@ -25,8 +25,8 @@
 #include "EngineVersion40.h"
 #include "EngineVersion41.h"
 #include "EngineVersion42.h"
-#include "EngineVersion43.h"
 */
+#include "EngineVersion43.h"
 #include "EngineVersion44.h"
 #include "EngineVersion45.h"
 //#include "EngineVersion49.h"
@@ -625,8 +625,8 @@ void point_to_correct_derived_class(unique_ptr<tool>& pt, int version_number_of_
 
         pt = EngineVersion42::position::think_on_game_position(true, true, placeholder, false);
     }
-
-    else if (version_number_of_Engine == 43)
+*/
+    if (version_number_of_Engine == 43)
     {
         old_thinking_time = EngineVersion43::position::thinking_time;
 
@@ -634,9 +634,8 @@ void point_to_correct_derived_class(unique_ptr<tool>& pt, int version_number_of_
 
         pt = EngineVersion43::position::think_on_game_position(true, true, placeholder, false);
     }
-*/
 
-    if (version_number_of_Engine == 44)
+    else if (version_number_of_Engine == 44)
     {
         old_thinking_time = EngineVersion44::position::thinking_time;
 

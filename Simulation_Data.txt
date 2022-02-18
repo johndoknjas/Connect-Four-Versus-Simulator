@@ -1,0 +1,42 @@
+
+
+
+
+Results of the match between Version 44 and Version 43:
+
+Version 44 won 198 games.
+Version 43 won 235 games.
+There were 67 draws.
+There were 16 trials where Version 44 scored 2-0 or 1.5-0.5
+There were 41 trials where Version 43 scored 2-0 or 1.5-0.5
+There were 193 trials where the score was equal (1-1)
+Version 44 spent 5712.84 seconds thinking overall, and spent 0.692214 seconds per instance, on average.
+Version 44 had 8253 such instances.
+Version 43 spent 12969.4 seconds thinking overall, and spent 1.57453 seconds per instance, on average.
+Version 43 had 8237 such instances.
+The average number of moves played (by both sides) in games where Version 44 won was 31.904
+The average number of moves played (by both sides) in games where Version 43 won was 32.3915
+The average number of moves played (by both sides) in games drawn was 38.2239
+The max amount of time Version 44 spent in ONE call to find_best_move() was 0.0201486 seconds.
+The max amount of time Version 43 spent in ONE call to find_best_move() was 0.0192454 seconds.
+
+
+
+
+Results of the match between Version 45 and Version 44:
+
+Version 45 won 235 games.
+Version 44 won 195 games.
+There were 70 draws.
+There were 44 trials where Version 45 scored 2-0 or 1.5-0.5
+There were 18 trials where Version 44 scored 2-0 or 1.5-0.5
+There were 188 trials where the score was equal (1-1)
+Version 45 spent 5636.81 seconds thinking overall, and spent 0.686495 seconds per instance, on average.
+Version 45 had 8211 such instances.
+Version 44 spent 5601.32 seconds thinking overall, and spent 0.680598 seconds per instance, on average.
+Version 44 had 8230 such instances.
+The average number of moves played (by both sides) in games where Version 45 won was 32.217
+The average number of moves played (by both sides) in games where Version 44 won was 31.7487
+The average number of moves played (by both sides) in games drawn was 38.2714
+The max amount of time Version 45 spent in ONE call to find_best_move() was 0.0156924 seconds.
+The max amount of time Version 44 spent in ONE call to find_best_move() was 0.0183501 seconds.
