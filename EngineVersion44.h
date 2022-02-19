@@ -1,4 +1,4 @@
-// Version 56 time limit search
+// V.56 - depth 9 search
 
 #pragma once
 #include <vector>
@@ -1769,7 +1769,7 @@ unique_ptr<position> position::think_on_game_position(const vector<vector<char>>
 {
     const string boardP = convert_2D_vec_board_to_string(boardP_as_vec);
 
-    const int max_depth_limit = UNDEFINED;
+    const int max_depth_limit = 9;
     // If this engine is doing a time_limited think, set the value of
     // this variable to UNDEFINED.
 
